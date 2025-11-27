@@ -6,4 +6,11 @@ const withPWA = require('next-pwa')({
 
 module.exports = withPWA({
   // Outras configurações do Next.js podem ser adicionadas aqui
+  experimental: {
+    turbopack: false,
+  },
+  webpack: (config, { isServer }) => {
+    // Configuração padrão, pode customizar se necessário
+    return config;
+  },
 })
