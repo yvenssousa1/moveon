@@ -1,0 +1,13 @@
+Backup da conversa e instruções do projeto MoveOn PWA até 26/11/2025.
+
+Resumo das etapas:
+- Configuração do Next.js como PWA
+- Integração com Supabase
+- CRUD de tarefas
+- Autenticação de usuários
+- Melhorias visuais e responsividade
+- Solução de problemas de ambiente Node.js/npm
+
+Para restaurar ou consultar, basta copiar os arquivos de backup para a raiz do projeto.
+
+(Observação: O conteúdo detalhado da conversa pode ser recuperado pelo histórico do chat ou exportação manual do VS Code.)

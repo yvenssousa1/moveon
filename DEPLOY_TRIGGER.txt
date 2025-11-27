@@ -1,0 +1,2 @@
+Trigger de deploy inicial na Vercel.
+Data: 27/11/2025
