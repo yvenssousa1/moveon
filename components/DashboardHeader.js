@@ -14,7 +14,6 @@ export default function DashboardHeader({ nome }) {
       </nav>
       <div style={{ display: 'flex', alignItems: 'center', gap: 10 }}>
         <span style={{ fontWeight: 500 }}>{nome || 'Paciente'}</span>
-        <img src="https://ui-avatars.com/api/?name=Paciente&background=1976d2&color=fff&rounded=true&size=32" alt="Avatar" style={{ width: 32, height: 32, borderRadius: '50%' }} />
       </div>
     </header>
   )

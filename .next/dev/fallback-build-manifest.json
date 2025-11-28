@@ -1,23 +1,37 @@
 {
-  "polyfillFiles": [
-    "static/chunks/polyfills.js"
-  ],
-  "devFiles": [
-    "static/chunks/fallback/react-refresh.js"
-  ],
-  "lowPriorityFiles": [],
-  "rootMainFiles": [],
-  "rootMainFilesTree": {},
   "pages": {
     "/_app": [
-      "static/chunks/fallback/webpack.js",
-      "static/chunks/fallback/main.js",
-      "static/chunks/fallback/pages/_app.js"
+      "static/chunks/edecb_next_dist_compiled_41d79ac5._.js",
+      "static/chunks/edecb_next_dist_shared_lib_7671ffbf._.js",
+      "static/chunks/edecb_next_dist_client_99c07fd1._.js",
+      "static/chunks/edecb_next_dist_a7685e7d._.js",
+      "static/chunks/edecb_next_head_69e8ff3d.js",
+      "static/chunks/edecb_react-dom_70c09791._.js",
+      "static/chunks/edecb_c1452b82._.js",
+      "static/chunks/[root-of-the-server]__f15dd2b8._.js",
+      "static/chunks/Documents_MoveOn_styles_globals_97e2afc3.css",
+      "static/chunks/Documents_MoveOn_pages__app_2da965e7._.js",
+      "static/chunks/turbopack-Documents_MoveOn_pages__app_76a0be24._.js"
     ],
     "/_error": [
-      "static/chunks/fallback/webpack.js",
-      "static/chunks/fallback/main.js",
-      "static/chunks/fallback/pages/_error.js"
+      "static/chunks/edecb_next_dist_compiled_41d79ac5._.js",
+      "static/chunks/edecb_next_dist_shared_lib_7671ffbf._.js",
+      "static/chunks/edecb_next_dist_client_99c07fd1._.js",
+      "static/chunks/edecb_next_dist_40482486._.js",
+      "static/chunks/edecb_next_error_7bec7e76.js",
+      "static/chunks/[next]_entry_page-loader_ts_f20c713e._.js",
+      "static/chunks/edecb_react-dom_70c09791._.js",
+      "static/chunks/edecb_c2d3a1df._.js",
+      "static/chunks/[root-of-the-server]__77dcc3bf._.js",
+      "static/chunks/Documents_MoveOn_pages__error_2da965e7._.js",
+      "static/chunks/turbopack-Documents_MoveOn_pages__error_b6af0678._.js"
     ]
-  }
+  },
+  "devFiles": [],
+  "polyfillFiles": [],
+  "lowPriorityFiles": [
+    "static/development/_ssgManifest.js",
+    "static/development/_buildManifest.js"
+  ],
+  "rootMainFiles": []
 }

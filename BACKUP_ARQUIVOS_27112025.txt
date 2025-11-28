@@ -1,0 +1,5 @@
+Backup solicitado: todos os arquivos do projeto estão salvos na pasta atual.
+
+Se desejar um backup completo dos arquivos, recomendo copiar toda a pasta 'MoveOn' para outro local seguro antes de reiniciar.
+
+(Para backup automatizado de cada arquivo, utilize ferramentas de versionamento como Git ou scripts de cópia.)

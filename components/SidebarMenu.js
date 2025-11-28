@@ -11,9 +11,7 @@ const menuItems = [
 const SidebarMenu = ({ onLogout }) => {
   return (
     <aside className="fixed left-0 top-0 h-full w-20 bg-white shadow-lg flex flex-col items-center py-6 z-30">
-      <div className="mb-8">
-        <img src="/Icons/Gemini_Generated_Image_8m4a2k8m4a2k8m4a.png" alt="Logo" className="w-2 h-2 rounded-full object-cover" />
-      </div>
+      <div className="mb-8" />
       <nav className="flex-1 flex flex-col gap-8">
         {menuItems.map((item, idx) => (
           <a

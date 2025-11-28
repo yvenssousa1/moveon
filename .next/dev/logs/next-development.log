@@ -1,1821 +1,205 @@
-[00:00:02.631] Server  LOG     > [PWA] Compile server
-[00:00:02.632] Server  LOG     > [PWA] Compile server
-[00:00:02.632] Server  LOG     > [PWA] Compile client (static)
-[00:00:02.633] Server  LOG     > [PWA] Auto register service worker with: C:\Users\Yvens Sousa\Documents\MoveOn\node_modules\next-pwa\register.js
-[00:00:02.633] Server  LOG     > [PWA] Service worker: C:\Users\Yvens Sousa\Documents\MoveOn\public\sw.js
-[00:00:02.633] Server  LOG     > [PWA]   url: /sw.js
-[00:00:02.634] Server  LOG     > [PWA]   scope: /
-[00:00:02.673] Server  LOG     > [PWA] Build in develop mode, cache and precache are mostly disabled. This means offline support is disabled, but you can continue developing other functions in service worker.
-[00:00:03.761] Server  LOG      ✓ Ready in 3.3s
-[00:00:04.283] Server  WARN     ⚠ GenerateSW has been called multiple times, perhaps due to running webpack in --watch mode. The precache manifest generated after the first call may be inaccurate! Please see https://github.com/GoogleChrome/workbox/issues/1790 for more information.
-[00:00:19.869] Server  WARN     ⚠ GenerateSW has been called multiple times, perhaps due to running webpack in --watch mode. The precache manifest generated after the first call may be inaccurate! Please see https://github.com/GoogleChrome/workbox/issues/1790 for more information.
-[00:00:22.871] Server  LOG      ○ Compiling / ...
-[00:00:23.305] Server  WARN     ⚠ GenerateSW has been called multiple times, perhaps due to running webpack in --watch mode. The precache manifest generated after the first call may be inaccurate! Please see https://github.com/GoogleChrome/workbox/issues/1790 for more information.
-[00:00:25.412] Browser WARN    GenerateSW has been called multiple times, perhaps due to running webpack in --watch mode. The precache manifest generated after the first call may be inaccurate! Please see https://github.com/GoogleChrome/workbox/issues/1790 for more information.
-[00:00:25.564] Server  WARN     ⚠ GenerateSW has been called multiple times, perhaps due to running webpack in --watch mode. The precache manifest generated after the first call may be inaccurate! Please see https://github.com/GoogleChrome/workbox/issues/1790 for more information.
-[00:00:27.292] Browser WARN    GenerateSW has been called multiple times, perhaps due to running webpack in --watch mode. The precache manifest generated after the first call may be inaccurate! Please see https://github.com/GoogleChrome/workbox/issues/1790 for more information.
-[00:00:29.624] Server  WARN     ⚠ GenerateSW has been called multiple times, perhaps due to running webpack in --watch mode. The precache manifest generated after the first call may be inaccurate! Please see https://github.com/GoogleChrome/workbox/issues/1790 for more information.
-[00:13:25.430] Browser WARN    GenerateSW has been called multiple times, perhaps due to running webpack in --watch mode. The precache manifest generated after the first call may be inaccurate! Please see https://github.com/GoogleChrome/workbox/issues/1790 for more information.
-[00:14:00.820] Browser WARN    GenerateSW has been called multiple times, perhaps due to running webpack in --watch mode. The precache manifest generated after the first call may be inaccurate! Please see https://github.com/GoogleChrome/workbox/issues/1790 for more information.
-[00:14:01.887] Browser WARN    GenerateSW has been called multiple times, perhaps due to running webpack in --watch mode. The precache manifest generated after the first call may be inaccurate! Please see https://github.com/GoogleChrome/workbox/issues/1790 for more information.
-[00:15:54.210] Server  WARN     ⚠ GenerateSW has been called multiple times, perhaps due to running webpack in --watch mode. The precache manifest generated after the first call may be inaccurate! Please see https://github.com/GoogleChrome/workbox/issues/1790 for more information.
-[00:15:55.336] Server  WARN     ⚠ GenerateSW has been called multiple times, perhaps due to running webpack in --watch mode. The precache manifest generated after the first call may be inaccurate! Please see https://github.com/GoogleChrome/workbox/issues/1790 for more information.
-[00:15:55.513] Server  WARN     ⚠ GenerateSW has been called multiple times, perhaps due to running webpack in --watch mode. The precache manifest generated after the first call may be inaccurate! Please see https://github.com/GoogleChrome/workbox/issues/1790 for more information.
-[00:15:55.950] Browser WARN    GenerateSW has been called multiple times, perhaps due to running webpack in --watch mode. The precache manifest generated after the first call may be inaccurate! Please see https://github.com/GoogleChrome/workbox/issues/1790 for more information.
-[00:15:56.783] Browser WARN    GenerateSW has been called multiple times, perhaps due to running webpack in --watch mode. The precache manifest generated after the first call may be inaccurate! Please see https://github.com/GoogleChrome/workbox/issues/1790 for more information.
-[00:15:56.816] Server  WARN     ⚠ GenerateSW has been called multiple times, perhaps due to running webpack in --watch mode. The precache manifest generated after the first call may be inaccurate! Please see https://github.com/GoogleChrome/workbox/issues/1790 for more information.
-[00:15:57.051] Browser WARN    GenerateSW has been called multiple times, perhaps due to running webpack in --watch mode. The precache manifest generated after the first call may be inaccurate! Please see https://github.com/GoogleChrome/workbox/issues/1790 for more information.
-[00:15:57.809] Browser WARN    GenerateSW has been called multiple times, perhaps due to running webpack in --watch mode. The precache manifest generated after the first call may be inaccurate! Please see https://github.com/GoogleChrome/workbox/issues/1790 for more information.
-[00:18:22.474] Browser WARN    GenerateSW has been called multiple times, perhaps due to running webpack in --watch mode. The precache manifest generated after the first call may be inaccurate! Please see https://github.com/GoogleChrome/workbox/issues/1790 for more information.
-[00:18:25.553] Browser WARN    GenerateSW has been called multiple times, perhaps due to running webpack in --watch mode. The precache manifest generated after the first call may be inaccurate! Please see https://github.com/GoogleChrome/workbox/issues/1790 for more information.
-[00:18:40.425] Browser WARN    GenerateSW has been called multiple times, perhaps due to running webpack in --watch mode. The precache manifest generated after the first call may be inaccurate! Please see https://github.com/GoogleChrome/workbox/issues/1790 for more information.
-[00:20:18.032] Browser WARN    GenerateSW has been called multiple times, perhaps due to running webpack in --watch mode. The precache manifest generated after the first call may be inaccurate! Please see https://github.com/GoogleChrome/workbox/issues/1790 for more information.
-[00:20:46.921] Browser WARN    GenerateSW has been called multiple times, perhaps due to running webpack in --watch mode. The precache manifest generated after the first call may be inaccurate! Please see https://github.com/GoogleChrome/workbox/issues/1790 for more information.
-[00:22:03.092] Server  WARN     ⚠ GenerateSW has been called multiple times, perhaps due to running webpack in --watch mode. The precache manifest generated after the first call may be inaccurate! Please see https://github.com/GoogleChrome/workbox/issues/1790 for more information.
-[00:22:03.900] Browser WARN    GenerateSW has been called multiple times, perhaps due to running webpack in --watch mode. The precache manifest generated after the first call may be inaccurate! Please see https://github.com/GoogleChrome/workbox/issues/1790 for more information.
-[00:22:13.988] Server  WARN     ⚠ GenerateSW has been called multiple times, perhaps due to running webpack in --watch mode. The precache manifest generated after the first call may be inaccurate! Please see https://github.com/GoogleChrome/workbox/issues/1790 for more information.
-[00:22:14.897] Browser WARN    GenerateSW has been called multiple times, perhaps due to running webpack in --watch mode. The precache manifest generated after the first call may be inaccurate! Please see https://github.com/GoogleChrome/workbox/issues/1790 for more information.
-[00:23:11.994] Server  WARN     ⚠ GenerateSW has been called multiple times, perhaps due to running webpack in --watch mode. The precache manifest generated after the first call may be inaccurate! Please see https://github.com/GoogleChrome/workbox/issues/1790 for more information.
-[00:23:12.888] Browser WARN    GenerateSW has been called multiple times, perhaps due to running webpack in --watch mode. The precache manifest generated after the first call may be inaccurate! Please see https://github.com/GoogleChrome/workbox/issues/1790 for more information.
-[00:23:20.785] Server  WARN     ⚠ GenerateSW has been called multiple times, perhaps due to running webpack in --watch mode. The precache manifest generated after the first call may be inaccurate! Please see https://github.com/GoogleChrome/workbox/issues/1790 for more information.
-[00:23:20.890] Browser WARN    GenerateSW has been called multiple times, perhaps due to running webpack in --watch mode. The precache manifest generated after the first call may be inaccurate! Please see https://github.com/GoogleChrome/workbox/issues/1790 for more information.
-[00:23:32.056] Server  WARN     ⚠ GenerateSW has been called multiple times, perhaps due to running webpack in --watch mode. The precache manifest generated after the first call may be inaccurate! Please see https://github.com/GoogleChrome/workbox/issues/1790 for more information.
-[00:23:32.748] Browser WARN    GenerateSW has been called multiple times, perhaps due to running webpack in --watch mode. The precache manifest generated after the first call may be inaccurate! Please see https://github.com/GoogleChrome/workbox/issues/1790 for more information.
-[00:23:32.827] Server  WARN     ⚠ GenerateSW has been called multiple times, perhaps due to running webpack in --watch mode. The precache manifest generated after the first call may be inaccurate! Please see https://github.com/GoogleChrome/workbox/issues/1790 for more information.
-[00:25:55.087] Server  WARN     ⚠ GenerateSW has been called multiple times, perhaps due to running webpack in --watch mode. The precache manifest generated after the first call may be inaccurate! Please see https://github.com/GoogleChrome/workbox/issues/1790 for more information.
-[00:25:55.894] Browser WARN    GenerateSW has been called multiple times, perhaps due to running webpack in --watch mode. The precache manifest generated after the first call may be inaccurate! Please see https://github.com/GoogleChrome/workbox/issues/1790 for more information.
-[00:26:09.997] Server  WARN     ⚠ GenerateSW has been called multiple times, perhaps due to running webpack in --watch mode. The precache manifest generated after the first call may be inaccurate! Please see https://github.com/GoogleChrome/workbox/issues/1790 for more information.
-[00:26:10.886] Browser WARN    GenerateSW has been called multiple times, perhaps due to running webpack in --watch mode. The precache manifest generated after the first call may be inaccurate! Please see https://github.com/GoogleChrome/workbox/issues/1790 for more information.
-[00:26:16.472] Server  WARN     ⚠ GenerateSW has been called multiple times, perhaps due to running webpack in --watch mode. The precache manifest generated after the first call may be inaccurate! Please see https://github.com/GoogleChrome/workbox/issues/1790 for more information.
-[00:26:16.896] Browser WARN    GenerateSW has been called multiple times, perhaps due to running webpack in --watch mode. The precache manifest generated after the first call may be inaccurate! Please see https://github.com/GoogleChrome/workbox/issues/1790 for more information.
-[00:30:17.301] Server  WARN     ⚠ GenerateSW has been called multiple times, perhaps due to running webpack in --watch mode. The precache manifest generated after the first call may be inaccurate! Please see https://github.com/GoogleChrome/workbox/issues/1790 for more information.
-[00:30:17.888] Browser WARN    GenerateSW has been called multiple times, perhaps due to running webpack in --watch mode. The precache manifest generated after the first call may be inaccurate! Please see https://github.com/GoogleChrome/workbox/issues/1790 for more information.
-[00:30:31.293] Server  WARN     ⚠ GenerateSW has been called multiple times, perhaps due to running webpack in --watch mode. The precache manifest generated after the first call may be inaccurate! Please see https://github.com/GoogleChrome/workbox/issues/1790 for more information.
-[00:30:31.885] Browser WARN    GenerateSW has been called multiple times, perhaps due to running webpack in --watch mode. The precache manifest generated after the first call may be inaccurate! Please see https://github.com/GoogleChrome/workbox/issues/1790 for more information.
-[00:31:23.855] Server  WARN     ⚠ GenerateSW has been called multiple times, perhaps due to running webpack in --watch mode. The precache manifest generated after the first call may be inaccurate! Please see https://github.com/GoogleChrome/workbox/issues/1790 for more information.
-[00:31:23.884] Browser WARN    GenerateSW has been called multiple times, perhaps due to running webpack in --watch mode. The precache manifest generated after the first call may be inaccurate! Please see https://github.com/GoogleChrome/workbox/issues/1790 for more information.
-[00:31:23.929] Server  WARN     ⚠ Fast Refresh had to perform a full reload. Read more: https://nextjs.org/docs/messages/fast-refresh-reload
-[00:31:24.175] Server  ERROR   C:\Users\Yvens Sousa\Documents\MoveOn\node_modules\@supabase\supabase-js\dist\main\lib\helpers.js: Invalid source map. Only conformant source maps can be used to find the original code. Cause: Error: sourceMapURL could not be parsed
-[00:31:24.176] Server  ERROR   C:\Users\Yvens Sousa\Documents\MoveOn\node_modules\@supabase\supabase-js\dist\main\SupabaseClient.js: Invalid source map. Only conformant source maps can be used to find the original code. Cause: Error: sourceMapURL could not be parsed
-[00:31:24.177] Server  ERROR   C:\Users\Yvens Sousa\Documents\MoveOn\node_modules\@supabase\supabase-js\dist\main\index.js: Invalid source map. Only conformant source maps can be used to find the original code. Cause: Error: sourceMapURL could not be parsed
-[00:31:24.182] Server  ERROR   C:\Users\Yvens Sousa\Documents\MoveOn\.next\dev\server\webpack-runtime.js: Invalid source map. Only conformant source maps can be used to find the original code. Cause: Error: sourceMapURL could not be parsed
-[00:31:24.195] Server  ERROR    ⨯ Error: supabaseUrl is required.
-[00:31:24.219] Server  WARN     ⚠ GenerateSW has been called multiple times, perhaps due to running webpack in --watch mode. The precache manifest generated after the first call may be inaccurate! Please see https://github.com/GoogleChrome/workbox/issues/1790 for more information.
-[00:31:25.881] Server  WARN     ⚠ GenerateSW has been called multiple times, perhaps due to running webpack in --watch mode. The precache manifest generated after the first call may be inaccurate! Please see https://github.com/GoogleChrome/workbox/issues/1790 for more information.
-[00:31:26.115] Browser WARN    GenerateSW has been called multiple times, perhaps due to running webpack in --watch mode. The precache manifest generated after the first call may be inaccurate! Please see https://github.com/GoogleChrome/workbox/issues/1790 for more information.
-[00:31:26.497] Browser ERROR   uncaughtError: Error: supabaseUrl is required.
-[00:31:26.890] Browser WARN    GenerateSW has been called multiple times, perhaps due to running webpack in --watch mode. The precache manifest generated after the first call may be inaccurate! Please see https://github.com/GoogleChrome/workbox/issues/1790 for more information.
-[00:31:31.936] Server  WARN     ⚠ GenerateSW has been called multiple times, perhaps due to running webpack in --watch mode. The precache manifest generated after the first call may be inaccurate! Please see https://github.com/GoogleChrome/workbox/issues/1790 for more information.
-[00:31:32.888] Browser WARN    GenerateSW has been called multiple times, perhaps due to running webpack in --watch mode. The precache manifest generated after the first call may be inaccurate! Please see https://github.com/GoogleChrome/workbox/issues/1790 for more information.
-[00:32:14.996] Server  WARN     ⚠ GenerateSW has been called multiple times, perhaps due to running webpack in --watch mode. The precache manifest generated after the first call may be inaccurate! Please see https://github.com/GoogleChrome/workbox/issues/1790 for more information.
-[00:32:15.898] Browser WARN    GenerateSW has been called multiple times, perhaps due to running webpack in --watch mode. The precache manifest generated after the first call may be inaccurate! Please see https://github.com/GoogleChrome/workbox/issues/1790 for more information.
-[00:32:23.861] Server  WARN     ⚠ GenerateSW has been called multiple times, perhaps due to running webpack in --watch mode. The precache manifest generated after the first call may be inaccurate! Please see https://github.com/GoogleChrome/workbox/issues/1790 for more information.
-[00:32:24.885] Browser WARN    GenerateSW has been called multiple times, perhaps due to running webpack in --watch mode. The precache manifest generated after the first call may be inaccurate! Please see https://github.com/GoogleChrome/workbox/issues/1790 for more information.
-[00:35:00.529] Server  ERROR   C:\Users\Yvens Sousa\Documents\MoveOn\node_modules\@supabase\supabase-js\dist\main\lib\helpers.js: Invalid source map. Only conformant source maps can be used to find the original code. Cause: Error: sourceMapURL could not be parsed
-[00:35:00.529] Server  ERROR   C:\Users\Yvens Sousa\Documents\MoveOn\node_modules\@supabase\supabase-js\dist\main\SupabaseClient.js: Invalid source map. Only conformant source maps can be used to find the original code. Cause: Error: sourceMapURL could not be parsed
-[00:35:00.529] Server  ERROR   C:\Users\Yvens Sousa\Documents\MoveOn\node_modules\@supabase\supabase-js\dist\main\index.js: Invalid source map. Only conformant source maps can be used to find the original code. Cause: Error: sourceMapURL could not be parsed
-[00:35:00.531] Server  ERROR   C:\Users\Yvens Sousa\Documents\MoveOn\.next\dev\server\webpack-runtime.js: Invalid source map. Only conformant source maps can be used to find the original code. Cause: Error: sourceMapURL could not be parsed
-[00:35:00.541] Server  ERROR    ⨯ Error: supabaseUrl is required.
-[00:35:00.930] Browser ERROR   uncaughtError: Error: supabaseUrl is required.
-[00:35:01.042] Browser WARN    GenerateSW has been called multiple times, perhaps due to running webpack in --watch mode. The precache manifest generated after the first call may be inaccurate! Please see https://github.com/GoogleChrome/workbox/issues/1790 for more information.
-[00:36:03.309] Server  ERROR   C:\Users\Yvens Sousa\Documents\MoveOn\node_modules\@supabase\supabase-js\dist\main\lib\helpers.js: Invalid source map. Only conformant source maps can be used to find the original code. Cause: Error: sourceMapURL could not be parsed
-[00:36:03.309] Server  ERROR   C:\Users\Yvens Sousa\Documents\MoveOn\node_modules\@supabase\supabase-js\dist\main\SupabaseClient.js: Invalid source map. Only conformant source maps can be used to find the original code. Cause: Error: sourceMapURL could not be parsed
-[00:36:03.309] Server  ERROR   C:\Users\Yvens Sousa\Documents\MoveOn\node_modules\@supabase\supabase-js\dist\main\index.js: Invalid source map. Only conformant source maps can be used to find the original code. Cause: Error: sourceMapURL could not be parsed
-[00:36:03.310] Server  ERROR   C:\Users\Yvens Sousa\Documents\MoveOn\.next\dev\server\webpack-runtime.js: Invalid source map. Only conformant source maps can be used to find the original code. Cause: Error: sourceMapURL could not be parsed
-[00:36:03.313] Server  ERROR    ⨯ Error: supabaseUrl is required.
-[00:36:03.679] Browser ERROR   uncaughtError: Error: supabaseUrl is required.
-[00:36:03.816] Browser WARN    GenerateSW has been called multiple times, perhaps due to running webpack in --watch mode. The precache manifest generated after the first call may be inaccurate! Please see https://github.com/GoogleChrome/workbox/issues/1790 for more information.
-[00:39:37.997] Server  LOG        Reload env: .env.local
-[00:39:38.288] Server  LOG        Reload env: .env.local
-[00:39:38.776] Server  WARN     ⚠ Fast Refresh had to perform a full reload due to a runtime error.
-[00:39:38.776] Browser WARN    GenerateSW has been called multiple times, perhaps due to running webpack in --watch mode. The precache manifest generated after the first call may be inaccurate! Please see https://github.com/GoogleChrome/workbox/issues/1790 for more information.
-[00:39:41.603] Server  WARN     ⚠ Fast Refresh had to perform a full reload due to a runtime error.
-[00:39:41.603] Browser WARN    GenerateSW has been called multiple times, perhaps due to running webpack in --watch mode. The precache manifest generated after the first call may be inaccurate! Please see https://github.com/GoogleChrome/workbox/issues/1790 for more information.
-[00:39:42.417] Server  WARN     ⚠ GenerateSW has been called multiple times, perhaps due to running webpack in --watch mode. The precache manifest generated after the first call may be inaccurate! Please see https://github.com/GoogleChrome/workbox/issues/1790 for more information.
-[00:39:42.472] Server  ERROR   C:\Users\Yvens Sousa\Documents\MoveOn\node_modules\@supabase\supabase-js\dist\main\lib\helpers.js: Invalid source map. Only conformant source maps can be used to find the original code. Cause: Error: sourceMapURL could not be parsed
-[00:39:42.472] Server  ERROR   C:\Users\Yvens Sousa\Documents\MoveOn\node_modules\@supabase\supabase-js\dist\main\SupabaseClient.js: Invalid source map. Only conformant source maps can be used to find the original code. Cause: Error: sourceMapURL could not be parsed
-[00:39:42.472] Server  ERROR   C:\Users\Yvens Sousa\Documents\MoveOn\node_modules\@supabase\supabase-js\dist\main\index.js: Invalid source map. Only conformant source maps can be used to find the original code. Cause: Error: sourceMapURL could not be parsed
-[00:39:42.474] Server  ERROR   C:\Users\Yvens Sousa\Documents\MoveOn\.next\dev\server\webpack-runtime.js: Invalid source map. Only conformant source maps can be used to find the original code. Cause: Error: sourceMapURL could not be parsed
-[00:39:42.478] Server  ERROR    ⨯ Error: supabaseUrl is required.
-[00:39:42.527] Server  ERROR   C:\Users\Yvens Sousa\Documents\MoveOn\node_modules\@supabase\supabase-js\dist\main\lib\helpers.js: Invalid source map. Only conformant source maps can be used to find the original code. Cause: Error: sourceMapURL could not be parsed
-[00:39:42.529] Server  ERROR   C:\Users\Yvens Sousa\Documents\MoveOn\node_modules\@supabase\supabase-js\dist\main\SupabaseClient.js: Invalid source map. Only conformant source maps can be used to find the original code. Cause: Error: sourceMapURL could not be parsed
-[00:39:42.529] Server  ERROR   C:\Users\Yvens Sousa\Documents\MoveOn\node_modules\@supabase\supabase-js\dist\main\index.js: Invalid source map. Only conformant source maps can be used to find the original code. Cause: Error: sourceMapURL could not be parsed
-[00:39:42.530] Server  ERROR   C:\Users\Yvens Sousa\Documents\MoveOn\.next\dev\server\webpack-runtime.js: Invalid source map. Only conformant source maps can be used to find the original code. Cause: Error: sourceMapURL could not be parsed
-[00:39:42.532] Server  ERROR    ⨯ Error: supabaseUrl is required.
-[00:39:42.906] Browser ERROR   uncaughtError: Error: supabaseUrl is required.
-[00:39:43.904] Browser WARN    GenerateSW has been called multiple times, perhaps due to running webpack in --watch mode. The precache manifest generated after the first call may be inaccurate! Please see https://github.com/GoogleChrome/workbox/issues/1790 for more information.
-[00:39:47.729] Server  WARN     ⚠ GenerateSW has been called multiple times, perhaps due to running webpack in --watch mode. The precache manifest generated after the first call may be inaccurate! Please see https://github.com/GoogleChrome/workbox/issues/1790 for more information.
-[00:39:47.904] Browser WARN    GenerateSW has been called multiple times, perhaps due to running webpack in --watch mode. The precache manifest generated after the first call may be inaccurate! Please see https://github.com/GoogleChrome/workbox/issues/1790 for more information.
-[00:46:02.780] Server  LOG        Reload env: .env.local
-[00:46:03.432] Server  WARN     ⚠ Fast Refresh had to perform a full reload due to a runtime error.
-[00:46:03.432] Browser WARN    GenerateSW has been called multiple times, perhaps due to running webpack in --watch mode. The precache manifest generated after the first call may be inaccurate! Please see https://github.com/GoogleChrome/workbox/issues/1790 for more information.
-[00:46:04.642] Server  WARN     ⚠ Fast Refresh had to perform a full reload due to a runtime error.
-[00:46:04.642] Browser WARN    GenerateSW has been called multiple times, perhaps due to running webpack in --watch mode. The precache manifest generated after the first call may be inaccurate! Please see https://github.com/GoogleChrome/workbox/issues/1790 for more information.
-[00:46:04.659] Server  WARN     ⚠ GenerateSW has been called multiple times, perhaps due to running webpack in --watch mode. The precache manifest generated after the first call may be inaccurate! Please see https://github.com/GoogleChrome/workbox/issues/1790 for more information.
-[00:46:04.701] Server  ERROR   C:\Users\Yvens Sousa\Documents\MoveOn\node_modules\@supabase\supabase-js\dist\main\lib\helpers.js: Invalid source map. Only conformant source maps can be used to find the original code. Cause: Error: sourceMapURL could not be parsed
-[00:46:04.701] Server  ERROR   C:\Users\Yvens Sousa\Documents\MoveOn\node_modules\@supabase\supabase-js\dist\main\SupabaseClient.js: Invalid source map. Only conformant source maps can be used to find the original code. Cause: Error: sourceMapURL could not be parsed
-[00:46:04.701] Server  ERROR   C:\Users\Yvens Sousa\Documents\MoveOn\node_modules\@supabase\supabase-js\dist\main\index.js: Invalid source map. Only conformant source maps can be used to find the original code. Cause: Error: sourceMapURL could not be parsed
-[00:46:04.702] Server  ERROR   C:\Users\Yvens Sousa\Documents\MoveOn\.next\dev\server\webpack-runtime.js: Invalid source map. Only conformant source maps can be used to find the original code. Cause: Error: sourceMapURL could not be parsed
-[00:46:04.709] Server  ERROR    ⨯ Error: Invalid supabaseUrl: Must be a valid HTTP or HTTPS URL.
-[00:46:05.471] Browser ERROR   uncaughtError: Error: Invalid supabaseUrl: Must be a valid HTTP or HTTPS URL.
-[00:46:05.889] Browser WARN    GenerateSW has been called multiple times, perhaps due to running webpack in --watch mode. The precache manifest generated after the first call may be inaccurate! Please see https://github.com/GoogleChrome/workbox/issues/1790 for more information.
-[00:46:12.206] Server  WARN     ⚠ GenerateSW has been called multiple times, perhaps due to running webpack in --watch mode. The precache manifest generated after the first call may be inaccurate! Please see https://github.com/GoogleChrome/workbox/issues/1790 for more information.
-[00:46:12.893] Browser WARN    GenerateSW has been called multiple times, perhaps due to running webpack in --watch mode. The precache manifest generated after the first call may be inaccurate! Please see https://github.com/GoogleChrome/workbox/issues/1790 for more information.
-[00:46:37.680] Server  ERROR   C:\Users\Yvens Sousa\Documents\MoveOn\node_modules\@supabase\supabase-js\dist\main\lib\helpers.js: Invalid source map. Only conformant source maps can be used to find the original code. Cause: Error: sourceMapURL could not be parsed
-[00:46:37.680] Server  ERROR   C:\Users\Yvens Sousa\Documents\MoveOn\node_modules\@supabase\supabase-js\dist\main\SupabaseClient.js: Invalid source map. Only conformant source maps can be used to find the original code. Cause: Error: sourceMapURL could not be parsed
-[00:46:37.681] Server  ERROR   C:\Users\Yvens Sousa\Documents\MoveOn\node_modules\@supabase\supabase-js\dist\main\index.js: Invalid source map. Only conformant source maps can be used to find the original code. Cause: Error: sourceMapURL could not be parsed
-[00:46:37.682] Server  ERROR   C:\Users\Yvens Sousa\Documents\MoveOn\.next\dev\server\webpack-runtime.js: Invalid source map. Only conformant source maps can be used to find the original code. Cause: Error: sourceMapURL could not be parsed
-[00:46:37.685] Server  ERROR    ⨯ Error: Invalid supabaseUrl: Must be a valid HTTP or HTTPS URL.
-[00:46:39.505] Browser ERROR   uncaughtError: Error: Invalid supabaseUrl: Must be a valid HTTP or HTTPS URL.
-[00:46:39.671] Browser WARN    GenerateSW has been called multiple times, perhaps due to running webpack in --watch mode. The precache manifest generated after the first call may be inaccurate! Please see https://github.com/GoogleChrome/workbox/issues/1790 for more information.
-[00:46:39.980] Browser WARN    GenerateSW has been called multiple times, perhaps due to running webpack in --watch mode. The precache manifest generated after the first call may be inaccurate! Please see https://github.com/GoogleChrome/workbox/issues/1790 for more information.
-[00:47:48.811] Server  LOG        Reload env: .env.local
-[00:47:49.675] Server  WARN     ⚠ Fast Refresh had to perform a full reload due to a runtime error.
-[00:47:49.676] Browser WARN    GenerateSW has been called multiple times, perhaps due to running webpack in --watch mode. The precache manifest generated after the first call may be inaccurate! Please see https://github.com/GoogleChrome/workbox/issues/1790 for more information.
-[00:47:49.696] Server  WARN     ⚠ Fast Refresh had to perform a full reload due to a runtime error.
-[00:47:49.697] Browser WARN    GenerateSW has been called multiple times, perhaps due to running webpack in --watch mode. The precache manifest generated after the first call may be inaccurate! Please see https://github.com/GoogleChrome/workbox/issues/1790 for more information.
-[00:47:51.150] Server  WARN     ⚠ GenerateSW has been called multiple times, perhaps due to running webpack in --watch mode. The precache manifest generated after the first call may be inaccurate! Please see https://github.com/GoogleChrome/workbox/issues/1790 for more information.
-[00:47:51.340] Browser WARN    GenerateSW has been called multiple times, perhaps due to running webpack in --watch mode. The precache manifest generated after the first call may be inaccurate! Please see https://github.com/GoogleChrome/workbox/issues/1790 for more information.
-[00:47:51.340] Browser WARN    GenerateSW has been called multiple times, perhaps due to running webpack in --watch mode. The precache manifest generated after the first call may be inaccurate! Please see https://github.com/GoogleChrome/workbox/issues/1790 for more information.
-[00:47:51.505] Server  WARN     ⚠ Fast Refresh had to perform a full reload due to a runtime error.
-[00:47:52.909] Browser WARN    GenerateSW has been called multiple times, perhaps due to running webpack in --watch mode. The precache manifest generated after the first call may be inaccurate! Please see https://github.com/GoogleChrome/workbox/issues/1790 for more information.
-[00:47:52.909] Browser WARN    GenerateSW has been called multiple times, perhaps due to running webpack in --watch mode. The precache manifest generated after the first call may be inaccurate! Please see https://github.com/GoogleChrome/workbox/issues/1790 for more information.
-[00:47:54.086] Browser WARN    GenerateSW has been called multiple times, perhaps due to running webpack in --watch mode. The precache manifest generated after the first call may be inaccurate! Please see https://github.com/GoogleChrome/workbox/issues/1790 for more information.
-[00:47:59.046] Server  WARN     ⚠ GenerateSW has been called multiple times, perhaps due to running webpack in --watch mode. The precache manifest generated after the first call may be inaccurate! Please see https://github.com/GoogleChrome/workbox/issues/1790 for more information.
-[00:47:59.886] Browser WARN    GenerateSW has been called multiple times, perhaps due to running webpack in --watch mode. The precache manifest generated after the first call may be inaccurate! Please see https://github.com/GoogleChrome/workbox/issues/1790 for more information.
-[00:47:59.887] Browser WARN    GenerateSW has been called multiple times, perhaps due to running webpack in --watch mode. The precache manifest generated after the first call may be inaccurate! Please see https://github.com/GoogleChrome/workbox/issues/1790 for more information.
-[00:48:16.584] Browser WARN    GenerateSW has been called multiple times, perhaps due to running webpack in --watch mode. The precache manifest generated after the first call may be inaccurate! Please see https://github.com/GoogleChrome/workbox/issues/1790 for more information.
-[00:48:16.894] Browser WARN    GenerateSW has been called multiple times, perhaps due to running webpack in --watch mode. The precache manifest generated after the first call may be inaccurate! Please see https://github.com/GoogleChrome/workbox/issues/1790 for more information.
-[00:48:16.894] Browser WARN    GenerateSW has been called multiple times, perhaps due to running webpack in --watch mode. The precache manifest generated after the first call may be inaccurate! Please see https://github.com/GoogleChrome/workbox/issues/1790 for more information.
-[00:49:19.678] Browser WARN    GenerateSW has been called multiple times, perhaps due to running webpack in --watch mode. The precache manifest generated after the first call may be inaccurate! Please see https://github.com/GoogleChrome/workbox/issues/1790 for more information.
-[00:49:19.895] Browser WARN    GenerateSW has been called multiple times, perhaps due to running webpack in --watch mode. The precache manifest generated after the first call may be inaccurate! Please see https://github.com/GoogleChrome/workbox/issues/1790 for more information.
-[00:49:31.688] Server  WARN     ⚠ GenerateSW has been called multiple times, perhaps due to running webpack in --watch mode. The precache manifest generated after the first call may be inaccurate! Please see https://github.com/GoogleChrome/workbox/issues/1790 for more information.
-[00:49:32.836] Server  WARN     ⚠ GenerateSW has been called multiple times, perhaps due to running webpack in --watch mode. The precache manifest generated after the first call may be inaccurate! Please see https://github.com/GoogleChrome/workbox/issues/1790 for more information.
-[00:49:32.922] Browser WARN    GenerateSW has been called multiple times, perhaps due to running webpack in --watch mode. The precache manifest generated after the first call may be inaccurate! Please see https://github.com/GoogleChrome/workbox/issues/1790 for more information.
-[00:49:32.922] Browser WARN    GenerateSW has been called multiple times, perhaps due to running webpack in --watch mode. The precache manifest generated after the first call may be inaccurate! Please see https://github.com/GoogleChrome/workbox/issues/1790 for more information.
-[00:49:33.407] Browser WARN    GenerateSW has been called multiple times, perhaps due to running webpack in --watch mode. The precache manifest generated after the first call may be inaccurate! Please see https://github.com/GoogleChrome/workbox/issues/1790 for more information.
-[00:49:33.897] Browser WARN    GenerateSW has been called multiple times, perhaps due to running webpack in --watch mode. The precache manifest generated after the first call may be inaccurate! Please see https://github.com/GoogleChrome/workbox/issues/1790 for more information.
-[00:49:33.898] Browser WARN    GenerateSW has been called multiple times, perhaps due to running webpack in --watch mode. The precache manifest generated after the first call may be inaccurate! Please see https://github.com/GoogleChrome/workbox/issues/1790 for more information.
-[00:50:36.972] Browser WARN    GenerateSW has been called multiple times, perhaps due to running webpack in --watch mode. The precache manifest generated after the first call may be inaccurate! Please see https://github.com/GoogleChrome/workbox/issues/1790 for more information.
-[00:50:37.892] Browser WARN    GenerateSW has been called multiple times, perhaps due to running webpack in --watch mode. The precache manifest generated after the first call may be inaccurate! Please see https://github.com/GoogleChrome/workbox/issues/1790 for more information.
-[00:50:37.893] Browser WARN    GenerateSW has been called multiple times, perhaps due to running webpack in --watch mode. The precache manifest generated after the first call may be inaccurate! Please see https://github.com/GoogleChrome/workbox/issues/1790 for more information.
-[00:50:40.266] Browser WARN    GenerateSW has been called multiple times, perhaps due to running webpack in --watch mode. The precache manifest generated after the first call may be inaccurate! Please see https://github.com/GoogleChrome/workbox/issues/1790 for more information.
-[00:50:40.891] Browser WARN    GenerateSW has been called multiple times, perhaps due to running webpack in --watch mode. The precache manifest generated after the first call may be inaccurate! Please see https://github.com/GoogleChrome/workbox/issues/1790 for more information.
-[00:50:40.891] Browser WARN    GenerateSW has been called multiple times, perhaps due to running webpack in --watch mode. The precache manifest generated after the first call may be inaccurate! Please see https://github.com/GoogleChrome/workbox/issues/1790 for more information.
-[00:50:40.891] Browser WARN    GenerateSW has been called multiple times, perhaps due to running webpack in --watch mode. The precache manifest generated after the first call may be inaccurate! Please see https://github.com/GoogleChrome/workbox/issues/1790 for more information.
-[00:50:58.345] Server  WARN     ⚠ GenerateSW has been called multiple times, perhaps due to running webpack in --watch mode. The precache manifest generated after the first call may be inaccurate! Please see https://github.com/GoogleChrome/workbox/issues/1790 for more information.
-[00:50:59.365] Browser WARN    GenerateSW has been called multiple times, perhaps due to running webpack in --watch mode. The precache manifest generated after the first call may be inaccurate! Please see https://github.com/GoogleChrome/workbox/issues/1790 for more information.
-[00:50:59.441] Server  WARN     ⚠ GenerateSW has been called multiple times, perhaps due to running webpack in --watch mode. The precache manifest generated after the first call may be inaccurate! Please see https://github.com/GoogleChrome/workbox/issues/1790 for more information.
-[00:50:59.909] Browser WARN    GenerateSW has been called multiple times, perhaps due to running webpack in --watch mode. The precache manifest generated after the first call may be inaccurate! Please see https://github.com/GoogleChrome/workbox/issues/1790 for more information.
-[00:51:00.892] Browser WARN    GenerateSW has been called multiple times, perhaps due to running webpack in --watch mode. The precache manifest generated after the first call may be inaccurate! Please see https://github.com/GoogleChrome/workbox/issues/1790 for more information.
-[00:51:00.892] Browser WARN    GenerateSW has been called multiple times, perhaps due to running webpack in --watch mode. The precache manifest generated after the first call may be inaccurate! Please see https://github.com/GoogleChrome/workbox/issues/1790 for more information.
-[00:56:26.040] Server  WARN     ⚠ GenerateSW has been called multiple times, perhaps due to running webpack in --watch mode. The precache manifest generated after the first call may be inaccurate! Please see https://github.com/GoogleChrome/workbox/issues/1790 for more information.
-[00:56:26.042] Server  WARN     ⚠ GenerateSW has been called multiple times, perhaps due to running webpack in --watch mode. The precache manifest generated after the first call may be inaccurate! Please see https://github.com/GoogleChrome/workbox/issues/1790 for more information.
-[00:56:26.556] Server  WARN     ⚠ GenerateSW has been called multiple times, perhaps due to running webpack in --watch mode. The precache manifest generated after the first call may be inaccurate! Please see https://github.com/GoogleChrome/workbox/issues/1790 for more information.
-[00:56:26.894] Browser WARN    GenerateSW has been called multiple times, perhaps due to running webpack in --watch mode. The precache manifest generated after the first call may be inaccurate! Please see https://github.com/GoogleChrome/workbox/issues/1790 for more information.
-[00:56:26.895] Browser WARN    GenerateSW has been called multiple times, perhaps due to running webpack in --watch mode. The precache manifest generated after the first call may be inaccurate! Please see https://github.com/GoogleChrome/workbox/issues/1790 for more information.
-[00:56:34.410] Server  WARN     ⚠ GenerateSW has been called multiple times, perhaps due to running webpack in --watch mode. The precache manifest generated after the first call may be inaccurate! Please see https://github.com/GoogleChrome/workbox/issues/1790 for more information.
-[00:56:34.897] Browser WARN    GenerateSW has been called multiple times, perhaps due to running webpack in --watch mode. The precache manifest generated after the first call may be inaccurate! Please see https://github.com/GoogleChrome/workbox/issues/1790 for more information.
-[01:06:47.059] Server  ERROR    ⨯ ./pages/dashboard-paciente.js
-Error:   × Return statement is not allowed here
-    ╭─[C:\Users\Yvens Sousa\Documents\MoveOn\pages\dashboard-paciente.js:11:1]
-  8 │       const progresso = '60% do Plano Concluído'
-  9 │       const [avaliacaoCompleta, setAvaliacaoCompleta] = React.useState(false)
- 10 │     
- 11 │ ╭─▶   return (
- 12 │ │       <div style={{ minHeight: '100vh', background: 'linear-gradient(135deg, #f5f7fa 0%, #c3cfe2 100%)', padding: 0 }}>
- 13 │ │         <div style={{ maxWidth: 900, margin: '0 auto', padding: '0 16px 32px 16px' }}>
- 14 │ │           <DashboardHeader nome={nome} />
- 15 │ │           <CardBoasVindas nome={nome} proximoAgendamento={proximoAgendamento} progresso={progresso} />
- 16 │ │           {!avaliacaoCompleta && (
- 17 │ │             <CardAvaliacaoInicial onComplete={() => setAvaliacaoCompleta(true)} />
- 18 │ │           )}
- 19 │ │           {avaliacaoCompleta && (
- 20 │ │             <div style={{ marginTop: 24 }}>
- 21 │ │               {/* Cards futuros: upload de exames, questionário de dor, corpo humano interativo, etc. */}
- 22 │ │               <div className="rounded-lg bg-white shadow p-6 text-center text-gray-500">
- 23 │ │                 <span>Funcionalidades liberadas após avaliação inicial.</span>
- 24 │ │               </div>
- 25 │ │             </div>
- 26 │ │           )}
- 27 │ │         </div>
- 28 │ │       </div>
- 29 │ ╰─▶   )
- 30 │     }
-    ╰────
-  × Expression expected
-    ╭─[C:\Users\Yvens Sousa\Documents\MoveOn\pages\dashboard-paciente.js:30:1]
- 27 │       </div>
- 28 │     </div>
- 29 │   )
- 30 │ }
-    · ─
-    ╰────
-
-Caused by:
-    Syntax Error
-[01:06:47.900] Browser ERROR   ./pages/dashboard-paciente.js
-Error:   × Return statement is not allowed here
-    ╭─[C:\Users\Yvens Sousa\Documents\MoveOn\pages\dashboard-paciente.js:11:1]
-  8 │       const progresso = '60% do Plano Concluído'
-  9 │       const [avaliacaoCompleta, setAvaliacaoCompleta] = React.useState(false)
- 10 │     
- 11 │ ╭─▶   return (
- 12 │ │       <div style={{ minHeight: '100vh', background: 'linear-gradient(135deg, #f5f7fa 0%, #c3cfe2 100%)', padding: 0 }}>
- 13 │ │         <div style={{ maxWidth: 900, margin: '0 auto', padding: '0 16px 32px 16px' }}>
- 14 │ │           <DashboardHeader nome={nome} />
- 15 │ │           <CardBoasVindas nome={nome} proximoAgendamento={proximoAgendamento} progresso={progresso} />
- 16 │ │           {!avaliacaoCompleta && (
- 17 │ │             <CardAvaliacaoInicial onComplete={() => setAvaliacaoCompleta(true)} />
- 18 │ │           )}
- 19 │ │           {avaliacaoCompleta && (
- 20 │ │             <div style={{ marginTop: 24 }}>
- 21 │ │               {/* Cards futuros: upload de exames, questionário de dor, corpo humano interativo, etc. */}
- 22 │ │               <div className="rounded-lg bg-white shadow p-6 text-center text-gray-500">
- 23 │ │                 <span>Funcionalidades liberadas após avaliação inicial.</span>
- 24 │ │               </div>
- 25 │ │             </div>
- 26 │ │           )}
- 27 │ │         </div>
- 28 │ │       </div>
- 29 │ ╰─▶   )
- 30 │     }
-    ╰────
-  × Expression expected
-    ╭─[C:\Users\Yvens Sousa\Documents\MoveOn\pages\dashboard-paciente.js:30:1]
- 27 │       </div>
- 28 │     </div>
- 29 │   )
- 30 │ }
-    · ─
-    ╰────
-
-Caused by:
-    Syntax Error
-[01:06:47.900] Browser ERROR   ./pages/dashboard-paciente.js
-Error:   × Return statement is not allowed here
-    ╭─[C:\Users\Yvens Sousa\Documents\MoveOn\pages\dashboard-paciente.js:11:1]
-  8 │       const progresso = '60% do Plano Concluído'
-  9 │       const [avaliacaoCompleta, setAvaliacaoCompleta] = React.useState(false)
- 10 │     
- 11 │ ╭─▶   return (
- 12 │ │       <div style={{ minHeight: '100vh', background: 'linear-gradient(135deg, #f5f7fa 0%, #c3cfe2 100%)', padding: 0 }}>
- 13 │ │         <div style={{ maxWidth: 900, margin: '0 auto', padding: '0 16px 32px 16px' }}>
- 14 │ │           <DashboardHeader nome={nome} />
- 15 │ │           <CardBoasVindas nome={nome} proximoAgendamento={proximoAgendamento} progresso={progresso} />
- 16 │ │           {!avaliacaoCompleta && (
- 17 │ │             <CardAvaliacaoInicial onComplete={() => setAvaliacaoCompleta(true)} />
- 18 │ │           )}
- 19 │ │           {avaliacaoCompleta && (
- 20 │ │             <div style={{ marginTop: 24 }}>
- 21 │ │               {/* Cards futuros: upload de exames, questionário de dor, corpo humano interativo, etc. */}
- 22 │ │               <div className="rounded-lg bg-white shadow p-6 text-center text-gray-500">
- 23 │ │                 <span>Funcionalidades liberadas após avaliação inicial.</span>
- 24 │ │               </div>
- 25 │ │             </div>
- 26 │ │           )}
- 27 │ │         </div>
- 28 │ │       </div>
- 29 │ ╰─▶   )
- 30 │     }
-    ╰────
-  × Expression expected
-    ╭─[C:\Users\Yvens Sousa\Documents\MoveOn\pages\dashboard-paciente.js:30:1]
- 27 │       </div>
- 28 │     </div>
- 29 │   )
- 30 │ }
-    · ─
-    ╰────
-
-Caused by:
-    Syntax Error
-
-Import trace for requested module:
-./pages/dashboard-paciente.js
-[01:06:49.974] Browser ERROR   ./pages/dashboard-paciente.js
-Error:   × Return statement is not allowed here
-    ╭─[C:\Users\Yvens Sousa\Documents\MoveOn\pages\dashboard-paciente.js:11:1]
-  8 │       const progresso = '60% do Plano Concluído'
-  9 │       const [avaliacaoCompleta, setAvaliacaoCompleta] = React.useState(false)
- 10 │     
- 11 │ ╭─▶   return (
- 12 │ │       <div style={{ minHeight: '100vh', background: 'linear-gradient(135deg, #f5f7fa 0%, #c3cfe2 100%)', padding: 0 }}>
- 13 │ │         <div style={{ maxWidth: 900, margin: '0 auto', padding: '0 16px 32px 16px' }}>
- 14 │ │           <DashboardHeader nome={nome} />
- 15 │ │           <CardBoasVindas nome={nome} proximoAgendamento={proximoAgendamento} progresso={progresso} />
- 16 │ │           {!avaliacaoCompleta && (
- 17 │ │             <CardAvaliacaoInicial onComplete={() => setAvaliacaoCompleta(true)} />
- 18 │ │           )}
- 19 │ │           {avaliacaoCompleta && (
- 20 │ │             <div style={{ marginTop: 24 }}>
- 21 │ │               {/* Cards futuros: upload de exames, questionário de dor, corpo humano interativo, etc. */}
- 22 │ │               <div className="rounded-lg bg-white shadow p-6 text-center text-gray-500">
- 23 │ │                 <span>Funcionalidades liberadas após avaliação inicial.</span>
- 24 │ │               </div>
- 25 │ │             </div>
- 26 │ │           )}
- 27 │ │         </div>
- 28 │ │       </div>
- 29 │ ╰─▶   )
- 30 │     }
-    ╰────
-  × Expression expected
-    ╭─[C:\Users\Yvens Sousa\Documents\MoveOn\pages\dashboard-paciente.js:30:1]
- 27 │       </div>
- 28 │     </div>
- 29 │   )
- 30 │ }
-    · ─
-    ╰────
-
-Caused by:
-    Syntax Error
-[01:06:50.320] Server  ERROR    ⨯ ./pages/dashboard-paciente.js
-Error:   × Return statement is not allowed here
-    ╭─[C:\Users\Yvens Sousa\Documents\MoveOn\pages\dashboard-paciente.js:11:1]
-  8 │       const progresso = '60% do Plano Concluído'
-  9 │       const [avaliacaoCompleta, setAvaliacaoCompleta] = React.useState(false)
- 10 │     
- 11 │ ╭─▶   return (
- 12 │ │       <div style={{ minHeight: '100vh', background: 'linear-gradient(135deg, #f5f7fa 0%, #c3cfe2 100%)', padding: 0 }}>
- 13 │ │         <div style={{ maxWidth: 900, margin: '0 auto', padding: '0 16px 32px 16px' }}>
- 14 │ │           <DashboardHeader nome={nome} />
- 15 │ │           <CardBoasVindas nome={nome} proximoAgendamento={proximoAgendamento} progresso={progresso} />
- 16 │ │           {!avaliacaoCompleta && (
- 17 │ │             <CardAvaliacaoInicial onComplete={() => setAvaliacaoCompleta(true)} />
- 18 │ │           )}
- 19 │ │           {avaliacaoCompleta && (
- 20 │ │             <div style={{ marginTop: 24 }}>
- 21 │ │               {/* Cards futuros: upload de exames, questionário de dor, corpo humano interativo, etc. */}
- 22 │ │               <div className="rounded-lg bg-white shadow p-6 text-center text-gray-500">
- 23 │ │                 <span>Funcionalidades liberadas após avaliação inicial.</span>
- 24 │ │               </div>
- 25 │ │             </div>
- 26 │ │           )}
- 27 │ │         </div>
- 28 │ │       </div>
- 29 │ ╰─▶   )
- 30 │     }
-    ╰────
-  × Expression expected
-    ╭─[C:\Users\Yvens Sousa\Documents\MoveOn\pages\dashboard-paciente.js:30:1]
- 27 │       </div>
- 28 │     </div>
- 29 │   )
- 30 │ }
-    · ─
-    ╰────
-
-Caused by:
-    Syntax Error
-[01:06:50.896] Browser ERROR   ./pages/dashboard-paciente.js
-Error:   × Return statement is not allowed here
-    ╭─[C:\Users\Yvens Sousa\Documents\MoveOn\pages\dashboard-paciente.js:11:1]
-  8 │       const progresso = '60% do Plano Concluído'
-  9 │       const [avaliacaoCompleta, setAvaliacaoCompleta] = React.useState(false)
- 10 │     
- 11 │ ╭─▶   return (
- 12 │ │       <div style={{ minHeight: '100vh', background: 'linear-gradient(135deg, #f5f7fa 0%, #c3cfe2 100%)', padding: 0 }}>
- 13 │ │         <div style={{ maxWidth: 900, margin: '0 auto', padding: '0 16px 32px 16px' }}>
- 14 │ │           <DashboardHeader nome={nome} />
- 15 │ │           <CardBoasVindas nome={nome} proximoAgendamento={proximoAgendamento} progresso={progresso} />
- 16 │ │           {!avaliacaoCompleta && (
- 17 │ │             <CardAvaliacaoInicial onComplete={() => setAvaliacaoCompleta(true)} />
- 18 │ │           )}
- 19 │ │           {avaliacaoCompleta && (
- 20 │ │             <div style={{ marginTop: 24 }}>
- 21 │ │               {/* Cards futuros: upload de exames, questionário de dor, corpo humano interativo, etc. */}
- 22 │ │               <div className="rounded-lg bg-white shadow p-6 text-center text-gray-500">
- 23 │ │                 <span>Funcionalidades liberadas após avaliação inicial.</span>
- 24 │ │               </div>
- 25 │ │             </div>
- 26 │ │           )}
- 27 │ │         </div>
- 28 │ │       </div>
- 29 │ ╰─▶   )
- 30 │     }
-    ╰────
-  × Expression expected
-    ╭─[C:\Users\Yvens Sousa\Documents\MoveOn\pages\dashboard-paciente.js:30:1]
- 27 │       </div>
- 28 │     </div>
- 29 │   )
- 30 │ }
-    · ─
-    ╰────
-
-Caused by:
-    Syntax Error
-[01:06:50.896] Browser ERROR   ./pages/dashboard-paciente.js
-Error:   × Return statement is not allowed here
-    ╭─[C:\Users\Yvens Sousa\Documents\MoveOn\pages\dashboard-paciente.js:11:1]
-  8 │       const progresso = '60% do Plano Concluído'
-  9 │       const [avaliacaoCompleta, setAvaliacaoCompleta] = React.useState(false)
- 10 │     
- 11 │ ╭─▶   return (
- 12 │ │       <div style={{ minHeight: '100vh', background: 'linear-gradient(135deg, #f5f7fa 0%, #c3cfe2 100%)', padding: 0 }}>
- 13 │ │         <div style={{ maxWidth: 900, margin: '0 auto', padding: '0 16px 32px 16px' }}>
- 14 │ │           <DashboardHeader nome={nome} />
- 15 │ │           <CardBoasVindas nome={nome} proximoAgendamento={proximoAgendamento} progresso={progresso} />
- 16 │ │           {!avaliacaoCompleta && (
- 17 │ │             <CardAvaliacaoInicial onComplete={() => setAvaliacaoCompleta(true)} />
- 18 │ │           )}
- 19 │ │           {avaliacaoCompleta && (
- 20 │ │             <div style={{ marginTop: 24 }}>
- 21 │ │               {/* Cards futuros: upload de exames, questionário de dor, corpo humano interativo, etc. */}
- 22 │ │               <div className="rounded-lg bg-white shadow p-6 text-center text-gray-500">
- 23 │ │                 <span>Funcionalidades liberadas após avaliação inicial.</span>
- 24 │ │               </div>
- 25 │ │             </div>
- 26 │ │           )}
- 27 │ │         </div>
- 28 │ │       </div>
- 29 │ ╰─▶   )
- 30 │     }
-    ╰────
-  × Expression expected
-    ╭─[C:\Users\Yvens Sousa\Documents\MoveOn\pages\dashboard-paciente.js:30:1]
- 27 │       </div>
- 28 │     </div>
- 29 │   )
- 30 │ }
-    · ─
-    ╰────
-
-Caused by:
-    Syntax Error
-
-Import trace for requested module:
-./pages/dashboard-paciente.js
-[01:07:35.867] Server  ERROR    ⨯ ./pages/dashboard-paciente.js
-Error:   × Return statement is not allowed here
-    ╭─[C:\Users\Yvens Sousa\Documents\MoveOn\pages\dashboard-paciente.js:12:1]
-  9 │       const progresso = '60% do Plano Concluído'
- 10 │       const [avaliacaoCompleta, setAvaliacaoCompleta] = React.useState(false)
- 11 │     
- 12 │ ╭─▶   return (
- 13 │ │       <div className="min-h-screen bg-gradient-to-br from-gray-100 to-blue-100 flex">
- 14 │ │         <SidebarMenu onLogout={() => alert('Logout')} />
- 15 │ │         <div className="flex-1 ml-20 max-w-3xl mx-auto px-4 pb-8">
- 16 │ │           <DashboardHeader nome={nome} />
- 17 │ │           <CardBoasVindas nome={nome} proximoAgendamento={proximoAgendamento} progresso={progresso} />
- 18 │ │           {!avaliacaoCompleta && (
- 19 │ │             <CardAvaliacaoInicial onComplete={() => setAvaliacaoCompleta(true)} />
- 20 │ │           )}
- 21 │ │           {avaliacaoCompleta && (
- 22 │ │             <div className="mt-6">
- 23 │ │               {/* Cards futuros: upload de exames, questionário de dor, corpo humano interativo, etc. */}
- 24 │ │               <div className="rounded-lg bg-white shadow p-6 text-center text-gray-500">
- 25 │ │                 <span>Funcionalidades liberadas após avaliação inicial.</span>
- 26 │ │               </div>
- 27 │ │             </div>
- 28 │ │           )}
- 29 │ │         </div>
- 30 │ │       </div>
- 31 │ ╰─▶   )
- 32 │     }
-    ╰────
-  × Expression expected
-    ╭─[C:\Users\Yvens Sousa\Documents\MoveOn\pages\dashboard-paciente.js:32:1]
- 29 │       </div>
- 30 │     </div>
- 31 │   )
- 32 │ }
-    · ─
-    ╰────
-
-Caused by:
-    Syntax Error
-[01:07:36.886] Browser ERROR   ./pages/dashboard-paciente.js
-Error:   × Return statement is not allowed here
-    ╭─[C:\Users\Yvens Sousa\Documents\MoveOn\pages\dashboard-paciente.js:11:1]
-  8 │       const progresso = '60% do Plano Concluído'
-  9 │       const [avaliacaoCompleta, setAvaliacaoCompleta] = React.useState(false)
- 10 │     
- 11 │ ╭─▶   return (
- 12 │ │       <div style={{ minHeight: '100vh', background: 'linear-gradient(135deg, #f5f7fa 0%, #c3cfe2 100%)', padding: 0 }}>
- 13 │ │         <div style={{ maxWidth: 900, margin: '0 auto', padding: '0 16px 32px 16px' }}>
- 14 │ │           <DashboardHeader nome={nome} />
- 15 │ │           <CardBoasVindas nome={nome} proximoAgendamento={proximoAgendamento} progresso={progresso} />
- 16 │ │           {!avaliacaoCompleta && (
- 17 │ │             <CardAvaliacaoInicial onComplete={() => setAvaliacaoCompleta(true)} />
- 18 │ │           )}
- 19 │ │           {avaliacaoCompleta && (
- 20 │ │             <div style={{ marginTop: 24 }}>
- 21 │ │               {/* Cards futuros: upload de exames, questionário de dor, corpo humano interativo, etc. */}
- 22 │ │               <div className="rounded-lg bg-white shadow p-6 text-center text-gray-500">
- 23 │ │                 <span>Funcionalidades liberadas após avaliação inicial.</span>
- 24 │ │               </div>
- 25 │ │             </div>
- 26 │ │           )}
- 27 │ │         </div>
- 28 │ │       </div>
- 29 │ ╰─▶   )
- 30 │     }
-    ╰────
-  × Expression expected
-    ╭─[C:\Users\Yvens Sousa\Documents\MoveOn\pages\dashboard-paciente.js:30:1]
- 27 │       </div>
- 28 │     </div>
- 29 │   )
- 30 │ }
-    · ─
-    ╰────
-
-Caused by:
-    Syntax Error
-[01:07:36.886] Browser ERROR   ./pages/dashboard-paciente.js
-Error:   × Return statement is not allowed here
-    ╭─[C:\Users\Yvens Sousa\Documents\MoveOn\pages\dashboard-paciente.js:12:1]
-  9 │       const progresso = '60% do Plano Concluído'
- 10 │       const [avaliacaoCompleta, setAvaliacaoCompleta] = React.useState(false)
- 11 │     
- 12 │ ╭─▶   return (
- 13 │ │       <div className="min-h-screen bg-gradient-to-br from-gray-100 to-blue-100 flex">
- 14 │ │         <SidebarMenu onLogout={() => alert('Logout')} />
- 15 │ │         <div className="flex-1 ml-20 max-w-3xl mx-auto px-4 pb-8">
- 16 │ │           <DashboardHeader nome={nome} />
- 17 │ │           <CardBoasVindas nome={nome} proximoAgendamento={proximoAgendamento} progresso={progresso} />
- 18 │ │           {!avaliacaoCompleta && (
- 19 │ │             <CardAvaliacaoInicial onComplete={() => setAvaliacaoCompleta(true)} />
- 20 │ │           )}
- 21 │ │           {avaliacaoCompleta && (
- 22 │ │             <div className="mt-6">
- 23 │ │               {/* Cards futuros: upload de exames, questionário de dor, corpo humano interativo, etc. */}
- 24 │ │               <div className="rounded-lg bg-white shadow p-6 text-center text-gray-500">
- 25 │ │                 <span>Funcionalidades liberadas após avaliação inicial.</span>
- 26 │ │               </div>
- 27 │ │             </div>
- 28 │ │           )}
- 29 │ │         </div>
- 30 │ │       </div>
- 31 │ ╰─▶   )
- 32 │     }
-    ╰────
-  × Expression expected
-    ╭─[C:\Users\Yvens Sousa\Documents\MoveOn\pages\dashboard-paciente.js:32:1]
- 29 │       </div>
- 30 │     </div>
- 31 │   )
- 32 │ }
-    · ─
-    ╰────
-
-Caused by:
-    Syntax Error
-[01:07:36.886] Browser ERROR   ./pages/dashboard-paciente.js
-Error:   × Return statement is not allowed here
-    ╭─[C:\Users\Yvens Sousa\Documents\MoveOn\pages\dashboard-paciente.js:12:1]
-  9 │       const progresso = '60% do Plano Concluído'
- 10 │       const [avaliacaoCompleta, setAvaliacaoCompleta] = React.useState(false)
- 11 │     
- 12 │ ╭─▶   return (
- 13 │ │       <div className="min-h-screen bg-gradient-to-br from-gray-100 to-blue-100 flex">
- 14 │ │         <SidebarMenu onLogout={() => alert('Logout')} />
- 15 │ │         <div className="flex-1 ml-20 max-w-3xl mx-auto px-4 pb-8">
- 16 │ │           <DashboardHeader nome={nome} />
- 17 │ │           <CardBoasVindas nome={nome} proximoAgendamento={proximoAgendamento} progresso={progresso} />
- 18 │ │           {!avaliacaoCompleta && (
- 19 │ │             <CardAvaliacaoInicial onComplete={() => setAvaliacaoCompleta(true)} />
- 20 │ │           )}
- 21 │ │           {avaliacaoCompleta && (
- 22 │ │             <div className="mt-6">
- 23 │ │               {/* Cards futuros: upload de exames, questionário de dor, corpo humano interativo, etc. */}
- 24 │ │               <div className="rounded-lg bg-white shadow p-6 text-center text-gray-500">
- 25 │ │                 <span>Funcionalidades liberadas após avaliação inicial.</span>
- 26 │ │               </div>
- 27 │ │             </div>
- 28 │ │           )}
- 29 │ │         </div>
- 30 │ │       </div>
- 31 │ ╰─▶   )
- 32 │     }
-    ╰────
-  × Expression expected
-    ╭─[C:\Users\Yvens Sousa\Documents\MoveOn\pages\dashboard-paciente.js:32:1]
- 29 │       </div>
- 30 │     </div>
- 31 │   )
- 32 │ }
-    · ─
-    ╰────
-
-Caused by:
-    Syntax Error
-
-Import trace for requested module:
-./pages/dashboard-paciente.js
-[01:07:38.895] Browser ERROR   ./pages/dashboard-paciente.js
-Error:   × Return statement is not allowed here
-    ╭─[C:\Users\Yvens Sousa\Documents\MoveOn\pages\dashboard-paciente.js:12:1]
-  9 │       const progresso = '60% do Plano Concluído'
- 10 │       const [avaliacaoCompleta, setAvaliacaoCompleta] = React.useState(false)
- 11 │     
- 12 │ ╭─▶   return (
- 13 │ │       <div className="min-h-screen bg-gradient-to-br from-gray-100 to-blue-100 flex">
- 14 │ │         <SidebarMenu onLogout={() => alert('Logout')} />
- 15 │ │         <div className="flex-1 ml-20 max-w-3xl mx-auto px-4 pb-8">
- 16 │ │           <DashboardHeader nome={nome} />
- 17 │ │           <CardBoasVindas nome={nome} proximoAgendamento={proximoAgendamento} progresso={progresso} />
- 18 │ │           {!avaliacaoCompleta && (
- 19 │ │             <CardAvaliacaoInicial onComplete={() => setAvaliacaoCompleta(true)} />
- 20 │ │           )}
- 21 │ │           {avaliacaoCompleta && (
- 22 │ │             <div className="mt-6">
- 23 │ │               {/* Cards futuros: upload de exames, questionário de dor, corpo humano interativo, etc. */}
- 24 │ │               <div className="rounded-lg bg-white shadow p-6 text-center text-gray-500">
- 25 │ │                 <span>Funcionalidades liberadas após avaliação inicial.</span>
- 26 │ │               </div>
- 27 │ │             </div>
- 28 │ │           )}
- 29 │ │         </div>
- 30 │ │       </div>
- 31 │ ╰─▶   )
- 32 │     }
-    ╰────
-  × Expression expected
-    ╭─[C:\Users\Yvens Sousa\Documents\MoveOn\pages\dashboard-paciente.js:32:1]
- 29 │       </div>
- 30 │     </div>
- 31 │   )
- 32 │ }
-    · ─
-    ╰────
-
-Caused by:
-    Syntax Error
-[01:07:38.895] Browser ERROR   ./pages/dashboard-paciente.js
-Error:   × Return statement is not allowed here
-    ╭─[C:\Users\Yvens Sousa\Documents\MoveOn\pages\dashboard-paciente.js:12:1]
-  9 │       const progresso = '60% do Plano Concluído'
- 10 │       const [avaliacaoCompleta, setAvaliacaoCompleta] = React.useState(false)
- 11 │     
- 12 │ ╭─▶   return (
- 13 │ │       <div className="min-h-screen bg-gradient-to-br from-gray-100 to-blue-100 flex">
- 14 │ │         <SidebarMenu onLogout={() => alert('Logout')} />
- 15 │ │         <div className="flex-1 ml-20 max-w-3xl mx-auto px-4 pb-8">
- 16 │ │           <DashboardHeader nome={nome} />
- 17 │ │           <CardBoasVindas nome={nome} proximoAgendamento={proximoAgendamento} progresso={progresso} />
- 18 │ │           {!avaliacaoCompleta && (
- 19 │ │             <CardAvaliacaoInicial onComplete={() => setAvaliacaoCompleta(true)} />
- 20 │ │           )}
- 21 │ │           {avaliacaoCompleta && (
- 22 │ │             <div className="mt-6">
- 23 │ │               {/* Cards futuros: upload de exames, questionário de dor, corpo humano interativo, etc. */}
- 24 │ │               <div className="rounded-lg bg-white shadow p-6 text-center text-gray-500">
- 25 │ │                 <span>Funcionalidades liberadas após avaliação inicial.</span>
- 26 │ │               </div>
- 27 │ │             </div>
- 28 │ │           )}
- 29 │ │         </div>
- 30 │ │       </div>
- 31 │ ╰─▶   )
- 32 │     }
-    ╰────
-  × Expression expected
-    ╭─[C:\Users\Yvens Sousa\Documents\MoveOn\pages\dashboard-paciente.js:32:1]
- 29 │       </div>
- 30 │     </div>
- 31 │   )
- 32 │ }
-    · ─
-    ╰────
-
-Caused by:
-    Syntax Error
-
-Import trace for requested module:
-./pages/dashboard-paciente.js
-[01:07:39.025] Server  ERROR    ⨯ ./pages/dashboard-paciente.js
-Error:   × Return statement is not allowed here
-    ╭─[C:\Users\Yvens Sousa\Documents\MoveOn\pages\dashboard-paciente.js:12:1]
-  9 │       const progresso = '60% do Plano Concluído'
- 10 │       const [avaliacaoCompleta, setAvaliacaoCompleta] = React.useState(false)
- 11 │     
- 12 │ ╭─▶   return (
- 13 │ │       <div className="min-h-screen bg-gradient-to-br from-gray-100 to-blue-100 flex">
- 14 │ │         <SidebarMenu onLogout={() => alert('Logout')} />
- 15 │ │         <div className="flex-1 ml-20 max-w-3xl mx-auto px-4 pb-8">
- 16 │ │           <DashboardHeader nome={nome} />
- 17 │ │           <CardBoasVindas nome={nome} proximoAgendamento={proximoAgendamento} progresso={progresso} />
- 18 │ │           {!avaliacaoCompleta && (
- 19 │ │             <CardAvaliacaoInicial onComplete={() => setAvaliacaoCompleta(true)} />
- 20 │ │           )}
- 21 │ │           {avaliacaoCompleta && (
- 22 │ │             <div className="mt-6">
- 23 │ │               {/* Cards futuros: upload de exames, questionário de dor, corpo humano interativo, etc. */}
- 24 │ │               <div className="rounded-lg bg-white shadow p-6 text-center text-gray-500">
- 25 │ │                 <span>Funcionalidades liberadas após avaliação inicial.</span>
- 26 │ │               </div>
- 27 │ │             </div>
- 28 │ │           )}
- 29 │ │         </div>
- 30 │ │       </div>
- 31 │ ╰─▶   )
- 32 │     }
-    ╰────
-  × Expression expected
-    ╭─[C:\Users\Yvens Sousa\Documents\MoveOn\pages\dashboard-paciente.js:32:1]
- 29 │       </div>
- 30 │     </div>
- 31 │   )
- 32 │ }
-    · ─
-    ╰────
-
-Caused by:
-    Syntax Error
-[01:08:04.741] Server  LOG     > [PWA] Compile client (static)
-[01:08:04.742] Server  LOG     > [PWA] Auto register service worker with: C:\Users\Yvens Sousa\Documents\MoveOn\node_modules\next-pwa\register.js
-[01:08:04.742] Server  LOG     > [PWA] Service worker: C:\Users\Yvens Sousa\Documents\MoveOn\public\sw.js
-[01:08:04.742] Server  LOG     > [PWA]   url: /sw.js
-[01:08:04.742] Server  LOG     > [PWA]   scope: /
-[01:08:04.766] Server  LOG     > [PWA] Build in develop mode, cache and precache are mostly disabled. This means offline support is disabled, but you can continue developing other functions in service worker.
-[01:08:06.704] Browser ERROR   ./pages/dashboard-paciente.js
-Error:   × Return statement is not allowed here
-    ╭─[C:\Users\Yvens Sousa\Documents\MoveOn\pages\dashboard-paciente.js:12:1]
-  9 │       const progresso = '60% do Plano Concluído'
- 10 │       const [avaliacaoCompleta, setAvaliacaoCompleta] = React.useState(false)
- 11 │     
- 12 │ ╭─▶   return (
- 13 │ │       <div className="min-h-screen bg-gradient-to-br from-gray-100 to-blue-100 flex">
- 14 │ │         <SidebarMenu onLogout={() => alert('Logout')} />
- 15 │ │         <div className="flex-1 ml-20 max-w-3xl mx-auto px-4 pb-8">
- 16 │ │           <DashboardHeader nome={nome} />
- 17 │ │           <CardBoasVindas nome={nome} proximoAgendamento={proximoAgendamento} progresso={progresso} />
- 18 │ │           {!avaliacaoCompleta && (
- 19 │ │             <CardAvaliacaoInicial onComplete={() => setAvaliacaoCompleta(true)} />
- 20 │ │           )}
- 21 │ │           {avaliacaoCompleta && (
- 22 │ │             <div className="mt-6">
- 23 │ │               {/* Cards futuros: upload de exames, questionário de dor, corpo humano interativo, etc. */}
- 24 │ │               <div className="rounded-lg bg-white shadow p-6 text-center text-gray-500">
- 25 │ │                 <span>Funcionalidades liberadas após avaliação inicial.</span>
- 26 │ │               </div>
- 27 │ │             </div>
- 28 │ │           )}
- 29 │ │         </div>
- 30 │ │       </div>
- 31 │ ╰─▶   )
- 32 │     }
-    ╰────
-  × Expression expected
-    ╭─[C:\Users\Yvens Sousa\Documents\MoveOn\pages\dashboard-paciente.js:32:1]
- 29 │       </div>
- 30 │     </div>
- 31 │   )
- 32 │ }
-    · ─
-    ╰────
-
-Caused by:
-    Syntax Error
-[01:08:07.382] Browser ERROR   ./pages/dashboard-paciente.js
-Error:   × Return statement is not allowed here
-    ╭─[C:\Users\Yvens Sousa\Documents\MoveOn\pages\dashboard-paciente.js:12:1]
-  9 │       const progresso = '60% do Plano Concluído'
- 10 │       const [avaliacaoCompleta, setAvaliacaoCompleta] = React.useState(false)
- 11 │     
- 12 │ ╭─▶   return (
- 13 │ │       <div className="min-h-screen bg-gradient-to-br from-gray-100 to-blue-100 flex">
- 14 │ │         <SidebarMenu onLogout={() => alert('Logout')} />
- 15 │ │         <div className="flex-1 ml-20 max-w-3xl mx-auto px-4 pb-8">
- 16 │ │           <DashboardHeader nome={nome} />
- 17 │ │           <CardBoasVindas nome={nome} proximoAgendamento={proximoAgendamento} progresso={progresso} />
- 18 │ │           {!avaliacaoCompleta && (
- 19 │ │             <CardAvaliacaoInicial onComplete={() => setAvaliacaoCompleta(true)} />
- 20 │ │           )}
- 21 │ │           {avaliacaoCompleta && (
- 22 │ │             <div className="mt-6">
- 23 │ │               {/* Cards futuros: upload de exames, questionário de dor, corpo humano interativo, etc. */}
- 24 │ │               <div className="rounded-lg bg-white shadow p-6 text-center text-gray-500">
- 25 │ │                 <span>Funcionalidades liberadas após avaliação inicial.</span>
- 26 │ │               </div>
- 27 │ │             </div>
- 28 │ │           )}
- 29 │ │         </div>
- 30 │ │       </div>
- 31 │ ╰─▶   )
- 32 │     }
-    ╰────
-  × Expression expected
-    ╭─[C:\Users\Yvens Sousa\Documents\MoveOn\pages\dashboard-paciente.js:32:1]
- 29 │       </div>
- 30 │     </div>
- 31 │   )
- 32 │ }
-    · ─
-    ╰────
-
-Caused by:
-    Syntax Error
-[01:08:07.464] Server  ERROR    ⨯ ./pages/dashboard-paciente.js
-Error:   × Return statement is not allowed here
-    ╭─[C:\Users\Yvens Sousa\Documents\MoveOn\pages\dashboard-paciente.js:12:1]
-  9 │       const progresso = '60% do Plano Concluído'
- 10 │       const [avaliacaoCompleta, setAvaliacaoCompleta] = React.useState(false)
- 11 │     
- 12 │ ╭─▶   return (
- 13 │ │       <div className="min-h-screen bg-gradient-to-br from-gray-100 to-blue-100 flex">
- 14 │ │         <SidebarMenu onLogout={() => alert('Logout')} />
- 15 │ │         <div className="flex-1 ml-20 max-w-3xl mx-auto px-4 pb-8">
- 16 │ │           <DashboardHeader nome={nome} />
- 17 │ │           <CardBoasVindas nome={nome} proximoAgendamento={proximoAgendamento} progresso={progresso} />
- 18 │ │           {!avaliacaoCompleta && (
- 19 │ │             <CardAvaliacaoInicial onComplete={() => setAvaliacaoCompleta(true)} />
- 20 │ │           )}
- 21 │ │           {avaliacaoCompleta && (
- 22 │ │             <div className="mt-6">
- 23 │ │               {/* Cards futuros: upload de exames, questionário de dor, corpo humano interativo, etc. */}
- 24 │ │               <div className="rounded-lg bg-white shadow p-6 text-center text-gray-500">
- 25 │ │                 <span>Funcionalidades liberadas após avaliação inicial.</span>
- 26 │ │               </div>
- 27 │ │             </div>
- 28 │ │           )}
- 29 │ │         </div>
- 30 │ │       </div>
- 31 │ ╰─▶   )
- 32 │     }
-    ╰────
-  × Expression expected
-    ╭─[C:\Users\Yvens Sousa\Documents\MoveOn\pages\dashboard-paciente.js:32:1]
- 29 │       </div>
- 30 │     </div>
- 31 │   )
- 32 │ }
-    · ─
-    ╰────
-
-Caused by:
-    Syntax Error
-[01:08:07.580] Browser ERROR   ./pages/dashboard-paciente.js
-Error:   × Return statement is not allowed here
-    ╭─[C:\Users\Yvens Sousa\Documents\MoveOn\pages\dashboard-paciente.js:12:1]
-  9 │       const progresso = '60% do Plano Concluído'
- 10 │       const [avaliacaoCompleta, setAvaliacaoCompleta] = React.useState(false)
- 11 │     
- 12 │ ╭─▶   return (
- 13 │ │       <div className="min-h-screen bg-gradient-to-br from-gray-100 to-blue-100 flex">
- 14 │ │         <SidebarMenu onLogout={() => alert('Logout')} />
- 15 │ │         <div className="flex-1 ml-20 max-w-3xl mx-auto px-4 pb-8">
- 16 │ │           <DashboardHeader nome={nome} />
- 17 │ │           <CardBoasVindas nome={nome} proximoAgendamento={proximoAgendamento} progresso={progresso} />
- 18 │ │           {!avaliacaoCompleta && (
- 19 │ │             <CardAvaliacaoInicial onComplete={() => setAvaliacaoCompleta(true)} />
- 20 │ │           )}
- 21 │ │           {avaliacaoCompleta && (
- 22 │ │             <div className="mt-6">
- 23 │ │               {/* Cards futuros: upload de exames, questionário de dor, corpo humano interativo, etc. */}
- 24 │ │               <div className="rounded-lg bg-white shadow p-6 text-center text-gray-500">
- 25 │ │                 <span>Funcionalidades liberadas após avaliação inicial.</span>
- 26 │ │               </div>
- 27 │ │             </div>
- 28 │ │           )}
- 29 │ │         </div>
- 30 │ │       </div>
- 31 │ ╰─▶   )
- 32 │     }
-    ╰────
-  × Expression expected
-    ╭─[C:\Users\Yvens Sousa\Documents\MoveOn\pages\dashboard-paciente.js:32:1]
- 29 │       </div>
- 30 │     </div>
- 31 │   )
- 32 │ }
-    · ─
-    ╰────
-
-Caused by:
-    Syntax Error
-
-Import trace for requested module:
-./pages/dashboard-paciente.js
-[01:08:08.102] Browser ERROR   uncaughtError: ModuleBuildError: Module build failed (from ./node_modules/next/dist/build/webpack/loaders/next-swc-loader.js):
-Error:   × Return statement is not allowed here
-    ╭─[C:\Users\Yvens Sousa\Documents\MoveOn\pages\dashboard-paciente.js:12:1]
-  9 │       const progresso = '60% do Plano Concluído'
- 10 │       const [avaliacaoCompleta, setAvaliacaoCompleta] = React.useState(false)
- 11 │     
- 12 │ ╭─▶   return (
- 13 │ │       <div className="min-h-screen bg-gradient-to-br from-gray-100 to-blue-100 flex">
- 14 │ │         <SidebarMenu onLogout={() => alert('Logout')} />
- 15 │ │         <div className="flex-1 ml-20 max-w-3xl mx-auto px-4 pb-8">
- 16 │ │           <DashboardHeader nome={nome} />
- 17 │ │           <CardBoasVindas nome={nome} proximoAgendamento={proximoAgendamento} progresso={progresso} />
- 18 │ │           {!avaliacaoCompleta && (
- 19 │ │             <CardAvaliacaoInicial onComplete={() => setAvaliacaoCompleta(true)} />
- 20 │ │           )}
- 21 │ │           {avaliacaoCompleta && (
- 22 │ │             <div className="mt-6">
- 23 │ │               {/* Cards futuros: upload de exames, questionário de dor, corpo humano interativo, etc. */}
- 24 │ │               <div className="rounded-lg bg-white shadow p-6 text-center text-gray-500">
- 25 │ │                 <span>Funcionalidades liberadas após avaliação inicial.</span>
- 26 │ │               </div>
- 27 │ │             </div>
- 28 │ │           )}
- 29 │ │         </div>
- 30 │ │       </div>
- 31 │ ╰─▶   )
- 32 │     }
-    ╰────
-  × Expression expected
-    ╭─[C:\Users\Yvens Sousa\Documents\MoveOn\pages\dashboard-paciente.js:32:1]
- 29 │       </div>
- 30 │     </div>
- 31 │   )
- 32 │ }
-    · ─
-    ╰────
-
-
-Caused by:
-    Syntax Error
-[01:08:08.206] Browser ERROR   ./pages/dashboard-paciente.js
-Error:   × Return statement is not allowed here
-    ╭─[C:\Users\Yvens Sousa\Documents\MoveOn\pages\dashboard-paciente.js:12:1]
-  9 │       const progresso = '60% do Plano Concluído'
- 10 │       const [avaliacaoCompleta, setAvaliacaoCompleta] = React.useState(false)
- 11 │     
- 12 │ ╭─▶   return (
- 13 │ │       <div className="min-h-screen bg-gradient-to-br from-gray-100 to-blue-100 flex">
- 14 │ │         <SidebarMenu onLogout={() => alert('Logout')} />
- 15 │ │         <div className="flex-1 ml-20 max-w-3xl mx-auto px-4 pb-8">
- 16 │ │           <DashboardHeader nome={nome} />
- 17 │ │           <CardBoasVindas nome={nome} proximoAgendamento={proximoAgendamento} progresso={progresso} />
- 18 │ │           {!avaliacaoCompleta && (
- 19 │ │             <CardAvaliacaoInicial onComplete={() => setAvaliacaoCompleta(true)} />
- 20 │ │           )}
- 21 │ │           {avaliacaoCompleta && (
- 22 │ │             <div className="mt-6">
- 23 │ │               {/* Cards futuros: upload de exames, questionário de dor, corpo humano interativo, etc. */}
- 24 │ │               <div className="rounded-lg bg-white shadow p-6 text-center text-gray-500">
- 25 │ │                 <span>Funcionalidades liberadas após avaliação inicial.</span>
- 26 │ │               </div>
- 27 │ │             </div>
- 28 │ │           )}
- 29 │ │         </div>
- 30 │ │       </div>
- 31 │ ╰─▶   )
- 32 │     }
-    ╰────
-  × Expression expected
-    ╭─[C:\Users\Yvens Sousa\Documents\MoveOn\pages\dashboard-paciente.js:32:1]
- 29 │       </div>
- 30 │     </div>
- 31 │   )
- 32 │ }
-    · ─
-    ╰────
-
-Caused by:
-    Syntax Error
-[01:09:11.872] Browser ERROR   ./pages/dashboard-paciente.js
-Error:   × Return statement is not allowed here
-    ╭─[C:\Users\Yvens Sousa\Documents\MoveOn\pages\dashboard-paciente.js:12:1]
-  9 │       const progresso = '60% do Plano Concluído'
- 10 │       const [avaliacaoCompleta, setAvaliacaoCompleta] = React.useState(false)
- 11 │     
- 12 │ ╭─▶   return (
- 13 │ │       <div className="min-h-screen bg-gradient-to-br from-gray-100 to-blue-100 flex">
- 14 │ │         <SidebarMenu onLogout={() => alert('Logout')} />
- 15 │ │         <div className="flex-1 ml-20 max-w-3xl mx-auto px-4 pb-8">
- 16 │ │           <DashboardHeader nome={nome} />
- 17 │ │           <CardBoasVindas nome={nome} proximoAgendamento={proximoAgendamento} progresso={progresso} />
- 18 │ │           {!avaliacaoCompleta && (
- 19 │ │             <CardAvaliacaoInicial onComplete={() => setAvaliacaoCompleta(true)} />
- 20 │ │           )}
- 21 │ │           {avaliacaoCompleta && (
- 22 │ │             <div className="mt-6">
- 23 │ │               {/* Cards futuros: upload de exames, questionário de dor, corpo humano interativo, etc. */}
- 24 │ │               <div className="rounded-lg bg-white shadow p-6 text-center text-gray-500">
- 25 │ │                 <span>Funcionalidades liberadas após avaliação inicial.</span>
- 26 │ │               </div>
- 27 │ │             </div>
- 28 │ │           )}
- 29 │ │         </div>
- 30 │ │       </div>
- 31 │ ╰─▶   )
- 32 │     }
-    ╰────
-  × Expression expected
-    ╭─[C:\Users\Yvens Sousa\Documents\MoveOn\pages\dashboard-paciente.js:32:1]
- 29 │       </div>
- 30 │     </div>
- 31 │   )
- 32 │ }
-    · ─
-    ╰────
-
-Caused by:
-    Syntax Error
-[01:09:12.582] Server  ERROR    ⨯ ./components/SidebarMenu.js:2:1
-Module not found: Can't resolve 'react-icons/fa'
-  1 | import React from 'react';
-> 2 | import { FaHome, FaClipboardList, FaCalendarAlt, FaUser, FaSignOutAlt } from 'react-icons/fa';
-    | ^
-  3 |
-  4 | const menuItems = [
-  5 |   { label: 'Início', icon: <FaHome />, href: '/dashboard-paciente' },
-
-https://nextjs.org/docs/messages/module-not-found
-
-Import trace for requested module:
-./pages/dashboard-paciente.js
-[01:09:12.814] Browser ERROR   uncaughtError: Error: Module not found: Can't resolve 'react-icons/fa'
-  1 | import React from 'react';
-> 2 | import { FaHome, FaClipboardList, FaCalendarAlt, FaUser, FaSignOutAlt } from 'react-icons/fa';
-    | ^
-  3 |
-  4 | const menuItems = [
-  5 |   { label: 'Início', icon: <FaHome />, href: '/dashboard-paciente' },
-
-https://nextjs.org/docs/messages/module-not-found
-
-Import trace for requested module:
-./pages/dashboard-paciente.js
-[01:09:13.898] Browser ERROR   ./components/SidebarMenu.js:2:1
-Module not found: Can't resolve 'react-icons/fa'
-  1 | import React from 'react';
-> 2 | import { FaHome, FaClipboardList, FaCalendarAlt, FaUser, FaSignOutAlt } from 'react-icons/fa';
-    | ^
-  3 |
-  4 | const menuItems = [
-  5 |   { label: 'Início', icon: <FaHome />, href: '/dashboard-paciente' },
-
-https://nextjs.org/docs/messages/module-not-found
-
-Import trace for requested module:
-./pages/dashboard-paciente.js
-[01:09:14.775] Server  ERROR    ⨯ ./components/SidebarMenu.js:2:1
-Module not found: Can't resolve 'react-icons/fa'
-  1 | import React from 'react';
-> 2 | import { FaHome, FaClipboardList, FaCalendarAlt, FaUser, FaSignOutAlt } from 'react-icons/fa';
-    | ^
-  3 |
-  4 | const menuItems = [
-  5 |   { label: 'Início', icon: <FaHome />, href: '/dashboard-paciente' },
-
-https://nextjs.org/docs/messages/module-not-found
-
-Import trace for requested module:
-./pages/dashboard-paciente.js
-[01:09:14.898] Browser ERROR   ./components/SidebarMenu.js:2:1
-Module not found: Can't resolve 'react-icons/fa'
-  1 | import React from 'react';
-> 2 | import { FaHome, FaClipboardList, FaCalendarAlt, FaUser, FaSignOutAlt } from 'react-icons/fa';
-    | ^
-  3 |
-  4 | const menuItems = [
-  5 |   { label: 'Início', icon: <FaHome />, href: '/dashboard-paciente' },
-
-https://nextjs.org/docs/messages/module-not-found
-
-Import trace for requested module:
-./pages/dashboard-paciente.js
-[01:09:14.898] Browser ERROR   ./components/SidebarMenu.js:2:1
-Module not found: Can't resolve 'react-icons/fa'
-  1 | import React from 'react';
-> 2 | import { FaHome, FaClipboardList, FaCalendarAlt, FaUser, FaSignOutAlt } from 'react-icons/fa';
-    | ^
-  3 |
-  4 | const menuItems = [
-  5 |   { label: 'Início', icon: <FaHome />, href: '/dashboard-paciente' },
-
-https://nextjs.org/docs/messages/module-not-found
-
-Import trace for requested module:
-./pages/dashboard-paciente.js
-[01:09:14.898] Browser ERROR   ./components/SidebarMenu.js:2:1
-Module not found: Can't resolve 'react-icons/fa'
-  1 | import React from 'react';
-> 2 | import { FaHome, FaClipboardList, FaCalendarAlt, FaUser, FaSignOutAlt } from 'react-icons/fa';
-    | ^
-  3 |
-  4 | const menuItems = [
-  5 |   { label: 'Início', icon: <FaHome />, href: '/dashboard-paciente' },
-
-https://nextjs.org/docs/messages/module-not-found
-
-Import trace for requested module:
-./pages/dashboard-paciente.js
-[01:09:29.857] Browser ERROR   ./components/SidebarMenu.js:2:1
-Module not found: Can't resolve 'react-icons/fa'
-  1 | import React from 'react';
-> 2 | import { FaHome, FaClipboardList, FaCalendarAlt, FaUser, FaSignOutAlt } from 'react-icons/fa';
-    | ^
-  3 |
-  4 | const menuItems = [
-  5 |   { label: 'Início', icon: <FaHome />, href: '/dashboard-paciente' },
-
-https://nextjs.org/docs/messages/module-not-found
-
-Import trace for requested module:
-./pages/dashboard-paciente.js
-[01:09:30.357] Server  ERROR    ⨯ ./components/SidebarMenu.js:2:1
-Module not found: Can't resolve 'react-icons/fa'
-  1 | import React from 'react';
-> 2 | import { FaHome, FaClipboardList, FaCalendarAlt, FaUser, FaSignOutAlt } from 'react-icons/fa';
-    | ^
-  3 |
-  4 | const menuItems = [
-  5 |   { label: 'Início', icon: <FaHome />, href: '/dashboard-paciente' },
-
-https://nextjs.org/docs/messages/module-not-found
-
-Import trace for requested module:
-./pages/dashboard-paciente.js
-[01:09:30.604] Browser ERROR   uncaughtError: Error: Module not found: Can't resolve 'react-icons/fa'
-  1 | import React from 'react';
-> 2 | import { FaHome, FaClipboardList, FaCalendarAlt, FaUser, FaSignOutAlt } from 'react-icons/fa';
-    | ^
-  3 |
-  4 | const menuItems = [
-  5 |   { label: 'Início', icon: <FaHome />, href: '/dashboard-paciente' },
-
-https://nextjs.org/docs/messages/module-not-found
-
-Import trace for requested module:
-./pages/dashboard-paciente.js
-[01:09:30.708] Browser ERROR   ./components/SidebarMenu.js:2:1
-Module not found: Can't resolve 'react-icons/fa'
-  1 | import React from 'react';
-> 2 | import { FaHome, FaClipboardList, FaCalendarAlt, FaUser, FaSignOutAlt } from 'react-icons/fa';
-    | ^
-  3 |
-  4 | const menuItems = [
-  5 |   { label: 'Início', icon: <FaHome />, href: '/dashboard-paciente' },
-
-https://nextjs.org/docs/messages/module-not-found
-
-Import trace for requested module:
-./pages/dashboard-paciente.js
-[01:10:15.886] Browser ERROR   ./components/SidebarMenu.js:2:1
-Module not found: Can't resolve 'react-icons/fa'
-  1 | import React from 'react';
-> 2 | import { FaHome, FaClipboardList, FaCalendarAlt, FaUser, FaSignOutAlt } from 'react-icons/fa';
-    | ^
-  3 |
-  4 | const menuItems = [
-  5 |   { label: 'Início', icon: <FaHome />, href: '/dashboard-paciente' },
-
-https://nextjs.org/docs/messages/module-not-found
-
-Import trace for requested module:
-./pages/dashboard-paciente.js
-[01:10:17.010] Server  WARN     ⚠ GenerateSW has been called multiple times, perhaps due to running webpack in --watch mode. The precache manifest generated after the first call may be inaccurate! Please see https://github.com/GoogleChrome/workbox/issues/1790 for more information.
-[01:10:17.026] Server  WARN     ⚠ Fast Refresh had to perform a full reload due to a runtime error.
-[01:10:17.026] Browser WARN    GenerateSW has been called multiple times, perhaps due to running webpack in --watch mode. The precache manifest generated after the first call may be inaccurate! Please see https://github.com/GoogleChrome/workbox/issues/1790 for more information.
-[01:10:17.896] Browser WARN    GenerateSW has been called multiple times, perhaps due to running webpack in --watch mode. The precache manifest generated after the first call may be inaccurate! Please see https://github.com/GoogleChrome/workbox/issues/1790 for more information.
-[01:10:30.156] Browser WARN    GenerateSW has been called multiple times, perhaps due to running webpack in --watch mode. The precache manifest generated after the first call may be inaccurate! Please see https://github.com/GoogleChrome/workbox/issues/1790 for more information.
-[01:12:50.939] Server  WARN     ⚠ GenerateSW has been called multiple times, perhaps due to running webpack in --watch mode. The precache manifest generated after the first call may be inaccurate! Please see https://github.com/GoogleChrome/workbox/issues/1790 for more information.
-[01:12:51.883] Browser WARN    GenerateSW has been called multiple times, perhaps due to running webpack in --watch mode. The precache manifest generated after the first call may be inaccurate! Please see https://github.com/GoogleChrome/workbox/issues/1790 for more information.
-[01:12:54.089] Server  WARN     ⚠ GenerateSW has been called multiple times, perhaps due to running webpack in --watch mode. The precache manifest generated after the first call may be inaccurate! Please see https://github.com/GoogleChrome/workbox/issues/1790 for more information.
-[01:12:54.894] Browser WARN    GenerateSW has been called multiple times, perhaps due to running webpack in --watch mode. The precache manifest generated after the first call may be inaccurate! Please see https://github.com/GoogleChrome/workbox/issues/1790 for more information.
-[01:13:24.212] Server  WARN     ⚠ GenerateSW has been called multiple times, perhaps due to running webpack in --watch mode. The precache manifest generated after the first call may be inaccurate! Please see https://github.com/GoogleChrome/workbox/issues/1790 for more information.
-[01:13:24.911] Browser WARN    GenerateSW has been called multiple times, perhaps due to running webpack in --watch mode. The precache manifest generated after the first call may be inaccurate! Please see https://github.com/GoogleChrome/workbox/issues/1790 for more information.
-[01:13:24.925] Server  WARN     ⚠ GenerateSW has been called multiple times, perhaps due to running webpack in --watch mode. The precache manifest generated after the first call may be inaccurate! Please see https://github.com/GoogleChrome/workbox/issues/1790 for more information.
-[01:13:25.137] Server  WARN     ⚠ GenerateSW has been called multiple times, perhaps due to running webpack in --watch mode. The precache manifest generated after the first call may be inaccurate! Please see https://github.com/GoogleChrome/workbox/issues/1790 for more information.
-[01:13:25.925] Browser WARN    GenerateSW has been called multiple times, perhaps due to running webpack in --watch mode. The precache manifest generated after the first call may be inaccurate! Please see https://github.com/GoogleChrome/workbox/issues/1790 for more information.
-[01:13:26.214] Server  WARN     ⚠ Fast Refresh had to perform a full reload. Read more: https://nextjs.org/docs/messages/fast-refresh-reload
-[01:13:26.214] Browser WARN    GenerateSW has been called multiple times, perhaps due to running webpack in --watch mode. The precache manifest generated after the first call may be inaccurate! Please see https://github.com/GoogleChrome/workbox/issues/1790 for more information.
-[01:13:26.687] Server  WARN     ⚠ Fast Refresh had to perform a full reload. Read more: https://nextjs.org/docs/messages/fast-refresh-reload
-[01:13:26.687] Browser WARN    GenerateSW has been called multiple times, perhaps due to running webpack in --watch mode. The precache manifest generated after the first call may be inaccurate! Please see https://github.com/GoogleChrome/workbox/issues/1790 for more information.
-[01:13:26.707] Server  WARN     ⚠ GenerateSW has been called multiple times, perhaps due to running webpack in --watch mode. The precache manifest generated after the first call may be inaccurate! Please see https://github.com/GoogleChrome/workbox/issues/1790 for more information.
-[01:13:27.275] Browser WARN    GenerateSW has been called multiple times, perhaps due to running webpack in --watch mode. The precache manifest generated after the first call may be inaccurate! Please see https://github.com/GoogleChrome/workbox/issues/1790 for more information.
-[01:15:23.801] Server  WARN     ⚠ GenerateSW has been called multiple times, perhaps due to running webpack in --watch mode. The precache manifest generated after the first call may be inaccurate! Please see https://github.com/GoogleChrome/workbox/issues/1790 for more information.
-[01:15:24.890] Browser WARN    GenerateSW has been called multiple times, perhaps due to running webpack in --watch mode. The precache manifest generated after the first call may be inaccurate! Please see https://github.com/GoogleChrome/workbox/issues/1790 for more information.
-[01:15:27.378] Server  WARN     ⚠ GenerateSW has been called multiple times, perhaps due to running webpack in --watch mode. The precache manifest generated after the first call may be inaccurate! Please see https://github.com/GoogleChrome/workbox/issues/1790 for more information.
-[01:15:27.885] Browser WARN    GenerateSW has been called multiple times, perhaps due to running webpack in --watch mode. The precache manifest generated after the first call may be inaccurate! Please see https://github.com/GoogleChrome/workbox/issues/1790 for more information.
-[01:15:33.220] Server  WARN     ⚠ GenerateSW has been called multiple times, perhaps due to running webpack in --watch mode. The precache manifest generated after the first call may be inaccurate! Please see https://github.com/GoogleChrome/workbox/issues/1790 for more information.
-[01:15:33.358] Server  WARN     ⚠ GenerateSW has been called multiple times, perhaps due to running webpack in --watch mode. The precache manifest generated after the first call may be inaccurate! Please see https://github.com/GoogleChrome/workbox/issues/1790 for more information.
-[01:15:33.868] Server  WARN     ⚠ GenerateSW has been called multiple times, perhaps due to running webpack in --watch mode. The precache manifest generated after the first call may be inaccurate! Please see https://github.com/GoogleChrome/workbox/issues/1790 for more information.
-[01:15:34.890] Browser WARN    GenerateSW has been called multiple times, perhaps due to running webpack in --watch mode. The precache manifest generated after the first call may be inaccurate! Please see https://github.com/GoogleChrome/workbox/issues/1790 for more information.
-[01:15:34.890] Browser WARN    GenerateSW has been called multiple times, perhaps due to running webpack in --watch mode. The precache manifest generated after the first call may be inaccurate! Please see https://github.com/GoogleChrome/workbox/issues/1790 for more information.
-[01:15:35.933] Server  WARN     ⚠ GenerateSW has been called multiple times, perhaps due to running webpack in --watch mode. The precache manifest generated after the first call may be inaccurate! Please see https://github.com/GoogleChrome/workbox/issues/1790 for more information.
-[01:15:36.886] Browser WARN    GenerateSW has been called multiple times, perhaps due to running webpack in --watch mode. The precache manifest generated after the first call may be inaccurate! Please see https://github.com/GoogleChrome/workbox/issues/1790 for more information.
-[01:15:40.877] Server  ERROR    ⨯ ./pages/dashboard-paciente.js
-Error:   × Return statement is not allowed here
-    ╭─[C:\Users\Yvens Sousa\Documents\MoveOn\pages\dashboard-paciente.js:25:1]
- 22 │         fetchUser();
- 23 │       }, []);
- 24 │     
- 25 │ ╭─▶   return (
- 26 │ │       <div className="min-h-screen bg-gradient-to-br from-gray-100 to-blue-100 flex">
- 27 │ │         <SidebarMenu onLogout={() => alert('Logout')} />
- 28 │ │         <div className="flex-1 ml-20 max-w-3xl mx-auto px-4 pb-8">
- 29 │ │           <DashboardHeader nome={nome} />
- 30 │ │           <CardBoasVindas nome={nome} proximoAgendamento={proximoAgendamento} progresso={progresso} />
- 31 │ │           <div className="mt-8 flex flex-col items-center">
- 32 │ │             <a
- 33 │ │               href="/avaliacao-inicial"
- 34 │ │               className="bg-blue-600 text-white px-6 py-3 rounded-lg shadow hover:bg-blue-700 transition text-lg font-semibold"
- 35 │ │             >
- 36 │ │               Avaliação Inicial
- 37 │ │             </a>
- 38 │ │           </div>
- 39 │ │           {/* Outras funcionalidades do dashboard só aparecem após avaliação inicial */}
- 40 │ │         </div>
- 41 │ │       </div>
- 42 │ ╰─▶   );
- 43 │     }
-    ╰────
-  × Expression expected
-    ╭─[C:\Users\Yvens Sousa\Documents\MoveOn\pages\dashboard-paciente.js:43:1]
- 40 │       </div>
- 41 │     </div>
- 42 │   );
- 43 │ }
-    · ─
-    ╰────
-
-Caused by:
-    Syntax Error
-[01:15:41.898] Browser ERROR   ./pages/dashboard-paciente.js
-Error:   × Return statement is not allowed here
-    ╭─[C:\Users\Yvens Sousa\Documents\MoveOn\pages\dashboard-paciente.js:25:1]
- 22 │         fetchUser();
- 23 │       }, []);
- 24 │     
- 25 │ ╭─▶   return (
- 26 │ │       <div className="min-h-screen bg-gradient-to-br from-gray-100 to-blue-100 flex">
- 27 │ │         <SidebarMenu onLogout={() => alert('Logout')} />
- 28 │ │         <div className="flex-1 ml-20 max-w-3xl mx-auto px-4 pb-8">
- 29 │ │           <DashboardHeader nome={nome} />
- 30 │ │           <CardBoasVindas nome={nome} proximoAgendamento={proximoAgendamento} progresso={progresso} />
- 31 │ │           <div className="mt-8 flex flex-col items-center">
- 32 │ │             <a
- 33 │ │               href="/avaliacao-inicial"
- 34 │ │               className="bg-blue-600 text-white px-6 py-3 rounded-lg shadow hover:bg-blue-700 transition text-lg font-semibold"
- 35 │ │             >
- 36 │ │               Avaliação Inicial
- 37 │ │             </a>
- 38 │ │           </div>
- 39 │ │           {/* Outras funcionalidades do dashboard só aparecem após avaliação inicial */}
- 40 │ │         </div>
- 41 │ │       </div>
- 42 │ ╰─▶   );
- 43 │     }
-    ╰────
-  × Expression expected
-    ╭─[C:\Users\Yvens Sousa\Documents\MoveOn\pages\dashboard-paciente.js:43:1]
- 40 │       </div>
- 41 │     </div>
- 42 │   );
- 43 │ }
-    · ─
-    ╰────
-
-Caused by:
-    Syntax Error
-[01:15:41.898] Browser ERROR   ./pages/dashboard-paciente.js
-Error:   × Return statement is not allowed here
-    ╭─[C:\Users\Yvens Sousa\Documents\MoveOn\pages\dashboard-paciente.js:25:1]
- 22 │         fetchUser();
- 23 │       }, []);
- 24 │     
- 25 │ ╭─▶   return (
- 26 │ │       <div className="min-h-screen bg-gradient-to-br from-gray-100 to-blue-100 flex">
- 27 │ │         <SidebarMenu onLogout={() => alert('Logout')} />
- 28 │ │         <div className="flex-1 ml-20 max-w-3xl mx-auto px-4 pb-8">
- 29 │ │           <DashboardHeader nome={nome} />
- 30 │ │           <CardBoasVindas nome={nome} proximoAgendamento={proximoAgendamento} progresso={progresso} />
- 31 │ │           <div className="mt-8 flex flex-col items-center">
- 32 │ │             <a
- 33 │ │               href="/avaliacao-inicial"
- 34 │ │               className="bg-blue-600 text-white px-6 py-3 rounded-lg shadow hover:bg-blue-700 transition text-lg font-semibold"
- 35 │ │             >
- 36 │ │               Avaliação Inicial
- 37 │ │             </a>
- 38 │ │           </div>
- 39 │ │           {/* Outras funcionalidades do dashboard só aparecem após avaliação inicial */}
- 40 │ │         </div>
- 41 │ │       </div>
- 42 │ ╰─▶   );
- 43 │     }
-    ╰────
-  × Expression expected
-    ╭─[C:\Users\Yvens Sousa\Documents\MoveOn\pages\dashboard-paciente.js:43:1]
- 40 │       </div>
- 41 │     </div>
- 42 │   );
- 43 │ }
-    · ─
-    ╰────
-
-Caused by:
-    Syntax Error
-
-Import trace for requested module:
-./pages/dashboard-paciente.js
-[01:15:43.897] Browser ERROR   ./pages/dashboard-paciente.js
-Error:   × Return statement is not allowed here
-    ╭─[C:\Users\Yvens Sousa\Documents\MoveOn\pages\dashboard-paciente.js:25:1]
- 22 │         fetchUser();
- 23 │       }, []);
- 24 │     
- 25 │ ╭─▶   return (
- 26 │ │       <div className="min-h-screen bg-gradient-to-br from-gray-100 to-blue-100 flex">
- 27 │ │         <SidebarMenu onLogout={() => alert('Logout')} />
- 28 │ │         <div className="flex-1 ml-20 max-w-3xl mx-auto px-4 pb-8">
- 29 │ │           <DashboardHeader nome={nome} />
- 30 │ │           <CardBoasVindas nome={nome} proximoAgendamento={proximoAgendamento} progresso={progresso} />
- 31 │ │           <div className="mt-8 flex flex-col items-center">
- 32 │ │             <a
- 33 │ │               href="/avaliacao-inicial"
- 34 │ │               className="bg-blue-600 text-white px-6 py-3 rounded-lg shadow hover:bg-blue-700 transition text-lg font-semibold"
- 35 │ │             >
- 36 │ │               Avaliação Inicial
- 37 │ │             </a>
- 38 │ │           </div>
- 39 │ │           {/* Outras funcionalidades do dashboard só aparecem após avaliação inicial */}
- 40 │ │         </div>
- 41 │ │       </div>
- 42 │ ╰─▶   );
- 43 │     }
-    ╰────
-  × Expression expected
-    ╭─[C:\Users\Yvens Sousa\Documents\MoveOn\pages\dashboard-paciente.js:43:1]
- 40 │       </div>
- 41 │     </div>
- 42 │   );
- 43 │ }
-    · ─
-    ╰────
-
-Caused by:
-    Syntax Error
-[01:15:43.972] Server  ERROR    ⨯ ./pages/dashboard-paciente.js
-Error:   × Return statement is not allowed here
-    ╭─[C:\Users\Yvens Sousa\Documents\MoveOn\pages\dashboard-paciente.js:25:1]
- 22 │         fetchUser();
- 23 │       }, []);
- 24 │     
- 25 │ ╭─▶   return (
- 26 │ │       <div className="min-h-screen bg-gradient-to-br from-gray-100 to-blue-100 flex">
- 27 │ │         <SidebarMenu onLogout={() => alert('Logout')} />
- 28 │ │         <div className="flex-1 ml-20 max-w-3xl mx-auto px-4 pb-8">
- 29 │ │           <DashboardHeader nome={nome} />
- 30 │ │           <CardBoasVindas nome={nome} proximoAgendamento={proximoAgendamento} progresso={progresso} />
- 31 │ │           <div className="mt-8 flex flex-col items-center">
- 32 │ │             <a
- 33 │ │               href="/avaliacao-inicial"
- 34 │ │               className="bg-blue-600 text-white px-6 py-3 rounded-lg shadow hover:bg-blue-700 transition text-lg font-semibold"
- 35 │ │             >
- 36 │ │               Avaliação Inicial
- 37 │ │             </a>
- 38 │ │           </div>
- 39 │ │           {/* Outras funcionalidades do dashboard só aparecem após avaliação inicial */}
- 40 │ │         </div>
- 41 │ │       </div>
- 42 │ ╰─▶   );
- 43 │     }
-    ╰────
-  × Expression expected
-    ╭─[C:\Users\Yvens Sousa\Documents\MoveOn\pages\dashboard-paciente.js:43:1]
- 40 │       </div>
- 41 │     </div>
- 42 │   );
- 43 │ }
-    · ─
-    ╰────
-
-Caused by:
-    Syntax Error
-[01:15:44.946] Browser ERROR   ./pages/dashboard-paciente.js
-Error:   × Return statement is not allowed here
-    ╭─[C:\Users\Yvens Sousa\Documents\MoveOn\pages\dashboard-paciente.js:25:1]
- 22 │         fetchUser();
- 23 │       }, []);
- 24 │     
- 25 │ ╭─▶   return (
- 26 │ │       <div className="min-h-screen bg-gradient-to-br from-gray-100 to-blue-100 flex">
- 27 │ │         <SidebarMenu onLogout={() => alert('Logout')} />
- 28 │ │         <div className="flex-1 ml-20 max-w-3xl mx-auto px-4 pb-8">
- 29 │ │           <DashboardHeader nome={nome} />
- 30 │ │           <CardBoasVindas nome={nome} proximoAgendamento={proximoAgendamento} progresso={progresso} />
- 31 │ │           <div className="mt-8 flex flex-col items-center">
- 32 │ │             <a
- 33 │ │               href="/avaliacao-inicial"
- 34 │ │               className="bg-blue-600 text-white px-6 py-3 rounded-lg shadow hover:bg-blue-700 transition text-lg font-semibold"
- 35 │ │             >
- 36 │ │               Avaliação Inicial
- 37 │ │             </a>
- 38 │ │           </div>
- 39 │ │           {/* Outras funcionalidades do dashboard só aparecem após avaliação inicial */}
- 40 │ │         </div>
- 41 │ │       </div>
- 42 │ ╰─▶   );
- 43 │     }
-    ╰────
-  × Expression expected
-    ╭─[C:\Users\Yvens Sousa\Documents\MoveOn\pages\dashboard-paciente.js:43:1]
- 40 │       </div>
- 41 │     </div>
- 42 │   );
- 43 │ }
-    · ─
-    ╰────
-
-Caused by:
-    Syntax Error
-[01:15:44.946] Browser ERROR   ./pages/dashboard-paciente.js
-Error:   × Return statement is not allowed here
-    ╭─[C:\Users\Yvens Sousa\Documents\MoveOn\pages\dashboard-paciente.js:25:1]
- 22 │         fetchUser();
- 23 │       }, []);
- 24 │     
- 25 │ ╭─▶   return (
- 26 │ │       <div className="min-h-screen bg-gradient-to-br from-gray-100 to-blue-100 flex">
- 27 │ │         <SidebarMenu onLogout={() => alert('Logout')} />
- 28 │ │         <div className="flex-1 ml-20 max-w-3xl mx-auto px-4 pb-8">
- 29 │ │           <DashboardHeader nome={nome} />
- 30 │ │           <CardBoasVindas nome={nome} proximoAgendamento={proximoAgendamento} progresso={progresso} />
- 31 │ │           <div className="mt-8 flex flex-col items-center">
- 32 │ │             <a
- 33 │ │               href="/avaliacao-inicial"
- 34 │ │               className="bg-blue-600 text-white px-6 py-3 rounded-lg shadow hover:bg-blue-700 transition text-lg font-semibold"
- 35 │ │             >
- 36 │ │               Avaliação Inicial
- 37 │ │             </a>
- 38 │ │           </div>
- 39 │ │           {/* Outras funcionalidades do dashboard só aparecem após avaliação inicial */}
- 40 │ │         </div>
- 41 │ │       </div>
- 42 │ ╰─▶   );
- 43 │     }
-    ╰────
-  × Expression expected
-    ╭─[C:\Users\Yvens Sousa\Documents\MoveOn\pages\dashboard-paciente.js:43:1]
- 40 │       </div>
- 41 │     </div>
- 42 │   );
- 43 │ }
-    · ─
-    ╰────
-
-Caused by:
-    Syntax Error
-
-Import trace for requested module:
-./pages/dashboard-paciente.js
-[01:15:50.902] Server  ERROR    ⨯ ./pages/dashboard-paciente.js
-Error:   × Return statement is not allowed here
-    ╭─[C:\Users\Yvens Sousa\Documents\MoveOn\pages\dashboard-paciente.js:25:1]
- 22 │         fetchUser();
- 23 │       }, []);
- 24 │     
- 25 │ ╭─▶   return (
- 26 │ │       <div className="min-h-screen bg-gradient-to-br from-gray-100 to-blue-100 flex">
- 27 │ │         <SidebarMenu onLogout={() => alert('Logout')} />
- 28 │ │         <div className="flex-1 ml-20 max-w-3xl mx-auto px-4 pb-8">
- 29 │ │           <DashboardHeader nome={nome} />
- 30 │ │           <CardBoasVindas nome={nome} proximoAgendamento={proximoAgendamento} progresso={progresso} />
- 31 │ │           <div className="mt-8 flex flex-col items-center">
- 32 │ │             <a
- 33 │ │               href="/avaliacao-inicial"
- 34 │ │               className="bg-blue-600 text-white px-6 py-3 rounded-lg shadow hover:bg-blue-700 transition text-lg font-semibold"
- 35 │ │             >
- 36 │ │               Avaliação Inicial
- 37 │ │             </a>
- 38 │ │           </div>
- 39 │ │           {/* Outras funcionalidades do dashboard só aparecem após avaliação inicial */}
- 40 │ │         </div>
- 41 │ │       </div>
- 42 │ ╰─▶   );
- 43 │     }
-    ╰────
-  × Expression expected
-    ╭─[C:\Users\Yvens Sousa\Documents\MoveOn\pages\dashboard-paciente.js:43:1]
- 40 │       </div>
- 41 │     </div>
- 42 │   );
- 43 │ }
-    · ─
-    ╰────
-
-Caused by:
-    Syntax Error
-[01:15:50.904] Browser ERROR   ./pages/dashboard-paciente.js
-Error:   × Return statement is not allowed here
-    ╭─[C:\Users\Yvens Sousa\Documents\MoveOn\pages\dashboard-paciente.js:25:1]
- 22 │         fetchUser();
- 23 │       }, []);
- 24 │     
- 25 │ ╭─▶   return (
- 26 │ │       <div className="min-h-screen bg-gradient-to-br from-gray-100 to-blue-100 flex">
- 27 │ │         <SidebarMenu onLogout={() => alert('Logout')} />
- 28 │ │         <div className="flex-1 ml-20 max-w-3xl mx-auto px-4 pb-8">
- 29 │ │           <DashboardHeader nome={nome} />
- 30 │ │           <CardBoasVindas nome={nome} proximoAgendamento={proximoAgendamento} progresso={progresso} />
- 31 │ │           <div className="mt-8 flex flex-col items-center">
- 32 │ │             <a
- 33 │ │               href="/avaliacao-inicial"
- 34 │ │               className="bg-blue-600 text-white px-6 py-3 rounded-lg shadow hover:bg-blue-700 transition text-lg font-semibold"
- 35 │ │             >
- 36 │ │               Avaliação Inicial
- 37 │ │             </a>
- 38 │ │           </div>
- 39 │ │           {/* Outras funcionalidades do dashboard só aparecem após avaliação inicial */}
- 40 │ │         </div>
- 41 │ │       </div>
- 42 │ ╰─▶   );
- 43 │     }
-    ╰────
-  × Expression expected
-    ╭─[C:\Users\Yvens Sousa\Documents\MoveOn\pages\dashboard-paciente.js:43:1]
- 40 │       </div>
- 41 │     </div>
- 42 │   );
- 43 │ }
-    · ─
-    ╰────
-
-Caused by:
-    Syntax Error
-[01:15:50.904] Browser ERROR   ./pages/dashboard-paciente.js
-Error:   × Return statement is not allowed here
-    ╭─[C:\Users\Yvens Sousa\Documents\MoveOn\pages\dashboard-paciente.js:25:1]
- 22 │         fetchUser();
- 23 │       }, []);
- 24 │     
- 25 │ ╭─▶   return (
- 26 │ │       <div className="min-h-screen bg-gradient-to-br from-gray-100 to-blue-100 flex">
- 27 │ │         <SidebarMenu onLogout={() => alert('Logout')} />
- 28 │ │         <div className="flex-1 ml-20 max-w-3xl mx-auto px-4 pb-8">
- 29 │ │           <DashboardHeader nome={nome} />
- 30 │ │           <CardBoasVindas nome={nome} proximoAgendamento={proximoAgendamento} progresso={progresso} />
- 31 │ │           <div className="mt-8 flex flex-col items-center">
- 32 │ │             <a
- 33 │ │               href="/avaliacao-inicial"
- 34 │ │               className="bg-blue-600 text-white px-6 py-3 rounded-lg shadow hover:bg-blue-700 transition text-lg font-semibold"
- 35 │ │             >
- 36 │ │               Avaliação Inicial
- 37 │ │             </a>
- 38 │ │           </div>
- 39 │ │           {/* Outras funcionalidades do dashboard só aparecem após avaliação inicial */}
- 40 │ │         </div>
- 41 │ │       </div>
- 42 │ ╰─▶   );
- 43 │     }
-    ╰────
-  × Expression expected
-    ╭─[C:\Users\Yvens Sousa\Documents\MoveOn\pages\dashboard-paciente.js:43:1]
- 40 │       </div>
- 41 │     </div>
- 42 │   );
- 43 │ }
-    · ─
-    ╰────
-
-Caused by:
-    Syntax Error
-
-Import trace for requested module:
-./pages/dashboard-paciente.js
-[01:15:53.569] Server  ERROR    ⨯ ./pages/dashboard-paciente.js
-Error:   × Return statement is not allowed here
-    ╭─[C:\Users\Yvens Sousa\Documents\MoveOn\pages\dashboard-paciente.js:25:1]
- 22 │         fetchUser();
- 23 │       }, []);
- 24 │     
- 25 │ ╭─▶   return (
- 26 │ │       <div className="min-h-screen bg-gradient-to-br from-gray-100 to-blue-100 flex">
- 27 │ │         <SidebarMenu onLogout={() => alert('Logout')} />
- 28 │ │         <div className="flex-1 ml-20 max-w-3xl mx-auto px-4 pb-8">
- 29 │ │           <DashboardHeader nome={nome} />
- 30 │ │           <CardBoasVindas nome={nome} proximoAgendamento={proximoAgendamento} progresso={progresso} />
- 31 │ │           <div className="mt-8 flex flex-col items-center">
- 32 │ │             <a
- 33 │ │               href="/avaliacao-inicial"
- 34 │ │               className="bg-blue-600 text-white px-6 py-3 rounded-lg shadow hover:bg-blue-700 transition text-lg font-semibold"
- 35 │ │             >
- 36 │ │               Avaliação Inicial
- 37 │ │             </a>
- 38 │ │           </div>
- 39 │ │           {/* Outras funcionalidades do dashboard só aparecem após avaliação inicial */}
- 40 │ │         </div>
- 41 │ │       </div>
- 42 │ ╰─▶   );
- 43 │     }
-    ╰────
-  × Expression expected
-    ╭─[C:\Users\Yvens Sousa\Documents\MoveOn\pages\dashboard-paciente.js:43:1]
- 40 │       </div>
- 41 │     </div>
- 42 │   );
- 43 │ }
-    · ─
-    ╰────
-
-Caused by:
-    Syntax Error
-[01:15:53.900] Browser ERROR   ./pages/dashboard-paciente.js
-Error:   × Return statement is not allowed here
-    ╭─[C:\Users\Yvens Sousa\Documents\MoveOn\pages\dashboard-paciente.js:25:1]
- 22 │         fetchUser();
- 23 │       }, []);
- 24 │     
- 25 │ ╭─▶   return (
- 26 │ │       <div className="min-h-screen bg-gradient-to-br from-gray-100 to-blue-100 flex">
- 27 │ │         <SidebarMenu onLogout={() => alert('Logout')} />
- 28 │ │         <div className="flex-1 ml-20 max-w-3xl mx-auto px-4 pb-8">
- 29 │ │           <DashboardHeader nome={nome} />
- 30 │ │           <CardBoasVindas nome={nome} proximoAgendamento={proximoAgendamento} progresso={progresso} />
- 31 │ │           <div className="mt-8 flex flex-col items-center">
- 32 │ │             <a
- 33 │ │               href="/avaliacao-inicial"
- 34 │ │               className="bg-blue-600 text-white px-6 py-3 rounded-lg shadow hover:bg-blue-700 transition text-lg font-semibold"
- 35 │ │             >
- 36 │ │               Avaliação Inicial
- 37 │ │             </a>
- 38 │ │           </div>
- 39 │ │           {/* Outras funcionalidades do dashboard só aparecem após avaliação inicial */}
- 40 │ │         </div>
- 41 │ │       </div>
- 42 │ ╰─▶   );
- 43 │     }
-    ╰────
-  × Expression expected
-    ╭─[C:\Users\Yvens Sousa\Documents\MoveOn\pages\dashboard-paciente.js:43:1]
- 40 │       </div>
- 41 │     </div>
- 42 │   );
- 43 │ }
-    · ─
-    ╰────
-
-Caused by:
-    Syntax Error
-[01:15:53.900] Browser ERROR   ./pages/dashboard-paciente.js
-Error:   × Return statement is not allowed here
-    ╭─[C:\Users\Yvens Sousa\Documents\MoveOn\pages\dashboard-paciente.js:25:1]
- 22 │         fetchUser();
- 23 │       }, []);
- 24 │     
- 25 │ ╭─▶   return (
- 26 │ │       <div className="min-h-screen bg-gradient-to-br from-gray-100 to-blue-100 flex">
- 27 │ │         <SidebarMenu onLogout={() => alert('Logout')} />
- 28 │ │         <div className="flex-1 ml-20 max-w-3xl mx-auto px-4 pb-8">
- 29 │ │           <DashboardHeader nome={nome} />
- 30 │ │           <CardBoasVindas nome={nome} proximoAgendamento={proximoAgendamento} progresso={progresso} />
- 31 │ │           <div className="mt-8 flex flex-col items-center">
- 32 │ │             <a
- 33 │ │               href="/avaliacao-inicial"
- 34 │ │               className="bg-blue-600 text-white px-6 py-3 rounded-lg shadow hover:bg-blue-700 transition text-lg font-semibold"
- 35 │ │             >
- 36 │ │               Avaliação Inicial
- 37 │ │             </a>
- 38 │ │           </div>
- 39 │ │           {/* Outras funcionalidades do dashboard só aparecem após avaliação inicial */}
- 40 │ │         </div>
- 41 │ │       </div>
- 42 │ ╰─▶   );
- 43 │     }
-    ╰────
-  × Expression expected
-    ╭─[C:\Users\Yvens Sousa\Documents\MoveOn\pages\dashboard-paciente.js:43:1]
- 40 │       </div>
- 41 │     </div>
- 42 │   );
- 43 │ }
-    · ─
-    ╰────
-
-Caused by:
-    Syntax Error
-
-Import trace for requested module:
-./pages/dashboard-paciente.js
-[01:16:42.898] Browser ERROR   ./pages/dashboard-paciente.js
-Error:   × Return statement is not allowed here
-    ╭─[C:\Users\Yvens Sousa\Documents\MoveOn\pages\dashboard-paciente.js:25:1]
- 22 │         fetchUser();
- 23 │       }, []);
- 24 │     
- 25 │ ╭─▶   return (
- 26 │ │       <div className="min-h-screen bg-gradient-to-br from-gray-100 to-blue-100 flex">
- 27 │ │         <SidebarMenu onLogout={() => alert('Logout')} />
- 28 │ │         <div className="flex-1 ml-20 max-w-3xl mx-auto px-4 pb-8">
- 29 │ │           <DashboardHeader nome={nome} />
- 30 │ │           <CardBoasVindas nome={nome} proximoAgendamento={proximoAgendamento} progresso={progresso} />
- 31 │ │           <div className="mt-8 flex flex-col items-center">
- 32 │ │             <a
- 33 │ │               href="/avaliacao-inicial"
- 34 │ │               className="bg-blue-600 text-white px-6 py-3 rounded-lg shadow hover:bg-blue-700 transition text-lg font-semibold"
- 35 │ │             >
- 36 │ │               Avaliação Inicial
- 37 │ │             </a>
- 38 │ │           </div>
- 39 │ │           {/* Outras funcionalidades do dashboard só aparecem após avaliação inicial */}
- 40 │ │         </div>
- 41 │ │       </div>
- 42 │ ╰─▶   );
- 43 │     }
-    ╰────
-  × Expression expected
-    ╭─[C:\Users\Yvens Sousa\Documents\MoveOn\pages\dashboard-paciente.js:43:1]
- 40 │       </div>
- 41 │     </div>
- 42 │   );
- 43 │ }
-    · ─
-    ╰────
-
-Caused by:
-    Syntax Error
-[01:16:43.212] Server  WARN     ⚠ GenerateSW has been called multiple times, perhaps due to running webpack in --watch mode. The precache manifest generated after the first call may be inaccurate! Please see https://github.com/GoogleChrome/workbox/issues/1790 for more information.
-[01:16:43.890] Browser WARN    GenerateSW has been called multiple times, perhaps due to running webpack in --watch mode. The precache manifest generated after the first call may be inaccurate! Please see https://github.com/GoogleChrome/workbox/issues/1790 for more information.
-[01:16:49.147] Server  WARN     ⚠ GenerateSW has been called multiple times, perhaps due to running webpack in --watch mode. The precache manifest generated after the first call may be inaccurate! Please see https://github.com/GoogleChrome/workbox/issues/1790 for more information.
-[01:16:49.894] Browser WARN    GenerateSW has been called multiple times, perhaps due to running webpack in --watch mode. The precache manifest generated after the first call may be inaccurate! Please see https://github.com/GoogleChrome/workbox/issues/1790 for more information.
-[01:17:34.240] Server  WARN     ⚠ GenerateSW has been called multiple times, perhaps due to running webpack in --watch mode. The precache manifest generated after the first call may be inaccurate! Please see https://github.com/GoogleChrome/workbox/issues/1790 for more information.
-[01:17:34.896] Browser WARN    GenerateSW has been called multiple times, perhaps due to running webpack in --watch mode. The precache manifest generated after the first call may be inaccurate! Please see https://github.com/GoogleChrome/workbox/issues/1790 for more information.
-[01:17:39.125] Server  WARN     ⚠ GenerateSW has been called multiple times, perhaps due to running webpack in --watch mode. The precache manifest generated after the first call may be inaccurate! Please see https://github.com/GoogleChrome/workbox/issues/1790 for more information.
-[01:17:39.891] Browser WARN    GenerateSW has been called multiple times, perhaps due to running webpack in --watch mode. The precache manifest generated after the first call may be inaccurate! Please see https://github.com/GoogleChrome/workbox/issues/1790 for more information.
-[01:17:45.726] Server  WARN     ⚠ GenerateSW has been called multiple times, perhaps due to running webpack in --watch mode. The precache manifest generated after the first call may be inaccurate! Please see https://github.com/GoogleChrome/workbox/issues/1790 for more information.
-[01:17:47.028] Browser WARN    GenerateSW has been called multiple times, perhaps due to running webpack in --watch mode. The precache manifest generated after the first call may be inaccurate! Please see https://github.com/GoogleChrome/workbox/issues/1790 for more information.
-[01:17:47.028] Browser WARN    GenerateSW has been called multiple times, perhaps due to running webpack in --watch mode. The precache manifest generated after the first call may be inaccurate! Please see https://github.com/GoogleChrome/workbox/issues/1790 for more information.
-[01:17:47.232] Server  WARN     ⚠ GenerateSW has been called multiple times, perhaps due to running webpack in --watch mode. The precache manifest generated after the first call may be inaccurate! Please see https://github.com/GoogleChrome/workbox/issues/1790 for more information.
-[01:18:22.222] Server  WARN     ⚠ GenerateSW has been called multiple times, perhaps due to running webpack in --watch mode. The precache manifest generated after the first call may be inaccurate! Please see https://github.com/GoogleChrome/workbox/issues/1790 for more information.
-[01:18:22.888] Browser WARN    GenerateSW has been called multiple times, perhaps due to running webpack in --watch mode. The precache manifest generated after the first call may be inaccurate! Please see https://github.com/GoogleChrome/workbox/issues/1790 for more information.
-[01:18:25.596] Server  WARN     ⚠ GenerateSW has been called multiple times, perhaps due to running webpack in --watch mode. The precache manifest generated after the first call may be inaccurate! Please see https://github.com/GoogleChrome/workbox/issues/1790 for more information.
-[01:18:25.897] Browser WARN    GenerateSW has been called multiple times, perhaps due to running webpack in --watch mode. The precache manifest generated after the first call may be inaccurate! Please see https://github.com/GoogleChrome/workbox/issues/1790 for more information.
-[01:18:31.356] Browser WARN    GenerateSW has been called multiple times, perhaps due to running webpack in --watch mode. The precache manifest generated after the first call may be inaccurate! Please see https://github.com/GoogleChrome/workbox/issues/1790 for more information.
-[01:19:25.291] Server  WARN     ⚠ GenerateSW has been called multiple times, perhaps due to running webpack in --watch mode. The precache manifest generated after the first call may be inaccurate! Please see https://github.com/GoogleChrome/workbox/issues/1790 for more information.
-[01:19:25.885] Browser WARN    GenerateSW has been called multiple times, perhaps due to running webpack in --watch mode. The precache manifest generated after the first call may be inaccurate! Please see https://github.com/GoogleChrome/workbox/issues/1790 for more information.
-[01:19:26.893] Server  WARN     ⚠ GenerateSW has been called multiple times, perhaps due to running webpack in --watch mode. The precache manifest generated after the first call may be inaccurate! Please see https://github.com/GoogleChrome/workbox/issues/1790 for more information.
-[01:19:27.898] Browser WARN    GenerateSW has been called multiple times, perhaps due to running webpack in --watch mode. The precache manifest generated after the first call may be inaccurate! Please see https://github.com/GoogleChrome/workbox/issues/1790 for more information.
-[01:19:35.286] Browser WARN    GenerateSW has been called multiple times, perhaps due to running webpack in --watch mode. The precache manifest generated after the first call may be inaccurate! Please see https://github.com/GoogleChrome/workbox/issues/1790 for more information.
-[01:21:12.054] Server  WARN     ⚠ GenerateSW has been called multiple times, perhaps due to running webpack in --watch mode. The precache manifest generated after the first call may be inaccurate! Please see https://github.com/GoogleChrome/workbox/issues/1790 for more information.
-[01:21:12.898] Browser WARN    GenerateSW has been called multiple times, perhaps due to running webpack in --watch mode. The precache manifest generated after the first call may be inaccurate! Please see https://github.com/GoogleChrome/workbox/issues/1790 for more information.
-[01:21:15.918] Server  WARN     ⚠ GenerateSW has been called multiple times, perhaps due to running webpack in --watch mode. The precache manifest generated after the first call may be inaccurate! Please see https://github.com/GoogleChrome/workbox/issues/1790 for more information.
-[01:21:16.890] Browser WARN    GenerateSW has been called multiple times, perhaps due to running webpack in --watch mode. The precache manifest generated after the first call may be inaccurate! Please see https://github.com/GoogleChrome/workbox/issues/1790 for more information.
-[01:21:20.535] Server  WARN     ⚠ GenerateSW has been called multiple times, perhaps due to running webpack in --watch mode. The precache manifest generated after the first call may be inaccurate! Please see https://github.com/GoogleChrome/workbox/issues/1790 for more information.
-[01:21:21.369] Browser WARN    GenerateSW has been called multiple times, perhaps due to running webpack in --watch mode. The precache manifest generated after the first call may be inaccurate! Please see https://github.com/GoogleChrome/workbox/issues/1790 for more information.
-[01:21:21.369] Browser WARN    GenerateSW has been called multiple times, perhaps due to running webpack in --watch mode. The precache manifest generated after the first call may be inaccurate! Please see https://github.com/GoogleChrome/workbox/issues/1790 for more information.
-[01:21:21.413] Server  WARN     ⚠ GenerateSW has been called multiple times, perhaps due to running webpack in --watch mode. The precache manifest generated after the first call may be inaccurate! Please see https://github.com/GoogleChrome/workbox/issues/1790 for more information.
-[01:21:55.060] Server  WARN     ⚠ GenerateSW has been called multiple times, perhaps due to running webpack in --watch mode. The precache manifest generated after the first call may be inaccurate! Please see https://github.com/GoogleChrome/workbox/issues/1790 for more information.
-[01:21:55.896] Browser WARN    GenerateSW has been called multiple times, perhaps due to running webpack in --watch mode. The precache manifest generated after the first call may be inaccurate! Please see https://github.com/GoogleChrome/workbox/issues/1790 for more information.
-[01:21:58.185] Server  WARN     ⚠ GenerateSW has been called multiple times, perhaps due to running webpack in --watch mode. The precache manifest generated after the first call may be inaccurate! Please see https://github.com/GoogleChrome/workbox/issues/1790 for more information.
-[01:21:58.892] Browser WARN    GenerateSW has been called multiple times, perhaps due to running webpack in --watch mode. The precache manifest generated after the first call may be inaccurate! Please see https://github.com/GoogleChrome/workbox/issues/1790 for more information.
-[01:22:08.708] Browser WARN    GenerateSW has been called multiple times, perhaps due to running webpack in --watch mode. The precache manifest generated after the first call may be inaccurate! Please see https://github.com/GoogleChrome/workbox/issues/1790 for more information.
-[01:22:17.107] Browser WARN    GenerateSW has been called multiple times, perhaps due to running webpack in --watch mode. The precache manifest generated after the first call may be inaccurate! Please see https://github.com/GoogleChrome/workbox/issues/1790 for more information.
-[01:22:44.149] Server  WARN     ⚠ GenerateSW has been called multiple times, perhaps due to running webpack in --watch mode. The precache manifest generated after the first call may be inaccurate! Please see https://github.com/GoogleChrome/workbox/issues/1790 for more information.
-[01:22:44.887] Browser WARN    GenerateSW has been called multiple times, perhaps due to running webpack in --watch mode. The precache manifest generated after the first call may be inaccurate! Please see https://github.com/GoogleChrome/workbox/issues/1790 for more information.
-[01:22:46.124] Server  WARN     ⚠ GenerateSW has been called multiple times, perhaps due to running webpack in --watch mode. The precache manifest generated after the first call may be inaccurate! Please see https://github.com/GoogleChrome/workbox/issues/1790 for more information.
-[01:22:46.891] Browser WARN    GenerateSW has been called multiple times, perhaps due to running webpack in --watch mode. The precache manifest generated after the first call may be inaccurate! Please see https://github.com/GoogleChrome/workbox/issues/1790 for more information.
-[01:22:59.277] Browser WARN    GenerateSW has been called multiple times, perhaps due to running webpack in --watch mode. The precache manifest generated after the first call may be inaccurate! Please see https://github.com/GoogleChrome/workbox/issues/1790 for more information.
-[01:23:58.785] Browser WARN    GenerateSW has been called multiple times, perhaps due to running webpack in --watch mode. The precache manifest generated after the first call may be inaccurate! Please see https://github.com/GoogleChrome/workbox/issues/1790 for more information.
-[01:24:12.508] Server  WARN     ⚠ GenerateSW has been called multiple times, perhaps due to running webpack in --watch mode. The precache manifest generated after the first call may be inaccurate! Please see https://github.com/GoogleChrome/workbox/issues/1790 for more information.
-[01:24:12.893] Browser WARN    GenerateSW has been called multiple times, perhaps due to running webpack in --watch mode. The precache manifest generated after the first call may be inaccurate! Please see https://github.com/GoogleChrome/workbox/issues/1790 for more information.
-[01:24:15.910] Server  WARN     ⚠ GenerateSW has been called multiple times, perhaps due to running webpack in --watch mode. The precache manifest generated after the first call may be inaccurate! Please see https://github.com/GoogleChrome/workbox/issues/1790 for more information.
-[01:24:16.892] Browser WARN    GenerateSW has been called multiple times, perhaps due to running webpack in --watch mode. The precache manifest generated after the first call may be inaccurate! Please see https://github.com/GoogleChrome/workbox/issues/1790 for more information.
-[01:25:59.694] Server  WARN     ⚠ GenerateSW has been called multiple times, perhaps due to running webpack in --watch mode. The precache manifest generated after the first call may be inaccurate! Please see https://github.com/GoogleChrome/workbox/issues/1790 for more information.
-[01:26:00.042] Browser WARN    GenerateSW has been called multiple times, perhaps due to running webpack in --watch mode. The precache manifest generated after the first call may be inaccurate! Please see https://github.com/GoogleChrome/workbox/issues/1790 for more information.
-[01:26:03.681] Server  WARN     ⚠ GenerateSW has been called multiple times, perhaps due to running webpack in --watch mode. The precache manifest generated after the first call may be inaccurate! Please see https://github.com/GoogleChrome/workbox/issues/1790 for more information.
-[01:26:03.898] Browser WARN    GenerateSW has been called multiple times, perhaps due to running webpack in --watch mode. The precache manifest generated after the first call may be inaccurate! Please see https://github.com/GoogleChrome/workbox/issues/1790 for more information.
-[01:31:12.064] Server  WARN     ⚠ GenerateSW has been called multiple times, perhaps due to running webpack in --watch mode. The precache manifest generated after the first call may be inaccurate! Please see https://github.com/GoogleChrome/workbox/issues/1790 for more information.
-[01:31:12.888] Browser WARN    GenerateSW has been called multiple times, perhaps due to running webpack in --watch mode. The precache manifest generated after the first call may be inaccurate! Please see https://github.com/GoogleChrome/workbox/issues/1790 for more information.
-[01:31:27.575] Server  WARN     ⚠ GenerateSW has been called multiple times, perhaps due to running webpack in --watch mode. The precache manifest generated after the first call may be inaccurate! Please see https://github.com/GoogleChrome/workbox/issues/1790 for more information.
-[01:31:28.281] Server  WARN     ⚠ GenerateSW has been called multiple times, perhaps due to running webpack in --watch mode. The precache manifest generated after the first call may be inaccurate! Please see https://github.com/GoogleChrome/workbox/issues/1790 for more information.
-[01:31:28.291] Browser WARN    GenerateSW has been called multiple times, perhaps due to running webpack in --watch mode. The precache manifest generated after the first call may be inaccurate! Please see https://github.com/GoogleChrome/workbox/issues/1790 for more information.
-[01:34:13.488] Server  WARN     ⚠ GenerateSW has been called multiple times, perhaps due to running webpack in --watch mode. The precache manifest generated after the first call may be inaccurate! Please see https://github.com/GoogleChrome/workbox/issues/1790 for more information.
-[01:34:13.889] Browser WARN    GenerateSW has been called multiple times, perhaps due to running webpack in --watch mode. The precache manifest generated after the first call may be inaccurate! Please see https://github.com/GoogleChrome/workbox/issues/1790 for more information.
-[01:34:16.968] Server  WARN     ⚠ GenerateSW has been called multiple times, perhaps due to running webpack in --watch mode. The precache manifest generated after the first call may be inaccurate! Please see https://github.com/GoogleChrome/workbox/issues/1790 for more information.
-[01:34:17.887] Browser WARN    GenerateSW has been called multiple times, perhaps due to running webpack in --watch mode. The precache manifest generated after the first call may be inaccurate! Please see https://github.com/GoogleChrome/workbox/issues/1790 for more information.
-[01:34:41.938] Server  WARN     ⚠ GenerateSW has been called multiple times, perhaps due to running webpack in --watch mode. The precache manifest generated after the first call may be inaccurate! Please see https://github.com/GoogleChrome/workbox/issues/1790 for more information.
-[01:34:41.989] Browser WARN    GenerateSW has been called multiple times, perhaps due to running webpack in --watch mode. The precache manifest generated after the first call may be inaccurate! Please see https://github.com/GoogleChrome/workbox/issues/1790 for more information.
-[01:34:42.884] Browser WARN    GenerateSW has been called multiple times, perhaps due to running webpack in --watch mode. The precache manifest generated after the first call may be inaccurate! Please see https://github.com/GoogleChrome/workbox/issues/1790 for more information.
-[01:34:43.213] Server  WARN     ⚠ GenerateSW has been called multiple times, perhaps due to running webpack in --watch mode. The precache manifest generated after the first call may be inaccurate! Please see https://github.com/GoogleChrome/workbox/issues/1790 for more information.
-[01:35:14.785] Server  WARN     ⚠ GenerateSW has been called multiple times, perhaps due to running webpack in --watch mode. The precache manifest generated after the first call may be inaccurate! Please see https://github.com/GoogleChrome/workbox/issues/1790 for more information.
-[01:35:14.884] Browser WARN    GenerateSW has been called multiple times, perhaps due to running webpack in --watch mode. The precache manifest generated after the first call may be inaccurate! Please see https://github.com/GoogleChrome/workbox/issues/1790 for more information.
-[01:35:17.934] Server  WARN     ⚠ GenerateSW has been called multiple times, perhaps due to running webpack in --watch mode. The precache manifest generated after the first call may be inaccurate! Please see https://github.com/GoogleChrome/workbox/issues/1790 for more information.
-[01:35:18.892] Browser WARN    GenerateSW has been called multiple times, perhaps due to running webpack in --watch mode. The precache manifest generated after the first call may be inaccurate! Please see https://github.com/GoogleChrome/workbox/issues/1790 for more information.
-[01:36:38.634] Server  WARN     ⚠ GenerateSW has been called multiple times, perhaps due to running webpack in --watch mode. The precache manifest generated after the first call may be inaccurate! Please see https://github.com/GoogleChrome/workbox/issues/1790 for more information.
-[01:36:38.900] Browser WARN    GenerateSW has been called multiple times, perhaps due to running webpack in --watch mode. The precache manifest generated after the first call may be inaccurate! Please see https://github.com/GoogleChrome/workbox/issues/1790 for more information.
-[01:36:42.096] Server  WARN     ⚠ GenerateSW has been called multiple times, perhaps due to running webpack in --watch mode. The precache manifest generated after the first call may be inaccurate! Please see https://github.com/GoogleChrome/workbox/issues/1790 for more information.
-[01:36:42.891] Browser WARN    GenerateSW has been called multiple times, perhaps due to running webpack in --watch mode. The precache manifest generated after the first call may be inaccurate! Please see https://github.com/GoogleChrome/workbox/issues/1790 for more information.
-[01:42:46.333] Server  WARN     ⚠ GenerateSW has been called multiple times, perhaps due to running webpack in --watch mode. The precache manifest generated after the first call may be inaccurate! Please see https://github.com/GoogleChrome/workbox/issues/1790 for more information.
-[01:42:46.892] Browser WARN    GenerateSW has been called multiple times, perhaps due to running webpack in --watch mode. The precache manifest generated after the first call may be inaccurate! Please see https://github.com/GoogleChrome/workbox/issues/1790 for more information.
-[01:42:49.793] Server  WARN     ⚠ GenerateSW has been called multiple times, perhaps due to running webpack in --watch mode. The precache manifest generated after the first call may be inaccurate! Please see https://github.com/GoogleChrome/workbox/issues/1790 for more information.
-[01:42:50.886] Browser WARN    GenerateSW has been called multiple times, perhaps due to running webpack in --watch mode. The precache manifest generated after the first call may be inaccurate! Please see https://github.com/GoogleChrome/workbox/issues/1790 for more information.
-[01:44:40.939] Server  WARN     ⚠ GenerateSW has been called multiple times, perhaps due to running webpack in --watch mode. The precache manifest generated after the first call may be inaccurate! Please see https://github.com/GoogleChrome/workbox/issues/1790 for more information.
-[01:44:41.891] Browser WARN    GenerateSW has been called multiple times, perhaps due to running webpack in --watch mode. The precache manifest generated after the first call may be inaccurate! Please see https://github.com/GoogleChrome/workbox/issues/1790 for more information.
-[01:44:46.189] Server  WARN     ⚠ GenerateSW has been called multiple times, perhaps due to running webpack in --watch mode. The precache manifest generated after the first call may be inaccurate! Please see https://github.com/GoogleChrome/workbox/issues/1790 for more information.
-[01:44:46.899] Browser WARN    GenerateSW has been called multiple times, perhaps due to running webpack in --watch mode. The precache manifest generated after the first call may be inaccurate! Please see https://github.com/GoogleChrome/workbox/issues/1790 for more information.
-[01:46:07.033] Server  WARN     ⚠ GenerateSW has been called multiple times, perhaps due to running webpack in --watch mode. The precache manifest generated after the first call may be inaccurate! Please see https://github.com/GoogleChrome/workbox/issues/1790 for more information.
-[01:46:07.886] Browser WARN    GenerateSW has been called multiple times, perhaps due to running webpack in --watch mode. The precache manifest generated after the first call may be inaccurate! Please see https://github.com/GoogleChrome/workbox/issues/1790 for more information.
-[01:46:10.606] Server  WARN     ⚠ GenerateSW has been called multiple times, perhaps due to running webpack in --watch mode. The precache manifest generated after the first call may be inaccurate! Please see https://github.com/GoogleChrome/workbox/issues/1790 for more information.
-[01:46:10.884] Browser WARN    GenerateSW has been called multiple times, perhaps due to running webpack in --watch mode. The precache manifest generated after the first call may be inaccurate! Please see https://github.com/GoogleChrome/workbox/issues/1790 for more information.
-[01:47:40.667] Server  WARN     ⚠ GenerateSW has been called multiple times, perhaps due to running webpack in --watch mode. The precache manifest generated after the first call may be inaccurate! Please see https://github.com/GoogleChrome/workbox/issues/1790 for more information.
-[01:47:40.884] Browser WARN    GenerateSW has been called multiple times, perhaps due to running webpack in --watch mode. The precache manifest generated after the first call may be inaccurate! Please see https://github.com/GoogleChrome/workbox/issues/1790 for more information.
-[01:47:44.262] Server  WARN     ⚠ GenerateSW has been called multiple times, perhaps due to running webpack in --watch mode. The precache manifest generated after the first call may be inaccurate! Please see https://github.com/GoogleChrome/workbox/issues/1790 for more information.
-[01:47:44.897] Browser WARN    GenerateSW has been called multiple times, perhaps due to running webpack in --watch mode. The precache manifest generated after the first call may be inaccurate! Please see https://github.com/GoogleChrome/workbox/issues/1790 for more information.
-[01:48:56.397] Server  WARN     ⚠ GenerateSW has been called multiple times, perhaps due to running webpack in --watch mode. The precache manifest generated after the first call may be inaccurate! Please see https://github.com/GoogleChrome/workbox/issues/1790 for more information.
-[01:48:56.883] Browser WARN    GenerateSW has been called multiple times, perhaps due to running webpack in --watch mode. The precache manifest generated after the first call may be inaccurate! Please see https://github.com/GoogleChrome/workbox/issues/1790 for more information.
-[01:49:00.337] Server  WARN     ⚠ GenerateSW has been called multiple times, perhaps due to running webpack in --watch mode. The precache manifest generated after the first call may be inaccurate! Please see https://github.com/GoogleChrome/workbox/issues/1790 for more information.
-[01:49:00.893] Browser WARN    GenerateSW has been called multiple times, perhaps due to running webpack in --watch mode. The precache manifest generated after the first call may be inaccurate! Please see https://github.com/GoogleChrome/workbox/issues/1790 for more information.
-[01:49:55.661] Server  WARN     ⚠ GenerateSW has been called multiple times, perhaps due to running webpack in --watch mode. The precache manifest generated after the first call may be inaccurate! Please see https://github.com/GoogleChrome/workbox/issues/1790 for more information.
-[01:49:55.888] Browser WARN    GenerateSW has been called multiple times, perhaps due to running webpack in --watch mode. The precache manifest generated after the first call may be inaccurate! Please see https://github.com/GoogleChrome/workbox/issues/1790 for more information.
-[01:49:59.340] Server  WARN     ⚠ GenerateSW has been called multiple times, perhaps due to running webpack in --watch mode. The precache manifest generated after the first call may be inaccurate! Please see https://github.com/GoogleChrome/workbox/issues/1790 for more information.
-[01:49:59.883] Browser WARN    GenerateSW has been called multiple times, perhaps due to running webpack in --watch mode. The precache manifest generated after the first call may be inaccurate! Please see https://github.com/GoogleChrome/workbox/issues/1790 for more information.
+[00:00:02.113] Server  LOG      ✓ Ready in 1711ms
+[00:00:07.862] Browser ERROR   uncaughtError: Error: ./Documents/MoveOn/styles/globals.css
+Error evaluating Node.js code
+Error: It looks like you're trying to use `tailwindcss` directly as a PostCSS plugin. The PostCSS plugin has moved to a separate package, so to continue using Tailwind CSS with PostCSS you'll need to install `@tailwindcss/postcss` and update your PostCSS configuration.
+    [at at (C:\Users\Yvens Sousa\Documents\MoveOn\node_modules\tailwindcss\dist\lib.js:38:1629)]
+    [at <anonymous> (turbopack:///[turbopack-node]/transforms/postcss.ts:56:14)]
+    [at <anonymous>]
+    [at Module.init (turbopack:///[turbopack-node]/transforms/postcss.ts:43:33)]
+    [at run (turbopack:///[turbopack-node]/ipc/evaluate.ts:77:20)]
+    [at process.processTicksAndRejections (node:internal/process/task_queues:103:5)]
+
+Import trace:
+  Browser:
+    ./Documents/MoveOn/styles/globals.css
+    ./Documents/MoveOn/pages/_app.js
+
+
+[00:00:08.564] Browser ERROR   ./Documents/MoveOn/styles/globals.css
+Error evaluating Node.js code
+Error: It looks like you're trying to use `tailwindcss` directly as a PostCSS plugin. The PostCSS plugin has moved to a separate package, so to continue using Tailwind CSS with PostCSS you'll need to install `@tailwindcss/postcss` and update your PostCSS configuration.
+    [at at (C:\Users\Yvens Sousa\Documents\MoveOn\node_modules\tailwindcss\dist\lib.js:38:1629)]
+    [at <anonymous> (turbopack:///[turbopack-node]/transforms/postcss.ts:56:14)]
+    [at <anonymous>]
+    [at Module.init (turbopack:///[turbopack-node]/transforms/postcss.ts:43:33)]
+    [at run (turbopack:///[turbopack-node]/ipc/evaluate.ts:77:20)]
+    [at process.processTicksAndRejections (node:internal/process/task_queues:103:5)]
+
+Import trace:
+  Browser:
+    ./Documents/MoveOn/styles/globals.css
+    ./Documents/MoveOn/pages/_app.js
+[00:00:08.564] Browser ERROR   ./Documents/MoveOn/styles/globals.css
+Error evaluating Node.js code
+Error: It looks like you're trying to use `tailwindcss` directly as a PostCSS plugin. The PostCSS plugin has moved to a separate package, so to continue using Tailwind CSS with PostCSS you'll need to install `@tailwindcss/postcss` and update your PostCSS configuration.
+    [at at (C:\Users\Yvens Sousa\Documents\MoveOn\node_modules\tailwindcss\dist\lib.js:38:1629)]
+    [at <anonymous> (turbopack:///[turbopack-node]/transforms/postcss.ts:56:14)]
+    [at <anonymous>]
+    [at Module.init (turbopack:///[turbopack-node]/transforms/postcss.ts:43:33)]
+    [at run (turbopack:///[turbopack-node]/ipc/evaluate.ts:77:20)]
+    [at process.processTicksAndRejections (node:internal/process/task_queues:103:5)]
+
+Import trace:
+  Browser:
+    ./Documents/MoveOn/styles/globals.css
+    ./Documents/MoveOn/pages/_app.js
+[00:02:28.765] Browser ERROR   uncaughtError: Error: ./Documents/MoveOn/styles/globals.css
+Error evaluating Node.js code
+Error: It looks like you're trying to use `tailwindcss` directly as a PostCSS plugin. The PostCSS plugin has moved to a separate package, so to continue using Tailwind CSS with PostCSS you'll need to install `@tailwindcss/postcss` and update your PostCSS configuration.
+    [at at (C:\Users\Yvens Sousa\Documents\MoveOn\node_modules\tailwindcss\dist\lib.js:38:1629)]
+    [at <anonymous> (turbopack:///[turbopack-node]/transforms/postcss.ts:56:14)]
+    [at <anonymous>]
+    [at Module.init (turbopack:///[turbopack-node]/transforms/postcss.ts:43:33)]
+    [at run (turbopack:///[turbopack-node]/ipc/evaluate.ts:77:20)]
+    [at process.processTicksAndRejections (node:internal/process/task_queues:103:5)]
+
+Import trace:
+  Browser:
+    ./Documents/MoveOn/styles/globals.css
+    ./Documents/MoveOn/pages/_app.js
+
+
+[00:02:29.009] Browser ERROR   ./Documents/MoveOn/styles/globals.css
+Error evaluating Node.js code
+Error: It looks like you're trying to use `tailwindcss` directly as a PostCSS plugin. The PostCSS plugin has moved to a separate package, so to continue using Tailwind CSS with PostCSS you'll need to install `@tailwindcss/postcss` and update your PostCSS configuration.
+    [at at (C:\Users\Yvens Sousa\Documents\MoveOn\node_modules\tailwindcss\dist\lib.js:38:1629)]
+    [at <anonymous> (turbopack:///[turbopack-node]/transforms/postcss.ts:56:14)]
+    [at <anonymous>]
+    [at Module.init (turbopack:///[turbopack-node]/transforms/postcss.ts:43:33)]
+    [at run (turbopack:///[turbopack-node]/ipc/evaluate.ts:77:20)]
+    [at process.processTicksAndRejections (node:internal/process/task_queues:103:5)]
+
+Import trace:
+  Browser:
+    ./Documents/MoveOn/styles/globals.css
+    ./Documents/MoveOn/pages/_app.js
+[00:02:29.009] Browser ERROR   ./Documents/MoveOn/styles/globals.css
+Error evaluating Node.js code
+Error: It looks like you're trying to use `tailwindcss` directly as a PostCSS plugin. The PostCSS plugin has moved to a separate package, so to continue using Tailwind CSS with PostCSS you'll need to install `@tailwindcss/postcss` and update your PostCSS configuration.
+    [at at (C:\Users\Yvens Sousa\Documents\MoveOn\node_modules\tailwindcss\dist\lib.js:38:1629)]
+    [at <anonymous> (turbopack:///[turbopack-node]/transforms/postcss.ts:56:14)]
+    [at <anonymous>]
+    [at Module.init (turbopack:///[turbopack-node]/transforms/postcss.ts:43:33)]
+    [at run (turbopack:///[turbopack-node]/ipc/evaluate.ts:77:20)]
+    [at process.processTicksAndRejections (node:internal/process/task_queues:103:5)]
+
+Import trace:
+  Browser:
+    ./Documents/MoveOn/styles/globals.css
+    ./Documents/MoveOn/pages/_app.js
+[00:06:04.559] Browser ERROR   ./Documents/MoveOn/styles/globals.css
+Error evaluating Node.js code
+Error: It looks like you're trying to use `tailwindcss` directly as a PostCSS plugin. The PostCSS plugin has moved to a separate package, so to continue using Tailwind CSS with PostCSS you'll need to install `@tailwindcss/postcss` and update your PostCSS configuration.
+    [at at (C:\Users\Yvens Sousa\Documents\MoveOn\node_modules\tailwindcss\dist\lib.js:38:1629)]
+    [at <anonymous> (turbopack:///[turbopack-node]/transforms/postcss.ts:56:14)]
+    [at <anonymous>]
+    [at Module.init (turbopack:///[turbopack-node]/transforms/postcss.ts:43:33)]
+    [at run (turbopack:///[turbopack-node]/ipc/evaluate.ts:77:20)]
+    [at process.processTicksAndRejections (node:internal/process/task_queues:103:5)]
+
+Import trace:
+  Browser:
+    ./Documents/MoveOn/styles/globals.css
+    ./Documents/MoveOn/pages/_app.js
+[00:08:09.555] Browser ERROR   ./Documents/MoveOn/styles/globals.css
+Error evaluating Node.js code
+Error: It looks like you're trying to use `tailwindcss` directly as a PostCSS plugin. The PostCSS plugin has moved to a separate package, so to continue using Tailwind CSS with PostCSS you'll need to install `@tailwindcss/postcss` and update your PostCSS configuration.
+    [at at (C:\Users\Yvens Sousa\Documents\MoveOn\node_modules\tailwindcss\dist\lib.js:38:1629)]
+    [at <anonymous> (turbopack:///[turbopack-node]/transforms/postcss.ts:56:14)]
+    [at <anonymous>]
+    [at Module.init (turbopack:///[turbopack-node]/transforms/postcss.ts:43:33)]
+    [at run (turbopack:///[turbopack-node]/ipc/evaluate.ts:77:20)]
+    [at process.processTicksAndRejections (node:internal/process/task_queues:103:5)]
+
+Import trace:
+  Browser:
+    ./Documents/MoveOn/styles/globals.css
+    ./Documents/MoveOn/pages/_app.js
+[00:08:09.555] Browser ERROR   ./Documents/MoveOn/styles/globals.css
+Error evaluating Node.js code
+Error: It looks like you're trying to use `tailwindcss` directly as a PostCSS plugin. The PostCSS plugin has moved to a separate package, so to continue using Tailwind CSS with PostCSS you'll need to install `@tailwindcss/postcss` and update your PostCSS configuration.
+    [at at (C:\Users\Yvens Sousa\Documents\MoveOn\node_modules\tailwindcss\dist\lib.js:38:1629)]
+    [at <anonymous> (turbopack:///[turbopack-node]/transforms/postcss.ts:56:14)]
+    [at <anonymous>]
+    [at Module.init (turbopack:///[turbopack-node]/transforms/postcss.ts:43:33)]
+    [at run (turbopack:///[turbopack-node]/ipc/evaluate.ts:77:20)]
+    [at process.processTicksAndRejections (node:internal/process/task_queues:103:5)]
+
+Import trace:
+  Browser:
+    ./Documents/MoveOn/styles/globals.css
+    ./Documents/MoveOn/pages/_app.js
+[00:10:04.280] Browser ERROR   uncaughtError: Error: ./Documents/MoveOn/styles/globals.css
+Error evaluating Node.js code
+Error: It looks like you're trying to use `tailwindcss` directly as a PostCSS plugin. The PostCSS plugin has moved to a separate package, so to continue using Tailwind CSS with PostCSS you'll need to install `@tailwindcss/postcss` and update your PostCSS configuration.
+    [at at (C:\Users\Yvens Sousa\Documents\MoveOn\node_modules\tailwindcss\dist\lib.js:38:1629)]
+    [at <anonymous> (turbopack:///[turbopack-node]/transforms/postcss.ts:56:14)]
+    [at <anonymous>]
+    [at Module.init (turbopack:///[turbopack-node]/transforms/postcss.ts:43:33)]
+    [at run (turbopack:///[turbopack-node]/ipc/evaluate.ts:77:20)]
+    [at process.processTicksAndRejections (node:internal/process/task_queues:103:5)]
+
+Import trace:
+  Browser:
+    ./Documents/MoveOn/styles/globals.css
+    ./Documents/MoveOn/pages/_app.js
+
+
+[00:10:04.588] Browser ERROR   ./Documents/MoveOn/styles/globals.css
+Error evaluating Node.js code
+Error: It looks like you're trying to use `tailwindcss` directly as a PostCSS plugin. The PostCSS plugin has moved to a separate package, so to continue using Tailwind CSS with PostCSS you'll need to install `@tailwindcss/postcss` and update your PostCSS configuration.
+    [at at (C:\Users\Yvens Sousa\Documents\MoveOn\node_modules\tailwindcss\dist\lib.js:38:1629)]
+    [at <anonymous> (turbopack:///[turbopack-node]/transforms/postcss.ts:56:14)]
+    [at <anonymous>]
+    [at Module.init (turbopack:///[turbopack-node]/transforms/postcss.ts:43:33)]
+    [at run (turbopack:///[turbopack-node]/ipc/evaluate.ts:77:20)]
+    [at process.processTicksAndRejections (node:internal/process/task_queues:103:5)]
+
+Import trace:
+  Browser:
+    ./Documents/MoveOn/styles/globals.css
+    ./Documents/MoveOn/pages/_app.js
+[00:10:04.588] Browser ERROR   ./Documents/MoveOn/styles/globals.css
+Error evaluating Node.js code
+Error: It looks like you're trying to use `tailwindcss` directly as a PostCSS plugin. The PostCSS plugin has moved to a separate package, so to continue using Tailwind CSS with PostCSS you'll need to install `@tailwindcss/postcss` and update your PostCSS configuration.
+    [at at (C:\Users\Yvens Sousa\Documents\MoveOn\node_modules\tailwindcss\dist\lib.js:38:1629)]
+    [at <anonymous> (turbopack:///[turbopack-node]/transforms/postcss.ts:56:14)]
+    [at <anonymous>]
+    [at Module.init (turbopack:///[turbopack-node]/transforms/postcss.ts:43:33)]
+    [at run (turbopack:///[turbopack-node]/ipc/evaluate.ts:77:20)]
+    [at process.processTicksAndRejections (node:internal/process/task_queues:103:5)]
+
+Import trace:
+  Browser:
+    ./Documents/MoveOn/styles/globals.css
+    ./Documents/MoveOn/pages/_app.js
+[00:10:24.698] Server  LOG      ✓ Compiled in 951ms
+[00:10:25.555] Browser ERROR   ./Documents/MoveOn/styles/globals.css
+Error evaluating Node.js code
+Error: It looks like you're trying to use `tailwindcss` directly as a PostCSS plugin. The PostCSS plugin has moved to a separate package, so to continue using Tailwind CSS with PostCSS you'll need to install `@tailwindcss/postcss` and update your PostCSS configuration.
+    [at at (C:\Users\Yvens Sousa\Documents\MoveOn\node_modules\tailwindcss\dist\lib.js:38:1629)]
+    [at <anonymous> (turbopack:///[turbopack-node]/transforms/postcss.ts:56:14)]
+    [at <anonymous>]
+    [at Module.init (turbopack:///[turbopack-node]/transforms/postcss.ts:43:33)]
+    [at run (turbopack:///[turbopack-node]/ipc/evaluate.ts:77:20)]
+    [at process.processTicksAndRejections (node:internal/process/task_queues:103:5)]
+
+Import trace:
+  Browser:
+    ./Documents/MoveOn/styles/globals.css
+    ./Documents/MoveOn/pages/_app.js
+[00:10:27.551] Browser ERROR   ./Documents/MoveOn/styles/globals.css
+Error evaluating Node.js code
+Error: It looks like you're trying to use `tailwindcss` directly as a PostCSS plugin. The PostCSS plugin has moved to a separate package, so to continue using Tailwind CSS with PostCSS you'll need to install `@tailwindcss/postcss` and update your PostCSS configuration.
+    [at at (C:\Users\Yvens Sousa\Documents\MoveOn\node_modules\tailwindcss\dist\lib.js:38:1629)]
+    [at <anonymous> (turbopack:///[turbopack-node]/transforms/postcss.ts:56:14)]
+    [at <anonymous>]
+    [at Module.init (turbopack:///[turbopack-node]/transforms/postcss.ts:43:33)]
+    [at run (turbopack:///[turbopack-node]/ipc/evaluate.ts:77:20)]
+    [at process.processTicksAndRejections (node:internal/process/task_queues:103:5)]
+
+Import trace:
+  Browser:
+    ./Documents/MoveOn/styles/globals.css
+    ./Documents/MoveOn/pages/_app.js
+[00:12:04.328] Server  WARN     ⚠ Fast Refresh had to perform a full reload due to a runtime error.

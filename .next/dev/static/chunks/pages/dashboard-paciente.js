@@ -1,0 +1,11 @@
+__turbopack_load_page_chunks__("/dashboard-paciente", [
+  "static/chunks/edecb_next_dist_compiled_41d79ac5._.js",
+  "static/chunks/edecb_next_dist_shared_lib_ab02a5d3._.js",
+  "static/chunks/edecb_next_dist_client_99c07fd1._.js",
+  "static/chunks/edecb_next_dist_a7685e7d._.js",
+  "static/chunks/edecb_react-dom_70c09791._.js",
+  "static/chunks/edecb_3382e232._.js",
+  "static/chunks/[root-of-the-server]__e6bd2de5._.js",
+  "static/chunks/Documents_MoveOn_pages_dashboard-paciente_2da965e7._.js",
+  "static/chunks/turbopack-Documents_MoveOn_pages_dashboard-paciente_04d88882._.js"
+])

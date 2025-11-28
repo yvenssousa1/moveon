@@ -1,8 +1,8 @@
 {
+  "/": "pages/index.js",
   "/_app": "pages/_app.js",
-  "/_error": "pages/_error.js",
   "/_document": "pages/_document.js",
+  "/_error": "pages/_error.js",
   "/dashboard-paciente": "pages/dashboard-paciente.js",
-  "/avaliacao-inicial": "pages/avaliacao-inicial.js",
-  "/marcar-dor": "pages/marcar-dor.js"
+  "/login": "pages/login.js"
 }
