@@ -1,10 +1,12 @@
 
 import CorpoHumanoInterativo from './CorpoHumanoInterativo';
 import React, { useState, useRef } from 'react';
+import { useRouter } from 'next/router';
 import { Upload, Frown, Smile, CheckCircle } from 'lucide-react';
 
-const CardAvaliacaoInicial = ({ onComplete }) => {
 
+const CardAvaliacaoInicial = ({ onComplete }) => {
+  const router = useRouter();
   const [exames, setExames] = useState([]);
   const [temDor, setTemDor] = useState(null); // 'sim' ou 'nao'
   const [examePreview, setExamePreview] = useState([]);
@@ -12,6 +14,7 @@ const CardAvaliacaoInicial = ({ onComplete }) => {
   const [enviado, setEnviado] = useState(false);
   const [regioesDor, setRegioesDor] = useState([]);
   const [dragActive, setDragActive] = useState(false);
+  const [mostrarTratamento, setMostrarTratamento] = useState(false);
   const fileInputRef = useRef(null);
 
   const handleExameChange = (e) => {
@@ -62,7 +65,13 @@ const CardAvaliacaoInicial = ({ onComplete }) => {
       <div className="flex flex-col items-center justify-center min-h-[300px]">
         <div className="rounded-lg shadow-md bg-green-50 p-6 text-center max-w-md w-full">
           <h3 className="text-lg font-semibold mb-2">Avaliação enviada!</h3>
-          <p className="text-green-700">Obrigado por completar sua avaliação inicial.</p>
+          <p className="text-green-700 mb-4">Obrigado por completar sua avaliação inicial.</p>
+          <button
+            className="bg-blue-600 hover:bg-blue-700 text-white font-bold px-6 py-3 rounded-xl shadow mt-2"
+            onClick={() => router.push('/dashboard-paciente')}
+          >
+            Ver próximos passos
+          </button>
         </div>
       </div>
     );
@@ -140,13 +149,35 @@ const CardAvaliacaoInicial = ({ onComplete }) => {
         </div>
 
         {/* Corpo Humano Interativo se dor */}
+
         {temDor === 'sim' && (
           <div className="w-full mt-4">
             <CorpoHumanoInterativo value={regioesDor} onChange={setRegioesDor} />
           </div>
         )}
-        {temDor === 'nao' && (
-          <div className="text-gray-600 text-center mt-4">Ótimo! Caso sinta dor futuramente, vamos tratar juntos.</div>
+
+        {temDor === 'nao' && !mostrarTratamento && (
+          <div className="flex flex-col items-center mt-4 gap-4">
+            <div className="text-gray-600 text-center">Ótimo! Caso sinta dor futuramente, vamos tratar juntos.</div>
+            <button
+              className="bg-blue-100 hover:bg-blue-200 text-blue-800 font-bold px-6 py-3 rounded-xl shadow mt-2"
+              onClick={() => setMostrarTratamento(true)}
+            >
+              Não, mas quero tratamento
+            </button>
+          </div>
+        )}
+
+        {temDor === 'nao' && mostrarTratamento && (
+          <div className="flex flex-col items-center mt-4 gap-4">
+            <div className="text-gray-700 text-center mb-2">Selecione a área que deseja tratar preventivamente:</div>
+            <button
+              className="bg-green-600 hover:bg-green-700 text-white font-bold px-6 py-3 rounded-xl shadow"
+              onClick={() => router.push('/grandes-areas')}
+            >
+              Escolher grande área
+            </button>
+          </div>
         )}
 
         {erro && <div className="text-red-600 mb-4 text-center">{erro}</div>}

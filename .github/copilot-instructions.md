@@ -1,0 +1,4 @@
+- O nome do app agora é ReMuv (antigo MoveOn).
+- Todas as melhorias devem ser aplicadas diretamente neste projeto.
+- Estrutura premium: onboarding, player de vídeo, gamificação, paywall, lógica clínica adaptativa, integração com assets remotos.
+- Sempre atualizar README e instruções após cada feature.

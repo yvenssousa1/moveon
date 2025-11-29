@@ -1,0 +1,8 @@
+__turbopack_load_page_chunks__("/redefinir-senha", [
+  "static/chunks/0b3053e153c58ff8.js",
+  "static/chunks/f40d8234d943c396.js",
+  "static/chunks/c11b3c24d4c8f37c.js",
+  "static/chunks/483829406788eea1.js",
+  "static/chunks/a81ac21c5135d23e.js",
+  "static/chunks/turbopack-c9aa45368f94b767.js"
+])

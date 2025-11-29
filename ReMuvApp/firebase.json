@@ -1,0 +1,14 @@
+{
+  "hosting": {
+    "site": "remuve-32d9f-403e3",
+    "public": "dist",
+    "ignore": [
+      "firebase.json",
+      "**/.*",
+      "**/node_modules/**"
+    ],
+    "rewrites": [
+      { "source": "**", "destination": "/index.html" }
+    ]
+  }
+}

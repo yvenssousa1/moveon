@@ -1,5 +1,104 @@
 import React, { useState } from 'react';
 
+// Grandes áreas e protocolos gerais
+const grandesAreas = [
+  { id: 'coluna', label: 'Coluna (cervical, torácica, lombar)' },
+  { id: 'ombro', label: 'Ombro' },
+  { id: 'joelho', label: 'Joelho' },
+  { id: 'quadril', label: 'Quadril' },
+  { id: 'tornozelo', label: 'Tornozelo/Pé' },
+  { id: 'cotovelo', label: 'Cotovelo' },
+  { id: 'punho', label: 'Punho/Mão' },
+];
+
+const protocolosPorArea = {
+  coluna: {
+    pergunta: 'Sua dor ou atenção é na coluna? Qual região?',
+    regioes: ['Cervical', 'Torácica', 'Lombar'],
+    sugestoes: {
+      Cervical: ['Cervicalgia', 'Radiculopatia', 'Tensão muscular'],
+      Torácica: ['Dorsalgia', 'Disfunção postural'],
+      Lombar: ['Lombalgia', 'Hérnia de disco', 'Ciatalgia']
+    },
+    protocolos: {
+      Cervical: 'Teste de Spurling, Avaliação de amplitude cervical, Palpação muscular.',
+      Torácica: 'Avaliação postural, Mobilização torácica, Palpação muscular.',
+      Lombar: 'Teste de Lasègue, Avaliação de flexão lombar, Palpação paravertebral.'
+    }
+  },
+  ombro: {
+    pergunta: 'Sua dor ou atenção é no ombro?',
+    regioes: ['Direito', 'Esquerdo'],
+    sugestoes: {
+      Direito: ['Síndrome do impacto', 'Tendinite do manguito rotador', 'Irradiação cervical'],
+      Esquerdo: ['Síndrome do impacto', 'Tendinite do manguito rotador', 'Irradiação cervical']
+    },
+    protocolos: {
+      Direito: 'Teste de Neer, Teste de Hawkins-Kennedy, Avaliação cervical.',
+      Esquerdo: 'Teste de Neer, Teste de Hawkins-Kennedy, Avaliação cervical.'
+    }
+  },
+  joelho: {
+    pergunta: 'Sua dor ou atenção é no joelho?',
+    regioes: ['Direito', 'Esquerdo'],
+    sugestoes: {
+      Direito: ['Condromalácia patelar', 'Lesão meniscal', 'Tendinite patelar'],
+      Esquerdo: ['Condromalácia patelar', 'Lesão meniscal', 'Tendinite patelar']
+    },
+    protocolos: {
+      Direito: 'Teste de compressão patelar, Teste de McMurray, Teste de Lachman.',
+      Esquerdo: 'Teste de compressão patelar, Teste de McMurray, Teste de Lachman.'
+    }
+  },
+  quadril: {
+    pergunta: 'Sua dor ou atenção é no quadril?',
+    regioes: ['Direito', 'Esquerdo'],
+    sugestoes: {
+      Direito: ['Bursite trocantérica', 'Coxartrose', 'Síndrome do piriforme'],
+      Esquerdo: ['Bursite trocantérica', 'Coxartrose', 'Síndrome do piriforme']
+    },
+    protocolos: {
+      Direito: 'Teste de FABER, Teste de FADIR, Palpação trocantérica.',
+      Esquerdo: 'Teste de FABER, Teste de FADIR, Palpação trocantérica.'
+    }
+  },
+  tornozelo: {
+    pergunta: 'Sua dor ou atenção é no tornozelo/pé?',
+    regioes: ['Direito', 'Esquerdo'],
+    sugestoes: {
+      Direito: ['Entorse', 'Fascite plantar', 'Tendinite aquileana'],
+      Esquerdo: ['Entorse', 'Fascite plantar', 'Tendinite aquileana']
+    },
+    protocolos: {
+      Direito: 'Teste de gaveta anterior, Palpação plantar, Teste de Thompson.',
+      Esquerdo: 'Teste de gaveta anterior, Palpação plantar, Teste de Thompson.'
+    }
+  },
+  cotovelo: {
+    pergunta: 'Sua dor ou atenção é no cotovelo?',
+    regioes: ['Direito', 'Esquerdo'],
+    sugestoes: {
+      Direito: ['Epicondilite lateral', 'Epicondilite medial', 'Irradiação cervical'],
+      Esquerdo: ['Epicondilite lateral', 'Epicondilite medial', 'Irradiação cervical']
+    },
+    protocolos: {
+      Direito: 'Teste de Cozen, Teste de Mill, Teste de flexores do punho, Avaliação cervical.',
+      Esquerdo: 'Teste de Cozen, Teste de Mill, Teste de flexores do punho, Avaliação cervical.'
+    }
+  },
+  punho: {
+    pergunta: 'Sua dor ou atenção é no punho/mão?',
+    regioes: ['Direito', 'Esquerdo'],
+    sugestoes: {
+      Direito: ['Síndrome do túnel do carpo', 'Tendinite de De Quervain'],
+      Esquerdo: ['Síndrome do túnel do carpo', 'Tendinite de De Quervain']
+    },
+    protocolos: {
+      Direito: 'Teste de Phalen, Teste de Finkelstein, Palpação tenar.',
+      Esquerdo: 'Teste de Phalen, Teste de Finkelstein, Palpação tenar.'
+    }
+  },
+};
 // Regiões detalhadas para visão anterior
 const regioesAnterior = [
   { id: 'cabeca', label: 'Cabeça', cx: 110, cy: 40 },
@@ -58,134 +157,154 @@ const regioesPosterior = [
   { id: 'peD', label: 'Pé Direito', cx: 125, cy: 260 },
 ];
 
-const CorpoHumanoInterativo = ({ value = [], onChange }) => {
 
-  const [selecionadasAnterior, setSelecionadasAnterior] = useState([]);
-  const [selecionadasPosterior, setSelecionadasPosterior] = useState([]);
+const CorpoHumanoInterativo = ({ value = [], onChange, semDor = false }) => {
+  const [areaSelecionada, setAreaSelecionada] = useState(null); // Ex: 'ombro'
+  const [ladoSelecionado, setLadoSelecionado] = useState(null); // Ex: 'Direito'
+  const [diagnostico, setDiagnostico] = useState([]); // [{area, regiao, sugestao}]
+  const [modal, setModal] = useState(null); // Modal de sugestão
 
-  const toggleRegiaoAnterior = (id) => {
-    let novas;
-    if (selecionadasAnterior.includes(id)) {
-      novas = selecionadasAnterior.filter((r) => r !== id);
-    } else {
-      novas = [...selecionadasAnterior, id];
-    }
-    setSelecionadasAnterior(novas);
-    if (onChange) onChange({ anterior: novas, posterior: selecionadasPosterior });
-  };
+  // Seleção inicial: grandes áreas
+  if (!areaSelecionada) {
+    return (
+      <div className="flex flex-col items-center gap-6">
+        <h2 className="text-xl font-bold mb-4">{semDor ? 'Onde você gostaria de atenção?' : 'Selecione a grande área da dor:'}</h2>
+        <div className="grid grid-cols-2 gap-4">
+          {grandesAreas.map(area => (
+            <button key={area.id} className="bg-blue-100 hover:bg-blue-200 text-blue-800 font-bold px-6 py-4 rounded-xl shadow" onClick={() => setAreaSelecionada(area.id)}>
+              {area.label}
+            </button>
+          ))}
+        </div>
+      </div>
+    );
+  }
 
-  const toggleRegiaoPosterior = (id) => {
-    let novas;
-    if (selecionadasPosterior.includes(id)) {
-      novas = selecionadasPosterior.filter((r) => r !== id);
-    } else {
-      novas = [...selecionadasPosterior, id];
-    }
-    setSelecionadasPosterior(novas);
-    if (onChange) onChange({ anterior: selecionadasAnterior, posterior: novas });
-  };
+  // Seleção de lado/região dentro da área
+  const protocolo = protocolosPorArea[areaSelecionada];
+  if (protocolo && !ladoSelecionado) {
+    return (
+      <div className="flex flex-col items-center gap-6">
+        <h2 className="text-xl font-bold mb-4">{protocolo.pergunta}</h2>
+        <div className="grid grid-cols-2 gap-4">
+          {protocolo.regioes.map(regiao => (
+            <button key={regiao} className="bg-blue-100 hover:bg-blue-200 text-blue-800 font-bold px-6 py-4 rounded-xl shadow" onClick={() => setLadoSelecionado(regiao)}>
+              {regiao}
+            </button>
+          ))}
+        </div>
+        <button className="mt-4 text-gray-500 underline" onClick={() => setAreaSelecionada(null)}>Voltar</button>
+      </div>
+    );
+  }
 
+  // Modal de hipóteses e protocolos
+  if (protocolo && ladoSelecionado && !modal) {
+    setModal({
+      area: areaSelecionada,
+      regiao: ladoSelecionado,
+      sugestoes: protocolo.sugestoes[ladoSelecionado],
+      protocolo: protocolo.protocolos[ladoSelecionado]
+    });
+    return null;
+  }
+
+  // Exibe modal de confirmação
+  if (modal) {
+    return (
+      <div className="fixed inset-0 bg-black bg-opacity-40 flex items-center justify-center z-50">
+        <div className="bg-white rounded-2xl shadow-xl p-8 max-w-md w-full flex flex-col items-center">
+          <h2 className="text-xl font-bold mb-4">Confirmação</h2>
+          <p className="mb-4">Hipóteses iniciais para <b>{modal.area}</b> ({modal.regiao}):</p>
+          <ul className="list-disc pl-5 text-gray-700 mb-4">
+            {modal.sugestoes.map((s, i) => (
+              <li key={i}>{s}</li>
+            ))}
+          </ul>
+          <div className="mb-4 w-full">
+            <div className="font-semibold mb-2">Protocolos sugeridos:</div>
+            <div className="text-gray-700">{modal.protocolo}</div>
+          </div>
+          <div className="flex gap-4 mt-2">
+            {modal.sugestoes.map((s, i) => (
+              <button key={i} className="bg-blue-600 text-white px-4 py-2 rounded-xl font-bold hover:bg-blue-700" onClick={() => {
+                setDiagnostico([...diagnostico, { area: modal.area, regiao: modal.regiao, sugestao: s }]);
+                setModal(null);
+                setAreaSelecionada(null);
+                setLadoSelecionado(null);
+              }}>
+                Confirmar: {s}
+              </button>
+            ))}
+            <button className="bg-gray-200 text-gray-700 px-4 py-2 rounded-xl font-bold hover:bg-gray-300" onClick={() => { setModal(null); setAreaSelecionada(null); setLadoSelecionado(null); }}>Cancelar</button>
+          </div>
+        </div>
+      </div>
+    );
+  }
+
+  // Diagnóstico final
+  if (diagnostico.length > 0) {
+    return (
+      <div className="mt-6 p-4 bg-green-50 border border-green-200 rounded-xl text-green-800">
+        <h3 className="font-bold mb-2">Fisiodiagnóstico inicial</h3>
+        {diagnostico.map((c, i) => (
+          <div key={i} className="mb-2">
+            <span>
+              Tudo indica que você apresenta <b>{c.sugestao}</b> em <b>{c.area}</b> ({c.regiao}),
+              pois relatou dor/atenção e os protocolos sugeridos serão aplicados para confirmação.
+            </span>
+          </div>
+        ))}
+        <div className="mt-2">Vamos continuar o tratamento, evoluindo os exercícios conforme sua resposta e sintomas. Até amanhã!</div>
+        <button className="mt-4 bg-blue-600 text-white px-4 py-2 rounded-xl font-bold hover:bg-blue-700" onClick={() => { setAreaSelecionada(null); setLadoSelecionado(null); }}>Adicionar outra área</button>
+      </div>
+    );
+  }
+
+  // Modal de confirmação
+  if (modal) {
+    return (
+      <div className="fixed inset-0 bg-black bg-opacity-40 flex items-center justify-center z-50">
+        <div className="bg-white rounded-2xl shadow-xl p-8 max-w-md w-full flex flex-col items-center">
+          <h2 className="text-xl font-bold mb-4">Confirmação</h2>
+          <p className="mb-4">{modal.pergunta}</p>
+          <div className="mb-4 w-full">
+            <div className="font-semibold mb-2">Hipóteses iniciais:</div>
+            <ul className="list-disc pl-5 text-gray-700">
+              {modal.sugestoes.map((s, i) => (
+                <li key={i}>{s}</li>
+              ))}
+            </ul>
+          </div>
+          <div className="mb-4 w-full">
+            <div className="font-semibold mb-2">Protocolos sugeridos:</div>
+            <div className="text-gray-700">{modal.protocolo}</div>
+          </div>
+          <div className="flex gap-4 mt-2">
+            {modal.sugestoes.map((s, i) => (
+              <button key={i} className="bg-blue-600 text-white px-4 py-2 rounded-xl font-bold hover:bg-blue-700" onClick={() => confirmarModal(s)}>
+                Confirmar: {s}
+              </button>
+            ))}
+            <button className="bg-gray-200 text-gray-700 px-4 py-2 rounded-xl font-bold hover:bg-gray-300" onClick={() => setModal(null)}>Cancelar</button>
+          </div>
+        </div>
+      </div>
+    );
+  }
+
+  // Seleção inicial: grandes áreas
   return (
-    <div className="flex flex-row items-center justify-center gap-8 my-6">
-      {/* SVG Vista Anterior */}
-      <svg viewBox="0 0 220 320" width={160} height={320} style={{ background: 'none' }}>
-        {/* Cabeça */}
-        <path d="M90,30 a20,20 0 1,0 40,0 a20,20 0 1,0 -40,0" fill={selecionadasAnterior.includes('cabeca') ? '#1976d2' : '#e0e7ef'} opacity={selecionadasAnterior.includes('cabeca') ? 0.7 : 0.35} stroke="#0d223a" strokeWidth="3.5" style={{cursor:'pointer'}} onClick={() => toggleRegiaoAnterior('cabeca')} />
-        {/* Pescoço */}
-        <rect x="100" y="50" width="20" height="20" rx="6" fill={selecionadasAnterior.includes('pescoco') ? '#1976d2' : '#e0e7ef'} opacity={selecionadasAnterior.includes('pescoco') ? 0.7 : 0.35} stroke="#0d223a" strokeWidth="3.5" style={{cursor:'pointer'}} onClick={() => toggleRegiaoAnterior('pescoco')} />
-        {/* Ombro Esquerdo */}
-        <ellipse cx="85" cy="70" rx="15" ry="10" fill={selecionadasAnterior.includes('ombroE') ? '#1976d2' : '#e0e7ef'} opacity={selecionadasAnterior.includes('ombroE') ? 0.7 : 0.35} stroke="#0d223a" strokeWidth="3.5" style={{cursor:'pointer'}} onClick={() => toggleRegiaoAnterior('ombroE')} />
-        {/* Ombro Direito */}
-        <ellipse cx="135" cy="70" rx="15" ry="10" fill={selecionadasAnterior.includes('ombroD') ? '#1976d2' : '#e0e7ef'} opacity={selecionadasAnterior.includes('ombroD') ? 0.7 : 0.35} stroke="#0d223a" strokeWidth="3.5" style={{cursor:'pointer'}} onClick={() => toggleRegiaoAnterior('ombroD')} />
-        {/* Tórax */}
-        <rect x="90" y="80" width="40" height="40" rx="16" fill={selecionadasAnterior.includes('torax') ? '#1976d2' : '#e0e7ef'} opacity={selecionadasAnterior.includes('torax') ? 0.7 : 0.35} stroke="#0d223a" strokeWidth="3.5" style={{cursor:'pointer'}} onClick={() => toggleRegiaoAnterior('torax')} />
-        {/* Quadril */}
-        <rect x="95" y="120" width="30" height="25" rx="12" fill={selecionadasAnterior.includes('quadril') ? '#1976d2' : '#e0e7ef'} opacity={selecionadasAnterior.includes('quadril') ? 0.7 : 0.35} stroke="#0d223a" strokeWidth="3.5" style={{cursor:'pointer'}} onClick={() => toggleRegiaoAnterior('quadril')} />
-        {/* Braço Esquerdo */}
-        <rect x="65" y="80" width="20" height="60" rx="10" fill={selecionadasAnterior.includes('bracoE') ? '#1976d2' : '#e0e7ef'} opacity={selecionadasAnterior.includes('bracoE') ? 0.7 : 0.35} stroke="#0d223a" strokeWidth="3.5" style={{cursor:'pointer'}} onClick={() => toggleRegiaoAnterior('bracoE')} />
-        {/* Braço Direito */}
-        <rect x="135" y="80" width="20" height="60" rx="10" fill={selecionadasAnterior.includes('bracoD') ? '#1976d2' : '#e0e7ef'} opacity={selecionadasAnterior.includes('bracoD') ? 0.7 : 0.35} stroke="#0d223a" strokeWidth="3.5" style={{cursor:'pointer'}} onClick={() => toggleRegiaoAnterior('bracoD')} />
-        {/* Cotovelo Esquerdo */}
-        <ellipse cx="75" cy="140" rx="10" ry="7" fill={selecionadasAnterior.includes('cotoveloE') ? '#1976d2' : '#e0e7ef'} opacity={selecionadasAnterior.includes('cotoveloE') ? 0.7 : 0.35} stroke="#0d223a" strokeWidth="3.5" style={{cursor:'pointer'}} onClick={() => toggleRegiaoAnterior('cotoveloE')} />
-        {/* Cotovelo Direito */}
-        <ellipse cx="145" cy="140" rx="10" ry="7" fill={selecionadasAnterior.includes('cotoveloD') ? '#1976d2' : '#e0e7ef'} opacity={selecionadasAnterior.includes('cotoveloD') ? 0.7 : 0.35} stroke="#0d223a" strokeWidth="3.5" style={{cursor:'pointer'}} onClick={() => toggleRegiaoAnterior('cotoveloD')} />
-        {/* Antebraço Esquerdo */}
-        <rect x="65" y="147" width="15" height="35" rx="7" fill={selecionadasAnterior.includes('antebracoE') ? '#1976d2' : '#e0e7ef'} opacity={selecionadasAnterior.includes('antebracoE') ? 0.7 : 0.35} stroke="#0d223a" strokeWidth="3.5" style={{cursor:'pointer'}} onClick={() => toggleRegiaoAnterior('antebracoE')} />
-        {/* Antebraço Direito */}
-        <rect x="140" y="147" width="15" height="35" rx="7" fill={selecionadasAnterior.includes('antebracoD') ? '#1976d2' : '#e0e7ef'} opacity={selecionadasAnterior.includes('antebracoD') ? 0.7 : 0.35} stroke="#0d223a" strokeWidth="3.5" style={{cursor:'pointer'}} onClick={() => toggleRegiaoAnterior('antebracoD')} />
-        {/* Mão Esquerda */}
-        <ellipse cx="72" cy="185" rx="10" ry="12" fill={selecionadasAnterior.includes('maoE') ? '#1976d2' : '#e0e7ef'} opacity={selecionadasAnterior.includes('maoE') ? 0.7 : 0.35} stroke="#0d223a" strokeWidth="3.5" style={{cursor:'pointer'}} onClick={() => toggleRegiaoAnterior('maoE')} />
-        {/* Mão Direita */}
-        <ellipse cx="148" cy="185" rx="10" ry="12" fill={selecionadasAnterior.includes('maoD') ? '#1976d2' : '#e0e7ef'} opacity={selecionadasAnterior.includes('maoD') ? 0.7 : 0.35} stroke="#0d223a" strokeWidth="3.5" style={{cursor:'pointer'}} onClick={() => toggleRegiaoAnterior('maoD')} />
-        {/* Coxa Esquerda */}
-        <rect x="95" y="145" width="15" height="45" rx="8" fill={selecionadasAnterior.includes('coxaE') ? '#1976d2' : '#e0e7ef'} opacity={selecionadasAnterior.includes('coxaE') ? 0.7 : 0.35} stroke="#0d223a" strokeWidth="3.5" style={{cursor:'pointer'}} onClick={() => toggleRegiaoAnterior('coxaE')} />
-        {/* Coxa Direita */}
-        <rect x="120" y="145" width="15" height="45" rx="8" fill={selecionadasAnterior.includes('coxaD') ? '#1976d2' : '#e0e7ef'} opacity={selecionadasAnterior.includes('coxaD') ? 0.7 : 0.35} stroke="#0d223a" strokeWidth="3.5" style={{cursor:'pointer'}} onClick={() => toggleRegiaoAnterior('coxaD')} />
-        {/* Joelho Esquerdo */}
-        <ellipse cx="102" cy="195" rx="8" ry="10" fill={selecionadasAnterior.includes('joelhoE') ? '#1976d2' : '#e0e7ef'} opacity={selecionadasAnterior.includes('joelhoE') ? 0.7 : 0.35} stroke="#0d223a" strokeWidth="3.5" style={{cursor:'pointer'}} onClick={() => toggleRegiaoAnterior('joelhoE')} />
-        {/* Joelho Direito */}
-        <ellipse cx="128" cy="195" rx="8" ry="10" fill={selecionadasAnterior.includes('joelhoD') ? '#1976d2' : '#e0e7ef'} opacity={selecionadasAnterior.includes('joelhoD') ? 0.7 : 0.35} stroke="#0d223a" strokeWidth="3.5" style={{cursor:'pointer'}} onClick={() => toggleRegiaoAnterior('joelhoD')} />
-        {/* Panturrilha Esquerda */}
-        <rect x="97" y="205" width="10" height="35" rx="5" fill={selecionadasAnterior.includes('panturrilhaE') ? '#1976d2' : '#e0e7ef'} opacity={selecionadasAnterior.includes('panturrilhaE') ? 0.7 : 0.35} stroke="#0d223a" strokeWidth="3.5" style={{cursor:'pointer'}} onClick={() => toggleRegiaoAnterior('panturrilhaE')} />
-        {/* Panturrilha Direita */}
-        <rect x="123" y="205" width="10" height="35" rx="5" fill={selecionadasAnterior.includes('panturrilhaD') ? '#1976d2' : '#e0e7ef'} opacity={selecionadasAnterior.includes('panturrilhaD') ? 0.7 : 0.35} stroke="#0d223a" strokeWidth="3.5" style={{cursor:'pointer'}} onClick={() => toggleRegiaoAnterior('panturrilhaD')} />
-        {/* Pé Esquerdo */}
-        <ellipse cx="102" cy="250" rx="10" ry="7" fill={selecionadasAnterior.includes('peE') ? '#1976d2' : '#e0e7ef'} opacity={selecionadasAnterior.includes('peE') ? 0.7 : 0.35} stroke="#0d223a" strokeWidth="3.5" style={{cursor:'pointer'}} onClick={() => toggleRegiaoAnterior('peE')} />
-        {/* Pé Direito */}
-        <ellipse cx="128" cy="250" rx="10" ry="7" fill={selecionadasAnterior.includes('peD') ? '#1976d2' : '#e0e7ef'} opacity={selecionadasAnterior.includes('peD') ? 0.7 : 0.35} stroke="#0d223a" strokeWidth="3.5" style={{cursor:'pointer'}} onClick={() => toggleRegiaoAnterior('peD')} />
-      </svg>
-      {/* SVG Vista Posterior */}
-      <svg viewBox="0 0 220 320" width={160} height={320} style={{ background: 'none' }}>
-        {/* Silhueta realista (costas) - paths para cada região */}
-        {/* Cabeça */}
-        <path d="M90,30 a20,20 0 1,0 40,0 a20,20 0 1,0 -40,0" fill={selecionadasPosterior.includes('cabeca') ? '#e91e63' : '#e0e7ef'} opacity={selecionadasPosterior.includes('cabeca') ? 0.7 : 0.35} stroke="#0d223a" strokeWidth="3.5" style={{cursor:'pointer'}} onClick={() => toggleRegiaoPosterior('cabeca')} />
-        {/* Cervical (Pescoço) */}
-        <rect x="100" y="50" width="20" height="20" rx="6" fill={selecionadasPosterior.includes('cervical') ? '#e91e63' : '#e0e7ef'} opacity={selecionadasPosterior.includes('cervical') ? 0.7 : 0.35} stroke="#0d223a" strokeWidth="3.5" style={{cursor:'pointer'}} onClick={() => toggleRegiaoPosterior('cervical')} />
-        {/* Ombro Esquerdo */}
-        <ellipse cx="85" cy="70" rx="15" ry="10" fill={selecionadasPosterior.includes('ombroE') ? '#e91e63' : '#e0e7ef'} opacity={selecionadasPosterior.includes('ombroE') ? 0.7 : 0.35} stroke="#0d223a" strokeWidth="3.5" style={{cursor:'pointer'}} onClick={() => toggleRegiaoPosterior('ombroE')} />
-        {/* Ombro Direito */}
-        <ellipse cx="135" cy="70" rx="15" ry="10" fill={selecionadasPosterior.includes('ombroD') ? '#e91e63' : '#e0e7ef'} opacity={selecionadasPosterior.includes('ombroD') ? 0.7 : 0.35} stroke="#0d223a" strokeWidth="3.5" style={{cursor:'pointer'}} onClick={() => toggleRegiaoPosterior('ombroD')} />
-        {/* Tronco - Cervical */}
-        <rect x="100" y="80" width="20" height="20" rx="8" fill={selecionadasPosterior.includes('troncoCervical') ? '#e91e63' : '#e0e7ef'} opacity={selecionadasPosterior.includes('troncoCervical') ? 0.7 : 0.35} stroke="#0d223a" strokeWidth="3.5" style={{cursor:'pointer'}} onClick={() => toggleRegiaoPosterior('troncoCervical')} />
-        {/* Tronco - Tórax */}
-        <rect x="95" y="100" width="30" height="30" rx="10" fill={selecionadasPosterior.includes('troncoTorax') ? '#e91e63' : '#e0e7ef'} opacity={selecionadasPosterior.includes('troncoTorax') ? 0.7 : 0.35} stroke="#0d223a" strokeWidth="3.5" style={{cursor:'pointer'}} onClick={() => toggleRegiaoPosterior('troncoTorax')} />
-        {/* Tronco - Lombar */}
-        <rect x="95" y="130" width="30" height="25" rx="10" fill={selecionadasPosterior.includes('troncoLombar') ? '#e91e63' : '#e0e7ef'} opacity={selecionadasPosterior.includes('troncoLombar') ? 0.7 : 0.35} stroke="#0d223a" strokeWidth="3.5" style={{cursor:'pointer'}} onClick={() => toggleRegiaoPosterior('troncoLombar')} />
-        {/* Quadril */}
-        <rect x="95" y="155" width="30" height="20" rx="10" fill={selecionadasPosterior.includes('quadril') ? '#e91e63' : '#e0e7ef'} opacity={selecionadasPosterior.includes('quadril') ? 0.7 : 0.35} stroke="#0d223a" strokeWidth="3.5" style={{cursor:'pointer'}} onClick={() => toggleRegiaoPosterior('quadril')} />
-        {/* Braço Esquerdo */}
-        <rect x="65" y="80" width="20" height="60" rx="10" fill={selecionadasPosterior.includes('bracoE') ? '#e91e63' : '#e0e7ef'} opacity={selecionadasPosterior.includes('bracoE') ? 0.7 : 0.35} stroke="#0d223a" strokeWidth="3.5" style={{cursor:'pointer'}} onClick={() => toggleRegiaoPosterior('bracoE')} />
-        {/* Braço Direito */}
-        <rect x="135" y="80" width="20" height="60" rx="10" fill={selecionadasPosterior.includes('bracoD') ? '#e91e63' : '#e0e7ef'} opacity={selecionadasPosterior.includes('bracoD') ? 0.7 : 0.35} stroke="#0d223a" strokeWidth="3.5" style={{cursor:'pointer'}} onClick={() => toggleRegiaoPosterior('bracoD')} />
-        {/* Cotovelo Esquerdo */}
-        <ellipse cx="75" cy="140" rx="10" ry="7" fill={selecionadasPosterior.includes('cotoveloE') ? '#e91e63' : '#e0e7ef'} opacity={selecionadasPosterior.includes('cotoveloE') ? 0.7 : 0.35} stroke="#0d223a" strokeWidth="3.5" style={{cursor:'pointer'}} onClick={() => toggleRegiaoPosterior('cotoveloE')} />
-        {/* Cotovelo Direito */}
-        <ellipse cx="145" cy="140" rx="10" ry="7" fill={selecionadasPosterior.includes('cotoveloD') ? '#e91e63' : '#e0e7ef'} opacity={selecionadasPosterior.includes('cotoveloD') ? 0.7 : 0.35} stroke="#0d223a" strokeWidth="3.5" style={{cursor:'pointer'}} onClick={() => toggleRegiaoPosterior('cotoveloD')} />
-        {/* Antebraço Esquerdo */}
-        <rect x="65" y="147" width="15" height="35" rx="7" fill={selecionadasPosterior.includes('antebracoE') ? '#e91e63' : '#e0e7ef'} opacity={selecionadasPosterior.includes('antebracoE') ? 0.7 : 0.35} stroke="#0d223a" strokeWidth="3.5" style={{cursor:'pointer'}} onClick={() => toggleRegiaoPosterior('antebracoE')} />
-        {/* Antebraço Direito */}
-        <rect x="140" y="147" width="15" height="35" rx="7" fill={selecionadasPosterior.includes('antebracoD') ? '#e91e63' : '#e0e7ef'} opacity={selecionadasPosterior.includes('antebracoD') ? 0.7 : 0.35} stroke="#0d223a" strokeWidth="3.5" style={{cursor:'pointer'}} onClick={() => toggleRegiaoPosterior('antebracoD')} />
-        {/* Mão Esquerda */}
-        <ellipse cx="72" cy="185" rx="10" ry="12" fill={selecionadasPosterior.includes('maoE') ? '#e91e63' : '#e0e7ef'} opacity={selecionadasPosterior.includes('maoE') ? 0.7 : 0.35} stroke="#0d223a" strokeWidth="3.5" style={{cursor:'pointer'}} onClick={() => toggleRegiaoPosterior('maoE')} />
-        {/* Mão Direita */}
-        <ellipse cx="148" cy="185" rx="10" ry="12" fill={selecionadasPosterior.includes('maoD') ? '#e91e63' : '#e0e7ef'} opacity={selecionadasPosterior.includes('maoD') ? 0.7 : 0.35} stroke="#0d223a" strokeWidth="3.5" style={{cursor:'pointer'}} onClick={() => toggleRegiaoPosterior('maoD')} />
-        {/* Coxa Esquerda */}
-        <rect x="95" y="175" width="15" height="35" rx="8" fill={selecionadasPosterior.includes('coxaE') ? '#e91e63' : '#e0e7ef'} opacity={selecionadasPosterior.includes('coxaE') ? 0.7 : 0.35} stroke="#0d223a" strokeWidth="3.5" style={{cursor:'pointer'}} onClick={() => toggleRegiaoPosterior('coxaE')} />
-        {/* Coxa Direita */}
-        <rect x="120" y="175" width="15" height="35" rx="8" fill={selecionadasPosterior.includes('coxaD') ? '#e91e63' : '#e0e7ef'} opacity={selecionadasPosterior.includes('coxaD') ? 0.7 : 0.35} stroke="#0d223a" strokeWidth="3.5" style={{cursor:'pointer'}} onClick={() => toggleRegiaoPosterior('coxaD')} />
-        {/* Fossa Poplítea Esquerda */}
-        <ellipse cx="102" cy="215" rx="8" ry="10" fill={selecionadasPosterior.includes('fossaPopliteaE') ? '#e91e63' : '#e0e7ef'} opacity={selecionadasPosterior.includes('fossaPopliteaE') ? 0.7 : 0.35} stroke="#0d223a" strokeWidth="3.5" style={{cursor:'pointer'}} onClick={() => toggleRegiaoPosterior('fossaPopliteaE')} />
-        {/* Fossa Poplítea Direita */}
-        <ellipse cx="128" cy="215" rx="8" ry="10" fill={selecionadasPosterior.includes('fossaPopliteaD') ? '#e91e63' : '#e0e7ef'} opacity={selecionadasPosterior.includes('fossaPopliteaD') ? 0.7 : 0.35} stroke="#0d223a" strokeWidth="3.5" style={{cursor:'pointer'}} onClick={() => toggleRegiaoPosterior('fossaPopliteaD')} />
-        {/* Panturrilha Esquerda */}
-        <rect x="97" y="225" width="10" height="35" rx="5" fill={selecionadasPosterior.includes('panturrilhaE') ? '#e91e63' : '#e0e7ef'} opacity={selecionadasPosterior.includes('panturrilhaE') ? 0.7 : 0.35} stroke="#0d223a" strokeWidth="3.5" style={{cursor:'pointer'}} onClick={() => toggleRegiaoPosterior('panturrilhaE')} />
-        {/* Panturrilha Direita */}
-        <rect x="123" y="225" width="10" height="35" rx="5" fill={selecionadasPosterior.includes('panturrilhaD') ? '#e91e63' : '#e0e7ef'} opacity={selecionadasPosterior.includes('panturrilhaD') ? 0.7 : 0.35} stroke="#0d223a" strokeWidth="3.5" style={{cursor:'pointer'}} onClick={() => toggleRegiaoPosterior('panturrilhaD')} />
-        {/* Pé Esquerdo */}
-        <ellipse cx="102" cy="270" rx="10" ry="7" fill={selecionadasPosterior.includes('peE') ? '#e91e63' : '#e0e7ef'} opacity={selecionadasPosterior.includes('peE') ? 0.7 : 0.35} stroke="#0d223a" strokeWidth="3.5" style={{cursor:'pointer'}} onClick={() => toggleRegiaoPosterior('peE')} />
-        {/* Pé Direito */}
-        <ellipse cx="128" cy="270" rx="10" ry="7" fill={selecionadasPosterior.includes('peD') ? '#e91e63' : '#e0e7ef'} opacity={selecionadasPosterior.includes('peD') ? 0.7 : 0.35} stroke="#0d223a" strokeWidth="3.5" style={{cursor:'pointer'}} onClick={() => toggleRegiaoPosterior('peD')} />
-      </svg>
+    <div className="flex flex-col items-center gap-6">
+      <h2 className="text-xl font-bold mb-4">{semDor ? 'Onde você gostaria de atenção?' : 'Selecione a grande área da dor:'}</h2>
+      <div className="grid grid-cols-2 gap-4">
+        {grandesAreas.map(area => (
+          <button key={area.id} className="bg-blue-100 hover:bg-blue-200 text-blue-800 font-bold px-6 py-4 rounded-xl shadow" onClick={() => setAreaSelecionada(area.id)}>
+            {area.label}
+          </button>
+        ))}
+      </div>
     </div>
   );
 };

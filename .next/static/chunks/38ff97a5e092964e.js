@@ -1,0 +1,8 @@
+__turbopack_load_page_chunks__("/marcar-dor", [
+  "static/chunks/88aece765a361fc2.js",
+  "static/chunks/f40d8234d943c396.js",
+  "static/chunks/c11b3c24d4c8f37c.js",
+  "static/chunks/a071930645ead1b4.js",
+  "static/chunks/483829406788eea1.js",
+  "static/chunks/turbopack-b5c12b3988d89d4b.js"
+])

@@ -1,8 +1,10 @@
 
 import React from 'react';
+import { useRouter } from 'next/router';
 import { Calendar, TrendingUp, Activity, ArrowRight, Clock, User } from 'lucide-react';
 
 export default function Dashboard() {
+  const router = useRouter();
   return (
     <div className="min-h-screen bg-gray-50 flex">
       {/* 1. SIDEBAR (Menu Lateral Fixo e Limpo) */}
@@ -96,7 +98,10 @@ export default function Dashboard() {
               Precisamos atualizar seus dados para personalizar seus próximos exercícios. Leva menos de 2 minutos.
             </p>
           </div>
-          <button className="z-10 bg-white text-blue-600 px-6 py-3 rounded-xl font-bold shadow-md hover:bg-gray-50 transition-colors flex items-center gap-2">
+          <button
+            className="z-10 bg-white text-blue-600 px-6 py-3 rounded-xl font-bold shadow-md hover:bg-gray-50 transition-colors flex items-center gap-2"
+            onClick={() => router.push('/avaliacao-inicial')}
+          >
             Começar Agora <ArrowRight size={18} />
           </button>
         </div>
